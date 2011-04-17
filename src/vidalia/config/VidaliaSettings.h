@@ -125,6 +125,12 @@ public:
   QString localGeoIpDatabase() const;
   /** Sets the file to use as a local GeoIP database. */
   void setLocalGeoIpDatabase(const QString &databaseFile);
+
+  /** Get the icon preference */
+  QString getIconPref() const;
+
+  /** Set the icon preference */
+  void setIconPref(const QString &iconPref);
 };
 
 #endif

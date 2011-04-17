@@ -45,6 +45,9 @@
 #define VIDALIA_REG_KEY        "Vidalia" 
 #endif
 
+#if defined(Q_WS_MAC)
+#define SETTING_ICON_PREF	"IconPref"
+#endif
 
 /** Default Constructor */
 VidaliaSettings::VidaliaSettings()
@@ -82,6 +85,7 @@ VidaliaSettings::VidaliaSettings()
   setDefault(SETTING_LAST_UPDATE_CHECK, QDateTime());
   setDefault(SETTING_USE_LOCAL_GEOIP_DATABASE, false);
   setDefault(SETTING_LOCAL_GEOIP_DATABASE, "");
+  setDefault(SETTING_ICON_PREF, "Both");
 }
 
 /** Gets the currently preferred language code for Vidalia. */
@@ -321,3 +325,16 @@ VidaliaSettings::setLocalGeoIpDatabase(const QString &databaseFile)
   setValue(SETTING_LOCAL_GEOIP_DATABASE, databaseFile);
 }
 
+/** Get the icon preference */
+QString
+VidaliaSettings::getIconPref() const
+{
+  return value(SETTING_ICON_PREF).toString();
+}
+
+/** Set the icon preference */
+void
+VidaliaSettings::setIconPref(const QString &iconPref)
+{
+  setValue(SETTING_ICON_PREF, iconPref);
+}
