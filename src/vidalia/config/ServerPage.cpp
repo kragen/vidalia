@@ -259,12 +259,9 @@ ServerPage::serverModeChanged(bool enabled)
     ui.lineDirPort->setEnabled(!bridgeEnabled);
   }
 
-  ui.chkWebsites->setEnabled(!ui.rdoNonExitMode->isChecked());
-  ui.chkSecWebsites->setEnabled(!ui.rdoNonExitMode->isChecked());
-  ui.chkMail->setEnabled(!ui.rdoNonExitMode->isChecked());
-  ui.chkIRC->setEnabled(!ui.rdoNonExitMode->isChecked());
-  ui.chkIM->setEnabled(!ui.rdoNonExitMode->isChecked());
-  ui.chkMisc->setEnabled(!ui.rdoNonExitMode->isChecked());
+  /* Disable the Exit Policies tab when bridge or non-exit relay mode is 
+   * selected */
+  ui.tabsMenu->setTabEnabled(2, !bridgeEnabled and !ui.rdoNonExitMode->isChecked());
 }
 
 /** Returns true if the user has changed their server settings since the
