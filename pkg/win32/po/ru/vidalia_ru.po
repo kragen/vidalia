@@ -1,4 +1,7 @@
 # 
+# RK2 <nord115@mail.ru>, 2011.
+# Андрей Костенко <andrey@kostenko.name>, 2011.
+# runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
@@ -279,3 +282,5 @@ msgstr ""
 "⏎\n"
 "Если вы не хотите устанавливать Firefox, просто⏎\n"
 "нажмите \"Далее\"."
+
+
