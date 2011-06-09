@@ -1,4 +1,6 @@
 # 
+# Γιάννης  <yannanth@gmail.com>, 2011.
+# runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
@@ -3913,3 +3915,5 @@ msgstr "%1 ώρες"
 msgctxt "stringutil.h"
 msgid "%1 mins"
 msgstr "%1 λεπτά"
+
+

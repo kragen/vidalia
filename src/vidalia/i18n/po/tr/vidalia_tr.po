@@ -1,4 +1,5 @@
 # 
+# runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
@@ -3887,3 +3888,5 @@ msgstr " saat"
 msgctxt "stringutil.h"
 msgid "%1 mins"
 msgstr "%1 dakika"
+
+

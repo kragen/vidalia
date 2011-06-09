@@ -1,4 +1,8 @@
 # 
+# bastik <bastik.tor@googlemail.com>, 2011.
+# cosimacosa <leccefv@libero.it>, 2011.
+# runasand <runa.sandvik@gmail.com>, 2011.
+# Hendrik Richter <hendrikr@gnome.org>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
@@ -4031,3 +4035,5 @@ msgstr "%1 Stunden"
 msgctxt "stringutil.h"
 msgid "%1 mins"
 msgstr "%1 Minuten"
+
+
