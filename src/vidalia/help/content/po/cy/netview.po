@@ -1,11 +1,12 @@
 # 
+# cymro <markives@hotmail.co.uk>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2010-06-26 17:00+0200\n"
-"PO-Revision-Date: 2011-05-06 15:21+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-05-15 11:47+0000\n"
+"Last-Translator: cymro <markives@hotmail.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +29,7 @@ msgstr ""
 #. type: Content of: <html><body>
 #: en/netview.html:25
 msgid "<a name=\"overview\"/>"
-msgstr ""
+msgstr "<a name=\"overview\"/>"
 
 #. type: Content of: <html><body><h3>
 #: en/netview.html:26
@@ -48,12 +49,12 @@ msgstr ""
 #. type: Content of: <html><body>
 #: en/netview.html:35
 msgid "<a name=\"netmap\"/>"
-msgstr ""
+msgstr "<a name=\"netmap\"/>"
 
 #. type: Content of: <html><body><h3>
 #: en/netview.html:36
 msgid "Network Map"
-msgstr ""
+msgstr "Map Rhwydwaith"
 
 #. type: Content of: <html><body><p>
 #: en/netview.html:38
@@ -97,7 +98,7 @@ msgstr ""
 #. type: Content of: <html><body>
 #: en/netview.html:66
 msgid "<a name=\"relaylist\"/>"
-msgstr ""
+msgstr "<a name=\"relaylist\"/>"
 
 #. type: Content of: <html><body><h3>
 #: en/netview.html:67
@@ -244,3 +245,5 @@ msgstr ""
 #: en/netview.html:168
 msgid "Date this relay's information was last updated."
 msgstr ""
+
+
