@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>546</width>
-    <height>463</height>
+    <width>548</width>
+    <height>507</height>
    </rect>
   </property>
   <property name="contextMenuPolicy">
@@ -15,44 +15,44 @@
   </property>
   <layout class="QVBoxLayout">
    <item>
-    <widget class="QRadioButton" name="rdoClientMode">
-     <property name="text">
-      <string>Run as a client only</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QRadioButton" name="rdoServerMode">
-     <property name="text">
-      <string>Relay traffic for the Tor network</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <layout class="QHBoxLayout" name="horizontalLayout_2">
-     <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0" colspan="3">
+      <widget class="QRadioButton" name="rdoClientMode">
+       <property name="text">
+        <string>Run as a client only</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="3">
+      <widget class="QRadioButton" name="rdoServerMode">
+       <property name="text">
+        <string>Relay traffic for the Tor network</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
       <widget class="QRadioButton" name="rdoBridgeMode">
        <property name="text">
         <string>Help censored users reach the Tor network</string>
        </property>
       </widget>
      </item>
-     <item>
+     <item row="2" column="1">
       <widget class="QLabel" name="lblWhatsThis">
        <property name="text">
         <string>&lt;a href=&quot;#bridgeHelp&quot;&gt;What's this?&lt;/a&gt;</string>
        </property>
       </widget>
      </item>
-     <item>
+     <item row="2" column="2" colspan="2">
       <spacer name="horizontalSpacer_2">
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
-       <property name="sizeHint" >
+       <property name="sizeHint" stdset="0">
         <size>
          <width>40</width>
-         <height>20</height>
+         <height>0</height>
         </size>
        </property>
       </spacer>
@@ -127,7 +127,7 @@
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
             </property>
-            <property name="sizeHint" >
+            <property name="sizeHint" stdset="0">
              <size>
               <width>40</width>
               <height>20</height>
@@ -188,7 +188,7 @@
               <property name="orientation">
                <enum>Qt::Horizontal</enum>
               </property>
-              <property name="sizeHint" >
+              <property name="sizeHint" stdset="0">
                <size>
                 <width>40</width>
                 <height>20</height>
@@ -287,7 +287,7 @@ problem with your relay. You might also include your PGP or GPG fingerprint.</st
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
             </property>
-            <property name="sizeHint" >
+            <property name="sizeHint" stdset="0">
              <size>
               <width>321</width>
               <height>20</height>
@@ -300,7 +300,7 @@ problem with your relay. You might also include your PGP or GPG fingerprint.</st
             <property name="orientation">
              <enum>Qt::Vertical</enum>
             </property>
-            <property name="sizeHint" >
+            <property name="sizeHint" stdset="0">
              <size>
               <width>20</width>
               <height>40</height>
@@ -313,7 +313,7 @@ problem with your relay. You might also include your PGP or GPG fingerprint.</st
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
             </property>
-            <property name="sizeHint" >
+            <property name="sizeHint" stdset="0">
              <size>
               <width>41</width>
               <height>20</height>
@@ -501,7 +501,7 @@ problem with your relay. You might also include your PGP or GPG fingerprint.</st
               <property name="orientation">
                <enum>Qt::Horizontal</enum>
               </property>
-              <property name="sizeHint" >
+              <property name="sizeHint" stdset="0">
                <size>
                 <width>40</width>
                 <height>20</height>
@@ -528,7 +528,7 @@ problem with your relay. You might also include your PGP or GPG fingerprint.</st
                <property name="orientation">
                 <enum>Qt::Vertical</enum>
                </property>
-               <property name="sizeHint" >
+               <property name="sizeHint" stdset="0">
                 <size>
                  <width>20</width>
                  <height>40</height>
@@ -654,7 +654,7 @@ problem with your relay. You might also include your PGP or GPG fingerprint.</st
                      <property name="sizeType">
                       <enum>QSizePolicy::Expanding</enum>
                      </property>
-                     <property name="sizeHint" >
+                     <property name="sizeHint" stdset="0">
                       <size>
                        <width>71</width>
                        <height>20</height>
@@ -686,7 +686,7 @@ problem with your relay. You might also include your PGP or GPG fingerprint.</st
             <property name="orientation">
              <enum>Qt::Vertical</enum>
             </property>
-            <property name="sizeHint" >
+            <property name="sizeHint" stdset="0">
              <size>
               <width>20</width>
               <height>40</height>
@@ -828,7 +828,7 @@ problem with your relay. You might also include your PGP or GPG fingerprint.</st
                  <property name="orientation">
                   <enum>Qt::Vertical</enum>
                  </property>
-                 <property name="sizeHint" >
+                 <property name="sizeHint" stdset="0">
                   <size>
                    <width>20</width>
                    <height>42</height>
@@ -843,7 +843,7 @@ problem with your relay. You might also include your PGP or GPG fingerprint.</st
                <property name="orientation">
                 <enum>Qt::Horizontal</enum>
                </property>
-               <property name="sizeHint" >
+               <property name="sizeHint" stdset="0">
                 <size>
                  <width>40</width>
                  <height>20</height>
@@ -900,7 +900,7 @@ problem with your relay. You might also include your PGP or GPG fingerprint.</st
             <property name="orientation">
              <enum>Qt::Vertical</enum>
             </property>
-            <property name="sizeHint" >
+            <property name="sizeHint" stdset="0">
              <size>
               <width>20</width>
               <height>40</height>
@@ -991,7 +991,7 @@ problem with your relay. You might also include your PGP or GPG fingerprint.</st
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
-       <property name="sizeHint" >
+       <property name="sizeHint" stdset="0">
         <size>
          <width>40</width>
          <height>20</height>
@@ -1016,7 +1016,7 @@ problem with your relay. You might also include your PGP or GPG fingerprint.</st
      <property name="orientation">
       <enum>Qt::Vertical</enum>
      </property>
-     <property name="sizeHint" >
+     <property name="sizeHint" stdset="0">
       <size>
        <width>420</width>
        <height>16</height>
