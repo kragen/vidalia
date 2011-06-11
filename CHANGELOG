@@ -2,12 +2,12 @@
   o Add a way to bootstrap Tor's torrc file (copy the torrc to a given
     directory before Vidalia starts) so that packages such as
     Bridge-by-default portable bundles for OSX don't violate the directory
-    structure of the operative system. Fixes bug 2821.
+    structure of the operating system. Fixes bug 2821.
   o Add the proper CA Certificates so that the "Find Bridges" button works
     again. Fixes bug 2835.
   o Update the useful links help page. Fixes bug 2809.
-  o Reintegrate Breakpad, and make it available in other platforms other
-    than Windows. Resolves bug 2105.
+  o Reintegrate Breakpad, and make it available in platforms other than
+    Windows. Resolves bug 2105.
   o Fix bandwidth assigned to relays on the Network Map. A lot of relays are
     displaying an erroneous bandwidth and since they are ordered by that
     value in the Network Map, it leads to confusion. Vidalia now specifies
