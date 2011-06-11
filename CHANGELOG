@@ -22,6 +22,8 @@
   o Make the fact that bridges don't need a DirPort setting more clear by
     removing the content of the field when disabling it. Fixes bug 3119.
   o Improve command line parameter handling. Resolves bug 2965.
+  o Fix layout in BandwidthGraph to display correctly everything with every
+    language. Fixes bug 2500.
 
 0.2.12  10-Apr-2011
   o Vidalia's SVN repository has been migrated to Git. All branches but
