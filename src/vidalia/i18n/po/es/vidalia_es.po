@@ -1,4 +1,6 @@
 # 
+# runasand <runa.sandvik@gmail.com>, 2011.
+# Daniel Franganillo <dfranganillo@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
@@ -3924,3 +3926,5 @@ msgstr "%1 horas"
 msgctxt "stringutil.h"
 msgid "%1 mins"
 msgstr "%1 min."
+
+

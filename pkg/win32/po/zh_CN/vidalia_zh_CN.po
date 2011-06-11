@@ -1,10 +1,11 @@
 # 
+# runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-07-12 05:29+0000\n"
-"PO-Revision-Date: 2011-05-06 15:04+0000\n"
+"PO-Revision-Date: 2011-06-09 19:11+0000\n"
 "Last-Translator: \n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
@@ -264,3 +265,5 @@ msgstr ""
 "当您完成 Firefox 的安装后，再运行 Tor 安装程序。\n"
 "\n"
 "如果您希望仅安装 Tor 而不使用 Firefox，请点击 下一步 继续安装。"
+
+

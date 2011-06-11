@@ -1,10 +1,11 @@
 # 
+# runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-07-12 05:29+0000\n"
-"PO-Revision-Date: 2011-05-06 15:05+0000\n"
+"PO-Revision-Date: 2011-06-09 19:12+0000\n"
 "Last-Translator: \n"
 "Language-Team: Spanish (Castilian) (http://www.transifex.net/projects/p/torproject/team/es/)\n"
 "MIME-Version: 1.0\n"
@@ -280,3 +281,5 @@ msgstr ""
 "\n"
 "O, si prefieres instalar Tor sin Firefox, simplemente\n"
 "pulse Continuar."
+
+

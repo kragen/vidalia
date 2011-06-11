@@ -1,4 +1,6 @@
 # 
+# axe <axe.rode@ymail.com>, 2011.
+# Андрей Костенко <andrey@kostenko.name>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
@@ -1961,7 +1963,7 @@ msgstr "Ярлыки Vidalia"
 
 msgctxt "MainWindow"
 msgid "Setup Relaying"
-msgstr "Настройка сервера"
+msgstr "Настройка сервера\n"
 
 msgctxt "MainWindow"
 msgid "Set up a relay and help the network grow"
@@ -3909,3 +3911,5 @@ msgstr "%1 часов"
 msgctxt "stringutil.h"
 msgid "%1 mins"
 msgstr "%1 мин"
+
+

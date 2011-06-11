@@ -1,11 +1,12 @@
 # 
+# cymro <markives@hotmail.co.uk>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-03-09 13:05+0000\n"
-"PO-Revision-Date: 2011-05-06 14:41+0000\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2011-05-15 10:24+0000\n"
+"Last-Translator: cymro <markives@hotmail.co.uk>\n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,23 +17,23 @@ msgstr ""
 
 msgctxt "AboutDialog"
 msgid "About Vidalia"
-msgstr ""
+msgstr "Amdan Vidalia"
 
 msgctxt "AboutDialog"
 msgid "License"
-msgstr ""
+msgstr "Trwydded"
 
 msgctxt "AboutDialog"
 msgid "Vidalia 0.2.0"
-msgstr ""
+msgstr "Vidalia 0.2.0"
 
 msgctxt "AboutDialog"
 msgid "Tor 0.2.0.32"
-msgstr ""
+msgstr "Tor 0.2.0.32"
 
 msgctxt "AboutDialog"
 msgid "Qt 4.4.2"
-msgstr ""
+msgstr "Qt 4.4.2"
 
 msgctxt "AdvancedPage"
 msgid "'%1' is not a valid IP address."
@@ -49,7 +50,7 @@ msgstr ""
 
 msgctxt "AdvancedPage"
 msgid "File Not Found"
-msgstr ""
+msgstr "Ffeil heb ei darganfod"
 
 msgctxt "AdvancedPage"
 msgid "%1 does not exist. Would you like to create it?"
@@ -85,11 +86,11 @@ msgstr ""
 
 msgctxt "AdvancedPage"
 msgid "Address:"
-msgstr ""
+msgstr "Cyfeiriad:"
 
 msgctxt "AdvancedPage"
 msgid "None"
-msgstr ""
+msgstr "Dim"
 
 msgctxt "AdvancedPage"
 msgid "Cookie"
@@ -97,7 +98,7 @@ msgstr ""
 
 msgctxt "AdvancedPage"
 msgid "Password"
-msgstr ""
+msgstr "Cyfrinair"
 
 msgctxt "AdvancedPage"
 msgid "Randomly Generate"
@@ -105,7 +106,7 @@ msgstr ""
 
 msgctxt "AdvancedPage"
 msgid ":"
-msgstr ""
+msgstr ":"
 
 msgctxt "AdvancedPage"
 msgid "Tor Configuration File"
@@ -208,7 +209,7 @@ msgstr ""
 
 msgctxt "AppearancePage"
 msgid "Style"
-msgstr ""
+msgstr "Steil"
 
 msgctxt "AppearancePage"
 msgid "Choose Vidalia's interface style"
@@ -220,15 +221,15 @@ msgstr ""
 
 msgctxt "BandwidthGraph"
 msgid "Since:"
-msgstr ""
+msgstr "Ers:"
 
 msgctxt "BandwidthGraph"
 msgid "Hide Settings"
-msgstr ""
+msgstr "Cyddiwch Gosodiadau"
 
 msgctxt "BandwidthGraph"
 msgid "Show Settings"
-msgstr ""
+msgstr "Dangos Gosodiadau"
 
 msgctxt "BandwidthGraph"
 msgid "Tor Bandwidth Usage"
@@ -268,11 +269,11 @@ msgstr ""
 
 msgctxt "BandwidthGraph"
 msgid "Save"
-msgstr ""
+msgstr "Cadw"
 
 msgctxt "BandwidthGraph"
 msgid "Cancel"
-msgstr ""
+msgstr "Canslo"
 
 msgctxt "BridgeDownloader"
 msgid "Starting HTTPS bridge request..."
@@ -478,679 +479,679 @@ msgstr ""
 
 msgctxt "CountryInfo"
 msgid "Armenia"
-msgstr ""
+msgstr "Armenia"
 
 msgctxt "CountryInfo"
 msgid "Australia"
-msgstr ""
+msgstr "Awstralia"
 
 msgctxt "CountryInfo"
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Azerbaijan"
 
 msgctxt "CountryInfo"
 msgid "Bahamas"
-msgstr ""
+msgstr "Bahamas"
 
 msgctxt "CountryInfo"
 msgid "Bangladesh"
-msgstr ""
+msgstr "Bangladesh"
 
 msgctxt "CountryInfo"
 msgid "Barbados"
-msgstr ""
+msgstr "Barbados"
 
 msgctxt "CountryInfo"
 msgid "Belarus"
-msgstr ""
+msgstr "Belarws"
 
 msgctxt "CountryInfo"
 msgid "Belgium"
-msgstr ""
+msgstr "Gwlad Belg"
 
 msgctxt "CountryInfo"
 msgid "Belize"
-msgstr ""
+msgstr "Belize"
 
 msgctxt "CountryInfo"
 msgid "Bhutan"
-msgstr ""
+msgstr "Bhutan"
 
 msgctxt "CountryInfo"
 msgid "Bolivia"
-msgstr ""
+msgstr "Bolivia"
 
 msgctxt "CountryInfo"
 msgid "Bosnia & Herzegovina"
-msgstr ""
+msgstr "Bosnia a Herzegovina"
 
 msgctxt "CountryInfo"
 msgid "Botswana"
-msgstr ""
+msgstr "Botswana"
 
 msgctxt "CountryInfo"
 msgid "Brazil"
-msgstr ""
+msgstr "Brasil"
 
 msgctxt "CountryInfo"
 msgid "Brunei Darussalam"
-msgstr ""
+msgstr "Brunei Darussalam"
 
 msgctxt "CountryInfo"
 msgid "Bulgaria"
-msgstr ""
+msgstr "Bwlgaria"
 
 msgctxt "CountryInfo"
 msgid "Burkina Faso"
-msgstr ""
+msgstr "Burkina Faso"
 
 msgctxt "CountryInfo"
 msgid "Burundi"
-msgstr ""
+msgstr "Bwrwndi"
 
 msgctxt "CountryInfo"
 msgid "Cambodia"
-msgstr ""
+msgstr "Cambodia"
 
 msgctxt "CountryInfo"
 msgid "Cameroon"
-msgstr ""
+msgstr "Camerŵn"
 
 msgctxt "CountryInfo"
 msgid "Canada"
-msgstr ""
+msgstr "Canada"
 
 msgctxt "CountryInfo"
 msgid "Cape Verde"
-msgstr ""
+msgstr "Cape Verde"
 
 msgctxt "CountryInfo"
 msgid "Central African Republic"
-msgstr ""
+msgstr "Gweriniaeth Canolbarth Affrica"
 
 msgctxt "CountryInfo"
 msgid "Chad"
-msgstr ""
+msgstr "Chad"
 
 msgctxt "CountryInfo"
 msgid "Chile"
-msgstr ""
+msgstr "Chile"
 
 msgctxt "CountryInfo"
 msgid "China"
-msgstr ""
+msgstr "China"
 
 msgctxt "CountryInfo"
 msgid "Colombia"
-msgstr ""
+msgstr "Colombia"
 
 msgctxt "CountryInfo"
 msgid "Comoros"
-msgstr ""
+msgstr "Comoros"
 
 msgctxt "CountryInfo"
 msgid "Congo, The Democratic Republic of the"
-msgstr ""
+msgstr "Congo, Gweriniaeth Ddemocrataidd y"
 
 msgctxt "CountryInfo"
 msgid "Congo"
-msgstr ""
+msgstr "Congo"
 
 msgctxt "CountryInfo"
 msgid "Costa Rica"
-msgstr ""
+msgstr "Costa Rica"
 
 msgctxt "CountryInfo"
 msgid "Cote dâIvoire"
-msgstr ""
+msgstr "Cote da Ivoire"
 
 msgctxt "CountryInfo"
 msgid "Croatia"
-msgstr ""
+msgstr "Croatia"
 
 msgctxt "CountryInfo"
 msgid "Cuba"
-msgstr ""
+msgstr "Cuba"
 
 msgctxt "CountryInfo"
 msgid "Cyprus"
-msgstr ""
+msgstr "Cyprus"
 
 msgctxt "CountryInfo"
 msgid "Czech Republic"
-msgstr ""
+msgstr "Gweriniaeth Tsiec"
 
 msgctxt "CountryInfo"
 msgid "Denmark"
-msgstr ""
+msgstr "Denmarc"
 
 msgctxt "CountryInfo"
 msgid "Djibouti"
-msgstr ""
+msgstr "Djibouti"
 
 msgctxt "CountryInfo"
 msgid "Dominica"
-msgstr ""
+msgstr "Dominica"
 
 msgctxt "CountryInfo"
 msgid "Dominican Republic"
-msgstr ""
+msgstr "Gweriniaeth Dominica"
 
 msgctxt "CountryInfo"
 msgid "Ecuador"
-msgstr ""
+msgstr "Ecuador"
 
 msgctxt "CountryInfo"
 msgid "Egypt"
-msgstr ""
+msgstr "Yr Aifft"
 
 msgctxt "CountryInfo"
 msgid "El Salvador"
-msgstr ""
+msgstr "El Salvador"
 
 msgctxt "CountryInfo"
 msgid "Equatorial Guinea"
-msgstr ""
+msgstr "Guinea Gyhydeddol"
 
 msgctxt "CountryInfo"
 msgid "Eritrea"
-msgstr ""
+msgstr "Eritrea"
 
 msgctxt "CountryInfo"
 msgid "Estonia"
-msgstr ""
+msgstr "Estonia"
 
 msgctxt "CountryInfo"
 msgid "France"
-msgstr ""
+msgstr "Ffrainc"
 
 msgctxt "CountryInfo"
 msgid "Gabon"
-msgstr ""
+msgstr "Gabon"
 
 msgctxt "CountryInfo"
 msgid "Gambia"
-msgstr ""
+msgstr "Gambia"
 
 msgctxt "CountryInfo"
 msgid "Georgia"
-msgstr ""
+msgstr "Georgia"
 
 msgctxt "CountryInfo"
 msgid "Germany"
-msgstr ""
+msgstr "Yr Almaen"
 
 msgctxt "CountryInfo"
 msgid "Ghana"
-msgstr ""
+msgstr "Ghana"
 
 msgctxt "CountryInfo"
 msgid "Grenada"
-msgstr ""
+msgstr "Grenada"
 
 msgctxt "CountryInfo"
 msgid "Guatemala"
-msgstr ""
+msgstr "Guatemala"
 
 msgctxt "CountryInfo"
 msgid "Guinea"
-msgstr ""
+msgstr "Guinea"
 
 msgctxt "CountryInfo"
 msgid "Guinea-Bissau"
-msgstr ""
+msgstr "Guinea-Bissau"
 
 msgctxt "CountryInfo"
 msgid "Guyana"
-msgstr ""
+msgstr "Guyana"
 
 msgctxt "CountryInfo"
 msgid "Hong Kong"
-msgstr ""
+msgstr "Hong Kong"
 
 msgctxt "CountryInfo"
 msgid "Haiti"
-msgstr ""
+msgstr "Haiti"
 
 msgctxt "CountryInfo"
 msgid "Honduras"
-msgstr ""
+msgstr "Honduras"
 
 msgctxt "CountryInfo"
 msgid "Israel"
-msgstr ""
+msgstr "Israel"
 
 msgctxt "CountryInfo"
 msgid "Italy"
-msgstr ""
+msgstr "Yr Eidal"
 
 msgctxt "CountryInfo"
 msgid "Jamaica"
-msgstr ""
+msgstr "Jamaica"
 
 msgctxt "CountryInfo"
 msgid "Japan"
-msgstr ""
+msgstr "Japan"
 
 msgctxt "CountryInfo"
 msgid "Jordan"
-msgstr ""
+msgstr "Jordan"
 
 msgctxt "CountryInfo"
 msgid "Kazakhstan"
-msgstr ""
+msgstr "Kazakhstan"
 
 msgctxt "CountryInfo"
 msgid "Kenya"
-msgstr ""
+msgstr "Kenya"
 
 msgctxt "CountryInfo"
 msgid "Kiribati"
-msgstr ""
+msgstr "Kiribati"
 
 msgctxt "CountryInfo"
 msgid "Kuwait"
-msgstr ""
+msgstr "Kuwait"
 
 msgctxt "CountryInfo"
 msgid "Kyrgyzstan"
-msgstr ""
+msgstr "Kyrgyzstan"
 
 msgctxt "CountryInfo"
 msgid "Laos"
-msgstr ""
+msgstr "Laos"
 
 msgctxt "CountryInfo"
 msgid "Latvia"
-msgstr ""
+msgstr "Latfia"
 
 msgctxt "CountryInfo"
 msgid "Lebanon"
-msgstr ""
+msgstr "Lebanon"
 
 msgctxt "CountryInfo"
 msgid "Lesotho"
-msgstr ""
+msgstr "Lesotho"
 
 msgctxt "CountryInfo"
 msgid "Liberia"
-msgstr ""
+msgstr "Liberia"
 
 msgctxt "CountryInfo"
 msgid "Liechtenstein"
-msgstr ""
+msgstr "Liechtenstein"
 
 msgctxt "CountryInfo"
 msgid "Lithuania"
-msgstr ""
+msgstr "Lithwania"
 
 msgctxt "CountryInfo"
 msgid "Luxembourg"
-msgstr ""
+msgstr "Lwcsembwrg"
 
 msgctxt "CountryInfo"
 msgid "Macedonia"
-msgstr ""
+msgstr "Macedonia"
 
 msgctxt "CountryInfo"
 msgid "Madagascar"
-msgstr ""
+msgstr "Madagascar"
 
 msgctxt "CountryInfo"
 msgid "Malawi"
-msgstr ""
+msgstr "Malawi"
 
 msgctxt "CountryInfo"
 msgid "Malaysia"
-msgstr ""
+msgstr "Malaysia"
 
 msgctxt "CountryInfo"
 msgid "Mali"
-msgstr ""
+msgstr "Mali"
 
 msgctxt "CountryInfo"
 msgid "Malta"
-msgstr ""
+msgstr "Malta"
 
 msgctxt "CountryInfo"
 msgid "Marshall Islands"
-msgstr ""
+msgstr "Ynysoedd Marshall"
 
 msgctxt "CountryInfo"
 msgid "Mauritania"
-msgstr ""
+msgstr "Mauritania"
 
 msgctxt "CountryInfo"
 msgid "Mauritius"
-msgstr ""
+msgstr "Mauritius"
 
 msgctxt "CountryInfo"
 msgid "Micronesia"
-msgstr ""
+msgstr "Micronesia"
 
 msgctxt "CountryInfo"
 msgid "Moldova"
-msgstr ""
+msgstr "Moldova"
 
 msgctxt "CountryInfo"
 msgid "Monaco"
-msgstr ""
+msgstr "Monaco"
 
 msgctxt "CountryInfo"
 msgid "Mongolia"
-msgstr ""
+msgstr "Mongolia"
 
 msgctxt "CountryInfo"
 msgid "Montenegro"
-msgstr ""
+msgstr "Montenegro"
 
 msgctxt "CountryInfo"
 msgid "Morocco"
-msgstr ""
+msgstr "Moroco"
 
 msgctxt "CountryInfo"
 msgid "Mozambique"
-msgstr ""
+msgstr "Mozambique"
 
 msgctxt "CountryInfo"
 msgid "Namibia"
-msgstr ""
+msgstr "Namibia"
 
 msgctxt "CountryInfo"
 msgid "Nauru"
-msgstr ""
+msgstr "Nauru"
 
 msgctxt "CountryInfo"
 msgid "Nepal"
-msgstr ""
+msgstr "Nepal"
 
 msgctxt "CountryInfo"
 msgid "Netherlands"
-msgstr ""
+msgstr "Iseldiroedd"
 
 msgctxt "CountryInfo"
 msgid "New Zealand"
-msgstr ""
+msgstr "Seland Newydd"
 
 msgctxt "CountryInfo"
 msgid "Nicaragua"
-msgstr ""
+msgstr "Nicaragua"
 
 msgctxt "CountryInfo"
 msgid "Niger"
-msgstr ""
+msgstr "Niger"
 
 msgctxt "CountryInfo"
 msgid "Nigeria"
-msgstr ""
+msgstr "Nigeria"
 
 msgctxt "CountryInfo"
 msgid "Norway"
-msgstr ""
+msgstr "Norwy"
 
 msgctxt "CountryInfo"
 msgid "Oman"
-msgstr ""
+msgstr "Oman"
 
 msgctxt "CountryInfo"
 msgid "Pakistan"
-msgstr ""
+msgstr "Pakistan"
 
 msgctxt "CountryInfo"
 msgid "Palau"
-msgstr ""
+msgstr "Palau"
 
 msgctxt "CountryInfo"
 msgid "Palestine"
-msgstr ""
+msgstr "Palesteina"
 
 msgctxt "CountryInfo"
 msgid "Panama"
-msgstr ""
+msgstr "Panama"
 
 msgctxt "CountryInfo"
 msgid "Papua New Guinea"
-msgstr ""
+msgstr "Papua Guinea Newydd"
 
 msgctxt "CountryInfo"
 msgid "Paraguay"
-msgstr ""
+msgstr "Paraguay"
 
 msgctxt "CountryInfo"
 msgid "Peru"
-msgstr ""
+msgstr "Periw"
 
 msgctxt "CountryInfo"
 msgid "Philippines"
-msgstr ""
+msgstr "Philippines"
 
 msgctxt "CountryInfo"
 msgid "Poland"
-msgstr ""
+msgstr "Gwlad Pwyl"
 
 msgctxt "CountryInfo"
 msgid "Portugal"
-msgstr ""
+msgstr "Portiwgal"
 
 msgctxt "CountryInfo"
 msgid "Qatar"
-msgstr ""
+msgstr "Qatar"
 
 msgctxt "CountryInfo"
 msgid "Romania"
-msgstr ""
+msgstr "Rwmania"
 
 msgctxt "CountryInfo"
 msgid "Russia"
-msgstr ""
+msgstr "Rwsia"
 
 msgctxt "CountryInfo"
 msgid "Rwanda"
-msgstr ""
+msgstr "Rwanda"
 
 msgctxt "CountryInfo"
 msgid "Saint Kitts & Nevis"
-msgstr ""
+msgstr "Saint Kitts a Nevis"
 
 msgctxt "CountryInfo"
 msgid "Saint Lucia"
-msgstr ""
+msgstr "Saint Lucia"
 
 msgctxt "CountryInfo"
 msgid "Saint Vincent & the Grenadines"
-msgstr ""
+msgstr "Saint Vincent a'r Grenadines"
 
 msgctxt "CountryInfo"
 msgid "Samoa"
-msgstr ""
+msgstr "Samoa"
 
 msgctxt "CountryInfo"
 msgid "San Marino"
-msgstr ""
+msgstr "San Marino"
 
 msgctxt "CountryInfo"
 msgid "Sao Tome & Principe"
-msgstr ""
+msgstr "Sao Tome a Principe"
 
 msgctxt "CountryInfo"
 msgid "Saudi Arabia"
-msgstr ""
+msgstr "Saudi Arabia"
 
 msgctxt "CountryInfo"
 msgid "Senegal"
-msgstr ""
+msgstr "Senegal"
 
 msgctxt "CountryInfo"
 msgid "Serbia"
-msgstr ""
+msgstr "Serbia"
 
 msgctxt "CountryInfo"
 msgid "Seychelles"
-msgstr ""
+msgstr "Seychelles"
 
 msgctxt "CountryInfo"
 msgid "Sierra Leone"
-msgstr ""
+msgstr "Sierra Leone"
 
 msgctxt "CountryInfo"
 msgid "Singapore"
-msgstr ""
+msgstr "Singapore"
 
 msgctxt "CountryInfo"
 msgid "Slovakia"
-msgstr ""
+msgstr "Slofacia"
 
 msgctxt "CountryInfo"
 msgid "Slovenia"
-msgstr ""
+msgstr "Slofenia"
 
 msgctxt "CountryInfo"
 msgid "Solomon Islands"
-msgstr ""
+msgstr "Ynysoedd Solomon"
 
 msgctxt "CountryInfo"
 msgid "Somalia"
-msgstr ""
+msgstr "Somalia"
 
 msgctxt "CountryInfo"
 msgid "South Africa"
-msgstr ""
+msgstr "De Affrica"
 
 msgctxt "CountryInfo"
 msgid "Spain"
-msgstr ""
+msgstr "Sbaen"
 
 msgctxt "CountryInfo"
 msgid "Sri Lanka"
-msgstr ""
+msgstr "Sri Lanka"
 
 msgctxt "CountryInfo"
 msgid "Sudan"
-msgstr ""
+msgstr "Sudan"
 
 msgctxt "CountryInfo"
 msgid "Suriname"
-msgstr ""
+msgstr "Suriname"
 
 msgctxt "CountryInfo"
 msgid "Swaziland"
-msgstr ""
+msgstr "Swaziland"
 
 msgctxt "CountryInfo"
 msgid "Sweden"
-msgstr ""
+msgstr "Sweden"
 
 msgctxt "CountryInfo"
 msgid "Switzerland"
-msgstr ""
+msgstr "Swistir"
 
 msgctxt "CountryInfo"
 msgid "Syria"
-msgstr ""
+msgstr "Syria"
 
 msgctxt "CountryInfo"
 msgid "Tajikistan"
-msgstr ""
+msgstr "Tajikistan"
 
 msgctxt "CountryInfo"
 msgid "Tanzania"
-msgstr ""
+msgstr "Tanzania"
 
 msgctxt "CountryInfo"
 msgid "Thailand"
-msgstr ""
+msgstr "Gwlad Thai"
 
 msgctxt "CountryInfo"
 msgid "Timor-Leste (East Timor)"
-msgstr ""
+msgstr "Timor-Leste (Dwyrain Timor)"
 
 msgctxt "CountryInfo"
 msgid "Togo"
-msgstr ""
+msgstr "Togo"
 
 msgctxt "CountryInfo"
 msgid "Tonga"
-msgstr ""
+msgstr "Tonga"
 
 msgctxt "CountryInfo"
 msgid "Trinidad & Tobago"
-msgstr ""
+msgstr "Trinidad a Tobago"
 
 msgctxt "CountryInfo"
 msgid "Tunisia"
-msgstr ""
+msgstr "Tunisia"
 
 msgctxt "CountryInfo"
 msgid "Turkey"
-msgstr ""
+msgstr "Twrci"
 
 msgctxt "CountryInfo"
 msgid "Turkmenistan"
-msgstr ""
+msgstr "Turkmenistan"
 
 msgctxt "CountryInfo"
 msgid "Tuvalu"
-msgstr ""
+msgstr "Twfalw"
 
 msgctxt "CountryInfo"
 msgid "Uganda"
-msgstr ""
+msgstr "Uganda"
 
 msgctxt "CountryInfo"
 msgid "Ukraine"
-msgstr ""
+msgstr "Wcráin"
 
 msgctxt "CountryInfo"
 msgid "United Arab Emirates"
-msgstr ""
+msgstr "Emiradau Arabaidd Unedig"
 
 msgctxt "CountryInfo"
 msgid "United Kingdom"
-msgstr ""
+msgstr "Y Deyrnas Unedig"
 
 msgctxt "CountryInfo"
 msgid "United States"
-msgstr ""
+msgstr "Unol Daleithiau"
 
 msgctxt "CountryInfo"
 msgid "Uruguay"
-msgstr ""
+msgstr "Uruguay"
 
 msgctxt "CountryInfo"
 msgid "Uzbekistan"
-msgstr ""
+msgstr "Uzbekistan"
 
 msgctxt "CountryInfo"
 msgid "Vanuatu"
-msgstr ""
+msgstr "Vanuatu"
 
 msgctxt "CountryInfo"
 msgid "Vatican"
-msgstr ""
+msgstr "Fatican"
 
 msgctxt "CountryInfo"
 msgid "Venezuela"
-msgstr ""
+msgstr "Venezuela"
 
 msgctxt "CountryInfo"
 msgid "Vietnam"
-msgstr ""
+msgstr "Vietnam"
 
 msgctxt "CountryInfo"
 msgid "Western Sahara"
-msgstr ""
+msgstr "Gorllewin Sahara"
 
 msgctxt "CountryInfo"
 msgid "Yemen"
-msgstr ""
+msgstr "Yemen"
 
 msgctxt "CountryInfo"
 msgid "Zambia"
-msgstr ""
+msgstr "Zambia"
 
 msgctxt "CountryInfo"
 msgid "Zimbabwe"
-msgstr ""
+msgstr "Zimbabwe"
 
 msgctxt "CountryInfo"
 msgid "Zaire"
@@ -1158,99 +1159,99 @@ msgstr ""
 
 msgctxt "CountryInfo"
 msgid "Albania"
-msgstr ""
+msgstr "Albania"
 
 msgctxt "CountryInfo"
 msgid "Algeria"
-msgstr ""
+msgstr "Algeria"
 
 msgctxt "CountryInfo"
 msgid "Austria"
-msgstr ""
+msgstr "Awstria"
 
 msgctxt "CountryInfo"
 msgid "Bahrain"
-msgstr ""
+msgstr "Bahrain"
 
 msgctxt "CountryInfo"
 msgid "Benin"
-msgstr ""
+msgstr "Benin"
 
 msgctxt "CountryInfo"
 msgid "Ethiopia"
-msgstr ""
+msgstr "Ethiopia"
 
 msgctxt "CountryInfo"
 msgid "Fiji"
-msgstr ""
+msgstr "Fiji"
 
 msgctxt "CountryInfo"
 msgid "Finland"
-msgstr ""
+msgstr "Ffindir"
 
 msgctxt "CountryInfo"
 msgid "Greece"
-msgstr ""
+msgstr "Gwlad Groeg"
 
 msgctxt "CountryInfo"
 msgid "Guam"
-msgstr ""
+msgstr "Guam"
 
 msgctxt "CountryInfo"
 msgid "Hungary"
-msgstr ""
+msgstr "Hwngari"
 
 msgctxt "CountryInfo"
 msgid "Iceland"
-msgstr ""
+msgstr "Gwlad yr Iâ"
 
 msgctxt "CountryInfo"
 msgid "India"
-msgstr ""
+msgstr "India"
 
 msgctxt "CountryInfo"
 msgid "Indonesia"
-msgstr ""
+msgstr "Indonesia"
 
 msgctxt "CountryInfo"
 msgid "Iran"
-msgstr ""
+msgstr "Iran"
 
 msgctxt "CountryInfo"
 msgid "Iraq"
-msgstr ""
+msgstr "Irac"
 
 msgctxt "CountryInfo"
 msgid "Ireland"
-msgstr ""
+msgstr "Iwerddon"
 
 msgctxt "CountryInfo"
 msgid "Korea, North"
-msgstr ""
+msgstr "Korea, North"
 
 msgctxt "CountryInfo"
 msgid "Korea, South"
-msgstr ""
+msgstr "Korea, De"
 
 msgctxt "CountryInfo"
 msgid "Libya"
-msgstr ""
+msgstr "Libya"
 
 msgctxt "CountryInfo"
 msgid "Maldives"
-msgstr ""
+msgstr "Maldives"
 
 msgctxt "CountryInfo"
 msgid "Mexico"
-msgstr ""
+msgstr "Mexico"
 
 msgctxt "CountryInfo"
 msgid "Myanmar"
-msgstr ""
+msgstr "Myanmar"
 
 msgctxt "CountryInfo"
 msgid "Taiwan"
-msgstr ""
+msgstr "Taiwan"
 
 msgctxt "CrashReportDialog"
 msgid "Submit a Crash Report"
@@ -1330,7 +1331,7 @@ msgstr ""
 
 msgctxt "GeneralPage"
 msgid "Browse"
-msgstr ""
+msgstr "Pori"
 
 msgctxt "GeneralPage"
 msgid "Start the Tor software when Vidalia starts"
@@ -1338,7 +1339,7 @@ msgstr ""
 
 msgctxt "GeneralPage"
 msgid "Tor"
-msgstr ""
+msgstr "Tor"
 
 msgctxt "GeneralPage"
 msgid "Proxy Application (optional)"
@@ -1410,7 +1411,7 @@ msgstr ""
 
 msgctxt "HelpBrowser"
 msgid "Vidalia Help"
-msgstr ""
+msgstr "Help Vidalia"
 
 msgctxt "HelpBrowser"
 msgid "Back"
@@ -1426,7 +1427,7 @@ msgstr ""
 
 msgctxt "HelpBrowser"
 msgid "Forward"
-msgstr ""
+msgstr "Ymlaen"
 
 msgctxt "HelpBrowser"
 msgid "Move to next page (Shift+Backspace)"
@@ -3486,23 +3487,23 @@ msgstr ""
 
 msgctxt "TorrcDialog"
 msgid "Cut"
-msgstr ""
+msgstr "Torri"
 
 msgctxt "TorrcDialog"
 msgid "Copy"
-msgstr ""
+msgstr "Copi"
 
 msgctxt "TorrcDialog"
 msgid "Paste"
-msgstr ""
+msgstr "Gludo"
 
 msgctxt "TorrcDialog"
 msgid "Undo"
-msgstr ""
+msgstr "Dadwneud"
 
 msgctxt "TorrcDialog"
 msgid "Redo"
-msgstr ""
+msgstr "Ail-wneud"
 
 msgctxt "TorrcDialog"
 msgid "Select All"
@@ -3530,7 +3531,7 @@ msgstr ""
 
 msgctxt "TorrcDialog"
 msgid "Error"
-msgstr ""
+msgstr "Gwall"
 
 msgctxt "TorrcDialog"
 msgid "An error ocurred while opening torrc file"
@@ -3814,3 +3815,5 @@ msgstr ""
 msgctxt "stringutil.h"
 msgid "%1 mins"
 msgstr ""
+
+

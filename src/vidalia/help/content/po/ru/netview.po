@@ -1,10 +1,11 @@
 # 
+# runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2010-06-26 17:00+0200\n"
-"PO-Revision-Date: 2011-05-06 15:22+0000\n"
+"PO-Revision-Date: 2011-06-09 18:22+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian (http://www.transifex.net/projects/p/torproject/team/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -297,3 +298,5 @@ msgstr "<b>Последнее обновление</b>"
 #: en/netview.html:168
 msgid "Date this relay's information was last updated."
 msgstr "Дата последнего обновления информации об этом ретрансляторе."
+
+

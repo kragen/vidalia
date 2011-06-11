@@ -1,4 +1,6 @@
 # 
+# Γιάννης  <yannanth@gmail.com>, 2011.
+# runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
@@ -280,3 +282,5 @@ msgstr ""
 "εγκαταστάτη του Tor.\n"
 "Ενναλακτικά, εάν θα προτιμούσατε να εγκαταστησετε το Tor χωρίς το Firefox,\n"
 "απλώς πατήστε «Επόμενο» για να συνεχίσετε."
+
+
