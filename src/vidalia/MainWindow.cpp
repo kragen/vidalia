@@ -595,12 +595,7 @@ MainWindow::launchBrowserFromDirectory()
   QString browserDirectory = settings.getBrowserDirectory();
   QString browserDirectoryFilename = settings.getBrowserExecutable();
 
-  /* Set TZ=UTC (to stop leaking timezone information) and
-   * MOZ_NO_REMOTE=1 (to allow multiple instances of Firefox */
-  QStringList env = QProcess::systemEnvironment();
-  env << "TZ=UTC";
-  env << "MOZ_NO_REMOTE=1";
-  _browserProcess->setEnvironment(env);
+  _browserProcess->setEnvironment(updateBrowserEnv());
 
   /* The browser is in <browserDirectory>/App/Firefox/<browserDirectoryFilename> */
   QString browserExecutable =
@@ -648,7 +643,7 @@ MainWindow::startSubprocesses()
     launchBrowserFromDirectory();
   } else if (!(subprocess = settings.getBrowserExecutable()).isEmpty()) {
     /* BrowserDirectory is not set, but BrowserExecutable is; use this */
-    _browserProcess->setEnvironment(QProcess::systemEnvironment() << "TZ=UTC");
+    _browserProcess->setEnvironment(updateBrowserEnv());
     _browserProcess->start(subprocess, QStringList());
   }
 
@@ -2013,3 +2008,29 @@ MainWindow::installUpdatesFailed(const QString &errmsg)
 
 #endif
 
+QStringList
+MainWindow::updateBrowserEnv() {
+  TorSettings settings;
+  QStringList env = QProcess::systemEnvironment();
+  env << "TZ=UTC";
+  env << "MOZ_NO_REMOTE=1";
+
+  if(settings.autoControlPort()) {
+    QString errmsg, socks;
+    if(!(_torControl->getInfo("net/listeners/socks", socks, &errmsg))) {
+      vInfo(errmsg);
+      return env;
+    }
+
+    QStringList addrPort = socks.split(":");
+    if(addrPort.size() != 2) return env;
+
+    QHostAddress addr(addrPort.at(0));
+    quint16 port = addrPort.at(1).toInt();
+
+    env << QString("TOR_SOCKS_HOST=%1").arg(addr.toString());
+    env << QString("TOR_SOCKS_PORT=%1").arg(port);
+  }
+
+  return env;
+}

@@ -225,6 +225,9 @@ private:
   /** Sets the progress bar completion value to <b>progressValue</b> and sets
    * the status text to <b>description</b>. */
   void setStartupProgress(int percentComplete, const QString &description);
+  /** Adds the needed variables to the environment that the browser will
+   * need */
+  QStringList updateBrowserEnv();
 
   /** The current status of Tor. */
   TorStatus _status;
