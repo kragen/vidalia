@@ -1156,8 +1156,8 @@ MainWindow::started()
       if(addrPort.size() != 2) return;
 
       QHostAddress addr(addrPort.at(0));
-      quint16 port = addrPort.at(1).toInt();
-      _torControl->connect(addr, port);
+      _autoControlPort = addrPort.at(1).toInt();
+      _torControl->connect(addr, _autoControlPort);
     }
   } else {
     /* Try to connect to Tor's control port */
@@ -2030,6 +2030,12 @@ MainWindow::updateBrowserEnv() {
 
     env << QString("TOR_SOCKS_HOST=%1").arg(addr.toString());
     env << QString("TOR_SOCKS_PORT=%1").arg(port);
+  }
+
+  if(settings.getAuthenticationMethod() == TorSettings::PasswordAuth) {
+    env << QString("TOR_CONTROL_PASSWD=%1").arg(settings.getControlPassword());
+    env << QString("TOR_CONTROL_PORT=%1").arg(_autoControlPort);
+    qWarning() << env;
   }
 
   return env;

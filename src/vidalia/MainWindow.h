@@ -288,6 +288,8 @@ private:
   QAction* _actionShowNetworkMap;
   QAction* _actionNewIdentity;
 
+  quint16 _autoControlPort;
+
   Ui::MainWindow ui; /**< Qt Designer generated object. */
 };
 
