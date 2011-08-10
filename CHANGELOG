@@ -1,4 +1,4 @@
-0.2.13  11-Jun-2011
+0.2.13  10-Aug-2011
   o Add a way to bootstrap Tor's torrc file (copy the torrc to a given
     directory before Vidalia starts) so that packages such as
     Bridge-by-default portable bundles for OSX don't violate the directory
@@ -22,8 +22,17 @@
   o Make the fact that bridges don't need a DirPort setting more clear by
     removing the content of the field when disabling it. Fixes bug 3119.
   o Improve command line parameter handling. Resolves bug 2965.
-  o Fix layout in BandwidthGraph to display correctly everything with every
+  o Fix layout in BandwidthGraph to display labels correctly in every
     language. Fixes bug 2500.
+  o Updates README.debs to reflect the change in the packaging now that
+    Vidalia uses Git. Fixes bug 3668.
+  o Add a way to use the autoconfiguration for ControlPort and SocksPort.
+    Tor can now autoconfigure Control and Socks Ports when the default ones
+    are in use. This makes it easier to run several different instances of
+    TBB at the same time. Resolves bug 3077.
+  o Provide the necessary fields (Control password, ControlPort) to let 
+    TorButton NEWNYM. Vidalia provides these in env vars when it launches
+    the Firefox instance. Resolves bug 2659.
 
 0.2.12  10-Apr-2011
   o Vidalia's SVN repository has been migrated to Git. All branches but
