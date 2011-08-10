@@ -2030,6 +2030,13 @@ MainWindow::updateBrowserEnv() {
 
     env << QString("TOR_SOCKS_HOST=%1").arg(addr.toString());
     env << QString("TOR_SOCKS_PORT=%1").arg(port);
+
+    vInfo(QString("Using automatic ControlPort and SocksPort configuration:\n"
+		  "   ControlPort=%1\n   SocksPort=%2\n   Host=%3\n   Configuration file:%4")
+	  .arg(_autoControlPort)
+	  .arg(port)
+	  .arg(addrPort.at(0))
+	  .arg(QString("%1/port.conf").arg(expand_filename(settings.getDataDirectory()))));
   }
 
   if(settings.getAuthenticationMethod() == TorSettings::PasswordAuth) {
