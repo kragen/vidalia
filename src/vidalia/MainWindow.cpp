@@ -2040,7 +2040,7 @@ MainWindow::updateBrowserEnv() {
   }
 
   if(settings.getAuthenticationMethod() == TorSettings::PasswordAuth) {
-    env << QString("TOR_CONTROL_PASSWD=%1").arg(TorSettings::hashPassword(settings.getControlPassword()));
+    env << QString("TOR_CONTROL_PASSWD=%1").arg(settings.getControlPassword());
     env << QString("TOR_CONTROL_PORT=%1").arg(_autoControlPort);
   }
 
