@@ -1161,10 +1161,11 @@ MainWindow::started()
     }
   } else {
     /* Try to connect to Tor's control port */
-    if(settings.getControlMethod() == ControlMethod::Port)
+    if(settings.getControlMethod() == ControlMethod::Port) {
       _torControl->connect(settings.getControlAddress(),
                           settings.getControlPort());
-    else
+      _autoControlPort = settings.getControlPort();
+    } else
       _torControl->connect(settings.getSocketPath());
   }
   setStartupProgress(STARTUP_PROGRESS_CONNECTING, tr("Connecting to Tor"));
