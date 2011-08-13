@@ -1146,7 +1146,11 @@ MainWindow::started()
     while((!file.open(QIODevice::ReadOnly | QIODevice::Text)) and
 	  (tries++ < maxtries)) {
       vWarn(QString("This is try number: %1.").arg(tries));
+#if defined(Q_WS_WIN)
+      Sleep(1000);
+#else
       sleep(1);
+#endif
     }
 
     if(tries >= maxtries) {
