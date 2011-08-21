@@ -93,7 +93,7 @@ TorSettings::TorSettings(TorControl *torControl)
   setDefault(SETTING_REJECT_PLAINTEXT_PORTS, QList<QVariant>());
   setDefault(SETTING_BOOTSTRAP, false);
   setDefault(SETTING_BOOTSTRAP_FROM, "");
-  setDefault(SETTING_AUTOCONTROL, true);
+  setDefault(SETTING_AUTOCONTROL, false);
 }
 
 /** Applies any changes to Tor's control port or authentication settings. */
