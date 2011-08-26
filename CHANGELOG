@@ -1,3 +1,8 @@
+0.2.14  26-Aug-2011
+  o Make the AutoPort setting default to false, so that it doesn't
+    break backwards compatibility for people that aren't using Vidalia
+    inside Tor Browser Bundle.
+
 0.2.13  10-Aug-2011
   o Add a way to bootstrap Tor's torrc file (copy the torrc to a given
     directory before Vidalia starts) so that packages such as
