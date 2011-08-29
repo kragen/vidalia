@@ -995,6 +995,14 @@ MainWindow::start()
 
   updateTorStatus(Starting);
 
+  // Disable autoconfiguration if there are missing config data
+  if(settings.autoControlPort()) {
+    if(settings.getDataDirectory().isEmpty()) {
+      vWarn("Disabling ControlPort autoconfiguration. DataDirectory is empty!");
+      settings.setAutoControlPort(false);
+    }
+  }
+
   /* Check if Tor is already running separately */
   if(settings.getControlMethod() == ControlMethod::Port) {
     if(!settings.autoControlPort() && net_test_connect(settings.getControlAddress(),
