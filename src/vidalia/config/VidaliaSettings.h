@@ -33,6 +33,12 @@ class VidaliaSettings : public VSettings
   Q_OBJECT
 
 public:
+  enum IconPosition {
+    Tray,
+    Dock,
+    Both,
+  };
+
   /** Default constructor. */
   VidaliaSettings();
 
@@ -127,10 +133,12 @@ public:
   void setLocalGeoIpDatabase(const QString &databaseFile);
 
   /** Get the icon preference */
-  QString getIconPref() const;
+  IconPosition getIconPref();
 
   /** Set the icon preference */
-  void setIconPref(const QString &iconPref);
+  void setIconPref(const IconPosition iconPref);
+  QString toString(const IconPosition iconPref);
+  IconPosition fromString(QString iconPref);
 };
 
 #endif
