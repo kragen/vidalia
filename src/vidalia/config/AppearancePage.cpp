@@ -72,6 +72,21 @@ AppearancePage::save(QString &errmsg)
   /* Set the new style */
   Vidalia::setStyle(ui.cmboStyle->currentText());
   _settings->setInterfaceStyle(ui.cmboStyle->currentText());
+
+#if defined(Q_WS_MAC)
+  /* Save new icon preference */
+  if(ui.rdoIconPrefDock->isChecked()) {
+    _settings->setIconPref(VidaliaSettings::Dock);
+  }
+  else if(ui.rdoIconPrefTray->isChecked()) {
+    _settings->setIconPref(VidaliaSettings::Tray);
+  }
+  else {
+    /* default setting */
+    _settings->setIconPref(VidaliaSettings::Both);
+  }
+#endif
+
   return true;
 }
   
@@ -84,5 +99,18 @@ AppearancePage::load()
   
   index = ui.cmboStyle->findData(Vidalia::style().toLower());
   ui.cmboStyle->setCurrentIndex(index);
+
+#if defined(Q_WS_MAC)
+  /* set current icon preference */
+  ui.rdoIconPrefBoth->setChecked(_settings->getIconPref() == VidaliaSettings::Both);
+  ui.rdoIconPrefTray->setChecked(_settings->getIconPref() == VidaliaSettings::Tray);
+  ui.rdoIconPrefDock->setChecked(_settings->getIconPref() == VidaliaSettings::Dock);
+#else
+  /* hide preference on non-OSX platforms */
+  ui.grpIconPref->setVisible(false);
+  ui.rdoIconPrefBoth->setVisible(false);
+  ui.rdoIconPrefTray->setVisible(false);
+  ui.rdoIconPrefDock->setVisible(false);
+#endif
 }
 

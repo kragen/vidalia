@@ -45,6 +45,9 @@
 #define VIDALIA_REG_KEY        "Vidalia" 
 #endif
 
+#if defined(Q_WS_MAC)
+#define SETTING_ICON_PREF	"IconDisplayPreference"
+#endif
 
 /** Default Constructor */
 VidaliaSettings::VidaliaSettings()
@@ -82,6 +85,7 @@ VidaliaSettings::VidaliaSettings()
   setDefault(SETTING_LAST_UPDATE_CHECK, QDateTime());
   setDefault(SETTING_USE_LOCAL_GEOIP_DATABASE, false);
   setDefault(SETTING_LOCAL_GEOIP_DATABASE, "");
+  setDefault(SETTING_ICON_PREF, Both);
 }
 
 /** Gets the currently preferred language code for Vidalia. */
@@ -321,3 +325,35 @@ VidaliaSettings::setLocalGeoIpDatabase(const QString &databaseFile)
   setValue(SETTING_LOCAL_GEOIP_DATABASE, databaseFile);
 }
 
+/** Get the icon preference */
+VidaliaSettings::IconPosition
+VidaliaSettings::getIconPref()
+{
+  return fromString(value(SETTING_ICON_PREF).toString());
+}
+
+/** Set the icon preference */
+void
+VidaliaSettings::setIconPref(const IconPosition iconPref)
+{
+  setValue(SETTING_ICON_PREF, toString(iconPref));
+}
+
+QString
+VidaliaSettings::toString(const IconPosition iconPref)
+{
+  switch(iconPref) {
+  case Dock: return "Dock";
+  case Tray: return "Tray";
+  default: return "Both";
+  }
+}
+
+VidaliaSettings::IconPosition
+VidaliaSettings::fromString(QString iconPref)
+{
+  if(iconPref == "Dock") return Dock;
+  if(iconPref == "Tray") return Tray;
+
+  return Both;
+}
