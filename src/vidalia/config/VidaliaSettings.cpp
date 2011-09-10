@@ -45,9 +45,7 @@
 #define VIDALIA_REG_KEY        "Vidalia" 
 #endif
 
-#if defined(Q_WS_MAC)
 #define SETTING_ICON_PREF	"IconDisplayPreference"
-#endif
 
 /** Default Constructor */
 VidaliaSettings::VidaliaSettings()
