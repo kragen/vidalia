@@ -1,3 +1,21 @@
+0.2.15  07-Oct-2011
+  o Draw the bandwidth graph curves based on the local maximum, not
+    the global maximum. Fixes bug 2188.
+  o Add an option for setting up a non-exit relay to the Sharing configuration
+    panel. This is meant to clarify what an exit policy and an exit relay are.
+    Resolves bug 2644.
+  o Display time statistics for bridges in UTC time, rather than local
+    time. Fixes bug 3342.
+  o Change the parameter for ordering the entries in the Basic Log
+    list from currentTime to currentDateTime to avoid missplacing
+    entries from different days.
+  o Check the tor version and that settings are sanitized before
+    trying to use the port autoconfiguration feature. Fixes bug 3843.
+  o Provide a way to hide Dock or System Tray icons in OSX. Resolves
+    ticket 2163.
+  o Make new processes appear at front when they are started (OSX
+    specific).
+
 0.2.14  26-Aug-2011
   o Make the AutoPort setting default to false, so that it doesn't
     break backwards compatibility for people that aren't using Vidalia
