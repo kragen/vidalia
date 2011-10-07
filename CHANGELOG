@@ -1,9 +1,9 @@
 0.2.15  07-Oct-2011
   o Draw the bandwidth graph curves based on the local maximum, not
     the global maximum. Fixes bug 2188.
-  o Add an option for setting up a non-exit relay to the Sharing configuration
-    panel. This is meant to clarify what an exit policy and an exit relay are.
-    Resolves bug 2644.
+  o Add an option for setting up a non-exit relay to the Sharing
+    configuration panel. This is meant to clarify what an exit policy
+    and an exit relay are. Resolves bug 2644.
   o Display time statistics for bridges in UTC time, rather than local
     time. Fixes bug 3342.
   o Change the parameter for ordering the entries in the Basic Log
