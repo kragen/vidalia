@@ -647,7 +647,8 @@ MainWindow::launchBrowserFromDirectory()
   commandLine << profileDir;
 
   /* Launch the browser */
-  _browserProcess->start(browserExecutable, commandLine);
+  if(!_browserProcess->state() != QProcess::NotRunning)
+    _browserProcess->start(browserExecutable, commandLine);
   _browserProcess->toForeground();
 }
 
@@ -665,7 +666,8 @@ MainWindow::startSubprocesses()
   } else if (!(subprocess = settings.getBrowserExecutable()).isEmpty()) {
     /* BrowserDirectory is not set, but BrowserExecutable is; use this */
     _browserProcess->setEnvironment(updateBrowserEnv());
-    _browserProcess->start(subprocess, QStringList());
+    if(!_browserProcess->state() != QProcess::NotRunning)
+      _browserProcess->start(subprocess, QStringList());
     _browserProcess->toForeground();
   }
 
