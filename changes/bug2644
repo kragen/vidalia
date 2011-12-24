@@ -1,3 +1,0 @@
-  o Add an option for setting up a non-exit relay to the Sharing configuration
-    panel. This is meant to clarify what an exit policy and an exit relay are.
-    Resolves bug 2644.

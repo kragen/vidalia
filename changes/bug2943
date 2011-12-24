@@ -1,0 +1,2 @@
+  o Do not launch Firefox with every CIRCUIT_ESTABLISHED signal, do it
+    only if Firefox isn't open yet.
