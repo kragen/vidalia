@@ -1423,6 +1423,11 @@ MainWindow::authenticate()
       cookieDir = QFileInfo(cookieDir).absolutePath();
       cookie = loadControlCookie(cookieDir);
     }
+    if(cookie.size() != 32) {
+      vWarn(QString("Cookie length has to be exactly 32 bytes long. Found %s bytes")
+            .arg(cookie.size()));
+      goto cancel;
+    }
     vNotice("Authenticating using 'cookie' authentication.");
     return _torControl->authenticate(cookie);
   } else if (authMethod == TorSettings::PasswordAuth) {
