@@ -1082,6 +1082,8 @@ MainWindow::start()
     QString path = settings.getSocketPath();
     args << "ControlSocket" << path;
   }
+
+  args << "__OwningControllerProcess" << QString::number(QCoreApplication::applicationPid());
   
   /* Add the control port authentication arguments */
   switch (settings.getAuthenticationMethod()) {
@@ -1346,6 +1348,11 @@ void
 MainWindow::connected()
 {
   authenticate();
+  if(!_torControl->isVidaliaRunningTor()) {
+    QString err;
+    if(!_torControl->takeOwnership(&err))
+      vWarn(err);
+  }
 }
 
 /** Called when Vidalia wants to disconnect from a Tor it did not start. */
