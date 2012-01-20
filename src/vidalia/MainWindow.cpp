@@ -1655,6 +1655,9 @@ MainWindow::circuitEstablished()
 void
 MainWindow::checkTorVersion()
 {
+  VidaliaSettings settings;
+  if(settings.skipVersionCheck())
+    return;
   QString status;
   if (_torControl->getInfo("status/version/current", status)) {
     if (!status.compare("old", Qt::CaseInsensitive)
