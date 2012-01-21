@@ -40,6 +40,12 @@ public:
   /** Sets the widget's image to <b>img</b>. */
   void setPixmap(const QPixmap &img);
 
+  const QString& text() const { return _text; }
+  const QPixmap& pixmap() const { return _pixmap; }
+  
+  Q_PROPERTY(QString text READ text WRITE setText USER true);
+  Q_PROPERTY(QPixmap pixmap READ pixmap WRITE setPixmap USER true);
+
 signals:
   /** Emitted when the widget is left-clicked. */
   void clicked();
