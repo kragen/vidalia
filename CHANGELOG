@@ -1,3 +1,46 @@
+0.2.16  24-Jan-2012
+  o Make the default data directory in windows be located in the Local
+    AppData instead of the Roaming one. Fixes bug 2319.
+  o Do not launch Firefox with every CIRCUIT_ESTABLISHED signal, do it
+    only if Firefox isn't open yet. Fixes bug 2943.
+  o Uses TAKEOWNERSHIP and __OwningControllerProcess to avoid leaving
+    tor running in background if Vidalia exits unexpectedly. Fixes bug
+    3463.
+  o Attempt to remove port.conf file before using it to avoid a race
+    condition between tor and Vidalia. Fixes bug 4048.
+  o Do not allow users to check the "My ISP blocks..." checkbox
+    without entering any bridges. Also updates the
+    documentation. Fixes bug 4290.
+  o Check that the authentication-cookie file length is exactly 32
+    bytes long. Fixes bug 4304.
+  o Explicitly disable ControlPort auto. Fixes bug 4379.
+  o Make the non exit relay option backward compatible with Vidalia <
+    0.2.14 so that it doesn't confuse users. Fixes bug 4642.
+  o Sets the preferred size for the GUI layout so it doesn't squeeze
+    widges when the size isn't big enough. Fixes bug 4656.
+  o Removes the option to have only HTTPProxy since it does not work
+    any more as it used to do with older tor versions. Users should
+    use HTTP/HTTPSProxy instead. Fixes bug 4724.
+  o Add a hidden configuration option called SkipVersionCheck so
+    systems like Tails can force Vidalia to skip checking tor's
+    version. Resolves ticket 4736.
+  o When Tor has cached enough information it bootstraps faster than
+    what takes Vidalia connect to it, so Vidalia does not see the
+    event to update the progress bar. Now Vidalia explicitly asks for
+    bootstrap-phase when it connects to Tor, and updates the progress
+    to what is actually happening instead of hanging in
+    "Authenticating to Tor". Fixes bug 4827.
+  o Fix size hints in the main window layout so that tilling window
+    managers display the window properly. Thanks to Mike Warren for
+    the fix. Fixes bug 4907.
+  o Provide a way to hide Dock or System Tray icons in OSX. Resolves
+    ticket 2163.
+  o Vidalia only validates IPv4 bridge lines. IPv6 bridges are now
+    available, and there will be pluggable transport bridge lines. So
+    the validation is now delegated to Tor through SETCONF.
+  o Explicitly disable SocksPort auto by setting it to its default
+    (9050). Fixes bug 4598.
+
 0.2.15  07-Oct-2011
   o Draw the bandwidth graph curves based on the local maximum, not
     the global maximum. Fixes bug 2188.

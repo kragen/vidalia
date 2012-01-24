@@ -1,3 +1,0 @@
-  o Fix size hints in the main window layout so that tilling window
-    managers display the window properly. Thanks to Mike Warren for
-    the fix. Fixes bug 4907.
