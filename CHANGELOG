@@ -1,4 +1,4 @@
-0.2.16  24-Jan-2012
+0.2.16  29-Jan-2012
   o Make the default data directory in windows be located in the Local
     AppData instead of the Roaming one. Fixes bug 2319.
   o Do not launch Firefox with every CIRCUIT_ESTABLISHED signal, do it
@@ -33,8 +33,6 @@
   o Fix size hints in the main window layout so that tilling window
     managers display the window properly. Thanks to Mike Warren for
     the fix. Fixes bug 4907.
-  o Provide a way to hide Dock or System Tray icons in OSX. Resolves
-    ticket 2163.
   o Vidalia only validates IPv4 bridge lines. IPv6 bridges are now
     available, and there will be pluggable transport bridge lines. So
     the validation is now delegated to Tor through SETCONF.
