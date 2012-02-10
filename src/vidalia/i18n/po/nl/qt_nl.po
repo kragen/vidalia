@@ -1,11 +1,14 @@
 # 
+# Translators:
+# runasand <runa.sandvik@gmail.com>, 2011.
+# Shondoit Walker <shondoit+transifex@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-03-18 11:08+0000\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2011-10-12 20:28+0000\n"
+"Last-Translator: Shondoit Walker <shondoit+transifex@gmail.com>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +30,7 @@ msgstr "Programma '%1' heeft Qt %2 nodig, Qt %3 is gevonden."
 #: qmessagebox.h:321
 msgctxt "QApplication"
 msgid "Incompatible Qt Library Error"
-msgstr "Fout : onverenigbare Qt bibliotheek."
+msgstr "Fout: incompatibele Qt bibliotheek."
 
 #: qapplication.cpp:2095
 msgctxt "QApplication"
@@ -132,7 +135,7 @@ msgstr "Negeren"
 #: qdialogbuttonbox.cpp:581
 msgctxt "QDialogButtonBox"
 msgid "Restore Defaults"
-msgstr "Oorspronkelijke terugplaatsen"
+msgstr "Standaard terugzetten"
 
 #: qdialogbuttonbox.cpp:552
 msgctxt "QDialogButtonBox"
@@ -201,7 +204,7 @@ msgid ""
 "Do you want to replace it?"
 msgstr ""
 "%1 bestaat al.\n"
-"Wil U het vervangen?"
+"Wilt u het vervangen?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -212,12 +215,12 @@ msgid ""
 msgstr ""
 "%1\n"
 "Bestand niet gevonden.\n"
-"Controlleer of de bestandsnaam correct was."
+"Controleer of de bestandsnaam correct is."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
 msgid "My Computer"
-msgstr "Mijn computer"
+msgstr "Deze computer"
 
 #: qfiledialog.cpp:462
 msgctxt "QFileDialog"
@@ -273,7 +276,7 @@ msgid ""
 msgstr ""
 "%1\n"
 "Map niet gevonden.\n"
-"Gelieve te controlleren of de juiste mapnaam werd gegeven."
+"Gelieve te controleren of de juiste mapnaam werd gegeven."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
@@ -282,17 +285,17 @@ msgid ""
 "Do you want to delete it anyway?"
 msgstr ""
 "'%1' is beschermd tegen overschrijven.\n"
-"Wilt U het toch verwijderen?"
+"Wilt u het toch verwijderen?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
 msgid "Are sure you want to delete '%1'?"
-msgstr "Bent U zeker dat U '%1' wilt verwijderen ?"
+msgstr "Bent u zeker dat u '%1' wilt verwijderen ?"
 
 #: qfiledialog.cpp:2299
 msgctxt "QFileDialog"
 msgid "Could not delete directory."
-msgstr "De map kon niet verwijderd worden."
+msgstr "De map kon niet worden verwijderd."
 
 #: qfiledialog_win.cpp:128
 msgctxt "QFileDialog"
@@ -380,7 +383,7 @@ msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
 " characters or no punctuations marks."
 msgstr ""
-"<b>De naam \"%1\" kan niet gebruikt worden.</b><p>Probeer een andere naam te"
+"<b>De naam \"%1\" kan niet worden gebruikt.</b><p>Probeer een andere naam te"
 " gebruiken met minder letters of zonder punten of komma's."
 
 #: qfilesystemmodel.cpp:832
@@ -442,3 +445,5 @@ msgstr "%1 KB"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 bytes"
+
+

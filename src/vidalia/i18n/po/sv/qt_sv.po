@@ -1,11 +1,14 @@
 # 
+# Translators:
+#   <marta.leffler@gmail.com>, 2011.
+# runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-03-18 11:09+0000\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2011-07-04 10:34+0000\n"
+"Last-Translator: mle <marta.leffler@gmail.com>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -199,7 +202,7 @@ msgctxt "QFileDialog"
 msgid ""
 "%1 already exists.\n"
 "Do you want to replace it?"
-msgstr ""
+msgstr "Filen %1 finns redan. Vill du ersätta den?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -208,6 +211,9 @@ msgid ""
 "File not found.\n"
 "Please verify the correct file name was given."
 msgstr ""
+"%1 \n"
+"Filen hittades inte.\n"
+"Var god bekräfta att det korrekta filnamnet har angetts."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -266,6 +272,9 @@ msgid ""
 "Directory not found.\n"
 "Please verify the correct directory name was given."
 msgstr ""
+"%1\n"
+"Mappen hittades inte.\n"
+"Var god bekräfta att det korrekta mappnamnet har angetts."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
@@ -273,6 +282,8 @@ msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
 msgstr ""
+"'%1' är skrivskyddat.\n"
+"Vill du ta bort det ändå?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -432,3 +443,5 @@ msgstr "%1 KB"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 bytes"
+
+

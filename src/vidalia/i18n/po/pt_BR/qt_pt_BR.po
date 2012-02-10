@@ -1,11 +1,15 @@
 # 
+# Translators:
+#   <amimyself@live.co.uk>, 2011.
+# Filipe  <nfscp@walla.com>, 2012.
+# runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-03-18 11:07+0000\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2012-02-02 15:27+0000\n"
+"Last-Translator: Filipe <nfscp@walla.com>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,7 +21,7 @@ msgstr ""
 #: qaccessibleobject.cpp:348
 msgctxt "QApplication"
 msgid "Activate"
-msgstr "Ativar"
+msgstr "Activar"
 
 #: qmessagebox.h:319
 msgctxt "QApplication"
@@ -32,12 +36,12 @@ msgstr "Biblioteca Qt incompatível"
 #: qapplication.cpp:2095
 msgctxt "QApplication"
 msgid "QT_LAYOUT_DIRECTION"
-msgstr ""
+msgstr "Direcção_de_Layout_QT"
 
 #: qaccessibleobject.cpp:350
 msgctxt "QApplication"
 msgid "Activates the program's main window"
-msgstr ""
+msgstr "Activa a janela principal do programa"
 
 #: qmessagebox.cpp:2104
 msgctxt "QDialogButtonBox"
@@ -47,7 +51,7 @@ msgstr "OK"
 #: qdialogbuttonbox.cpp:528
 msgctxt "QDialogButtonBox"
 msgid "Save"
-msgstr "Salvar"
+msgstr "Gravar"
 
 #: qdialogbuttonbox.cpp:531
 msgctxt "QDialogButtonBox"
@@ -82,7 +86,7 @@ msgstr "Ajuda"
 #: qdialogbuttonbox.cpp:550
 msgctxt "QDialogButtonBox"
 msgid "Don't Save"
-msgstr "Não salvar"
+msgstr "Não gravar"
 
 #: qdialogbuttonbox.cpp:554
 msgctxt "QDialogButtonBox"
@@ -112,7 +116,7 @@ msgstr "Não a Todas"
 #: qdialogbuttonbox.cpp:569
 msgctxt "QDialogButtonBox"
 msgid "Save All"
-msgstr "Salvar Tudo"
+msgstr "Gravar Tudo"
 
 #: qdialogbuttonbox.cpp:572
 msgctxt "QDialogButtonBox"
@@ -137,7 +141,7 @@ msgstr "Restaurar padrão"
 #: qdialogbuttonbox.cpp:552
 msgctxt "QDialogButtonBox"
 msgid "Close without Saving"
-msgstr "Fechar sem salvar"
+msgstr "Fechar sem gravar"
 
 #: qdialogbuttonbox.cpp:525
 msgctxt "QDialogButtonBox"
@@ -157,7 +161,7 @@ msgstr "Tamanho"
 #: qdirmodel.cpp:427
 msgctxt "QDirModel"
 msgid "Kind"
-msgstr ""
+msgstr "Tipo"
 
 #: qdirmodel.cpp:429
 msgctxt "QDirModel"
@@ -177,17 +181,17 @@ msgstr "Todos arquivos (*)"
 #: qfiledialog.cpp:881
 msgctxt "QFileDialog"
 msgid "Directories"
-msgstr "Diretórios"
+msgstr "Directórios"
 
 #: qfiledialog.cpp:2408
 msgctxt "QFileDialog"
 msgid "&Open"
-msgstr ""
+msgstr "&Abrir"
 
 #: qfiledialog.cpp:919
 msgctxt "QFileDialog"
 msgid "&Save"
-msgstr ""
+msgstr "&Gravar"
 
 #: qfiledialog.cpp:435
 msgctxt "QFileDialog"
@@ -212,12 +216,12 @@ msgid ""
 msgstr ""
 "%1\n"
 "Arquivo não encontrado.\n"
-"Por favor verifique se o nome do arquivo foi corretamente informado."
+"Por favor verifique se o nome do arquivo foi correctamente introduzido."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
 msgid "My Computer"
-msgstr "Meu Computador"
+msgstr "O Meu Computador"
 
 #: qfiledialog.cpp:462
 msgctxt "QFileDialog"
@@ -227,7 +231,7 @@ msgstr "&Renomear"
 #: qfiledialog.cpp:463
 msgctxt "QFileDialog"
 msgid "&Delete"
-msgstr "&Deletar"
+msgstr "&Apagar"
 
 #: qfiledialog.cpp:464
 msgctxt "QFileDialog"
@@ -242,7 +246,7 @@ msgstr "Voltar"
 #: ui_qfiledialog.h:274
 msgctxt "QFileDialog"
 msgid "Parent Directory"
-msgstr "Diretório Acima"
+msgstr "Directório Acima"
 
 #: ui_qfiledialog.h:284
 msgctxt "QFileDialog"
@@ -262,7 +266,7 @@ msgstr "Arquivos do tipo:"
 #: qfiledialog.cpp:883
 msgctxt "QFileDialog"
 msgid "Directory:"
-msgstr "Diretório:"
+msgstr "Directório:"
 
 #: qfiledialog.cpp:2476
 msgctxt "QFileDialog"
@@ -272,8 +276,8 @@ msgid ""
 "Please verify the correct directory name was given."
 msgstr ""
 "%1\n"
-"Diretório não encontrado.\n"
-"Por favor verifique se o nome do diretório foi corretamente informado."
+"Directório não encontrado.\n"
+"Por favor verifique se o nome do directório foi corretamente introduzido."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
@@ -282,17 +286,17 @@ msgid ""
 "Do you want to delete it anyway?"
 msgstr ""
 "'%1' é protegido contra cópia.\n"
-"Você quer deletá-lo ainda assim?"
+"Você quer realmente apagá-lo ?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
 msgid "Are sure you want to delete '%1'?"
-msgstr "Tem certeza de que deseja deletar '%1'?"
+msgstr "Tem certeza de que deseja apagar '%1'?"
 
 #: qfiledialog.cpp:2299
 msgctxt "QFileDialog"
 msgid "Could not delete directory."
-msgstr "Não foi possível deletar o diretório."
+msgstr "Não foi possível apagar o diretório."
 
 #: qfiledialog_win.cpp:128
 msgctxt "QFileDialog"
@@ -302,12 +306,12 @@ msgstr "Todos Arquivos (*.*)"
 #: qfiledialog.cpp:437
 msgctxt "QFileDialog"
 msgid "Save As"
-msgstr "Salvar Como"
+msgstr "Gravar Como"
 
 #: qfileiconprovider.cpp:379
 msgctxt "QFileDialog"
 msgid "Drive"
-msgstr ""
+msgstr "Drive"
 
 #: qfileiconprovider.cpp:383
 msgctxt "QFileDialog"
@@ -322,7 +326,7 @@ msgstr "Desconhecido"
 #: qfiledialog.cpp:439
 msgctxt "QFileDialog"
 msgid "Find Directory"
-msgstr "Encontrar Diretório"
+msgstr "Encontrar Directório"
 
 #: qfiledialog.cpp:458
 msgctxt "QFileDialog"
@@ -362,7 +366,7 @@ msgstr "Nome do arquivo:"
 #: ui_qfiledialog.h:261
 msgctxt "QFileDialog"
 msgid "Look in:"
-msgstr ""
+msgstr "Procurar em:"
 
 #: ui_qfiledialog.h:279
 msgctxt "QFileDialog"
@@ -380,8 +384,8 @@ msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
 " characters or no punctuations marks."
 msgstr ""
-"<b>O nome \"%1\" não pode ser usado.</b><p>Tente um nome com menos letras ou"
-" sem pontuação."
+"<b>O nome \"%1\" não pode ser usado.</b><p>Tente um nome com menos "
+"caracteres ou sem pontuação."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -396,7 +400,7 @@ msgstr "Tamanho"
 #: qfilesystemmodel.cpp:838
 msgctxt "QFileSystemModel"
 msgid "Kind"
-msgstr ""
+msgstr "Tipo"
 
 #: qfilesystemmodel.cpp:840
 msgctxt "QFileSystemModel"
@@ -411,7 +415,7 @@ msgstr "Última modificação"
 #: qfilesystemmodel_p.h:198
 msgctxt "QFileSystemModel"
 msgid "My Computer"
-msgstr "Meu computador"
+msgstr "O Meu computador"
 
 #: qfilesystemmodel_p.h:200
 msgctxt "QFileSystemModel"
@@ -442,3 +446,5 @@ msgstr "%1 KB"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 bytes"
+
+

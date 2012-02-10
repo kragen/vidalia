@@ -1,11 +1,14 @@
 # 
+# Translators:
+#   <gsanky+transifex@gmail.com>, 2011.
+# runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-03-18 11:06+0000\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2011-11-17 19:48+0000\n"
+"Last-Translator: Sanky <gsanky+transifex@gmail.com>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,12 +25,12 @@ msgstr "Aktivovat"
 #: qmessagebox.h:319
 msgctxt "QApplication"
 msgid "Executable '%1' requires Qt %2, found Qt %3."
-msgstr "Spuštěný '%1' vyžaduje aby %2, byl nazalezen"
+msgstr "Spustitelný soubor '%1' vyžaduje Qt %2, nalezeno Qt %3"
 
 #: qmessagebox.h:321
 msgctxt "QApplication"
 msgid "Incompatible Qt Library Error"
-msgstr "Chyba nekompatibility knihovny Qt"
+msgstr "Chyba - Nekompatibilní knihovna Qt"
 
 #: qapplication.cpp:2095
 msgctxt "QApplication"
@@ -37,7 +40,7 @@ msgstr "QT_LAYOUT_DIRECTION"
 #: qaccessibleobject.cpp:350
 msgctxt "QApplication"
 msgid "Activates the program's main window"
-msgstr "Aktivovat program do hlavního okna"
+msgstr "Aktivovat hlavní okno programu"
 
 #: qmessagebox.cpp:2104
 msgctxt "QDialogButtonBox"
@@ -87,7 +90,7 @@ msgstr "Neukládat"
 #: qdialogbuttonbox.cpp:554
 msgctxt "QDialogButtonBox"
 msgid "Discard"
-msgstr "Odložit"
+msgstr "Zahodit"
 
 #: qdialogbuttonbox.cpp:557
 msgctxt "QDialogButtonBox"
@@ -107,7 +110,7 @@ msgstr "&Ne"
 #: qdialogbuttonbox.cpp:566
 msgctxt "QDialogButtonBox"
 msgid "N&o to All"
-msgstr "Ne & pro všechny"
+msgstr "Ne &pro všechny"
 
 #: qdialogbuttonbox.cpp:569
 msgctxt "QDialogButtonBox"
@@ -172,7 +175,7 @@ msgstr "Datum změny"
 #: qfiledialog_win.cpp:126
 msgctxt "QFileDialog"
 msgid "All Files (*)"
-msgstr "Všechny Soubory (*)"
+msgstr "Všechny soubory (*)"
 
 #: qfiledialog.cpp:881
 msgctxt "QFileDialog"
@@ -212,12 +215,12 @@ msgid ""
 msgstr ""
 "%1\n"
 "Soubor nebyl nalezen.\n"
-"Prosím ověřte správný název souboru."
+"Prosím ověřte, zda byl název souboru zadán správně."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
 msgid "My Computer"
-msgstr "Můj počítač"
+msgstr "Tento počítač"
 
 #: qfiledialog.cpp:462
 msgctxt "QFileDialog"
@@ -232,7 +235,7 @@ msgstr "&Smazat"
 #: qfiledialog.cpp:464
 msgctxt "QFileDialog"
 msgid "Show &hidden files"
-msgstr "Zobrazit & skrýt složky"
+msgstr "Zobrazit &skryté soubory"
 
 #: ui_qfiledialog.h:264
 msgctxt "QFileDialog"
@@ -247,12 +250,12 @@ msgstr "Hlavní adresář"
 #: ui_qfiledialog.h:284
 msgctxt "QFileDialog"
 msgid "List View"
-msgstr "Zobrazit seznam"
+msgstr "Jako seznam"
 
 #: ui_qfiledialog.h:289
 msgctxt "QFileDialog"
 msgid "Detail View"
-msgstr "Zobrazit detail"
+msgstr "Jako detaily"
 
 #: ui_qfiledialog.h:292
 msgctxt "QFileDialog"
@@ -322,17 +325,17 @@ msgstr "Neznámý"
 #: qfiledialog.cpp:439
 msgctxt "QFileDialog"
 msgid "Find Directory"
-msgstr "Vybrat adresář"
+msgstr "Najít adresář"
 
 #: qfiledialog.cpp:458
 msgctxt "QFileDialog"
 msgid "Show "
-msgstr "Zobrazit"
+msgstr "Zobrazit  "
 
 #: ui_qfiledialog.h:269
 msgctxt "QFileDialog"
 msgid "Forward"
-msgstr "vpřed"
+msgstr "Vpřed"
 
 #: qfiledialog.cpp:2137
 msgctxt "QFileDialog"
@@ -357,12 +360,12 @@ msgstr "Odebrat"
 #: qfiledialog.cpp:886
 msgctxt "QFileDialog"
 msgid "File &name:"
-msgstr "Soubor & jméno:"
+msgstr "Jmé&no souboru:"
 
 #: ui_qfiledialog.h:261
 msgctxt "QFileDialog"
 msgid "Look in:"
-msgstr "Podívejte se:"
+msgstr "Vizte:"
 
 #: ui_qfiledialog.h:279
 msgctxt "QFileDialog"
@@ -372,7 +375,7 @@ msgstr "Vytvořit novou složku"
 #: qfilesystemmodel.cpp:761
 msgctxt "QFileSystemModel"
 msgid "Invalid filename"
-msgstr "Špatné jméno souboru"
+msgstr "Nevalidní název souboru"
 
 #: qfilesystemmodel.cpp:763
 msgctxt "QFileSystemModel"
@@ -411,7 +414,7 @@ msgstr "Datum úpravy"
 #: qfilesystemmodel_p.h:198
 msgctxt "QFileSystemModel"
 msgid "My Computer"
-msgstr "Můj počítač"
+msgstr "Tento počítač"
 
 #: qfilesystemmodel_p.h:200
 msgctxt "QFileSystemModel"
@@ -441,4 +444,6 @@ msgstr "%1 KB"
 #: qfilesystemmodel.cpp:684
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
-msgstr "%1 bajt"
+msgstr "%1 bajtů"
+
+

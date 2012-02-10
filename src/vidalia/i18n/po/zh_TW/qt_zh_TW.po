@@ -1,11 +1,15 @@
 # 
+# Translators:
+#   <random3098@gmail.com>, 2012.
+# runasand <runa.sandvik@gmail.com>, 2011.
+# tylerlin <msn@tylerlin.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-03-18 11:08+0000\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2012-01-18 02:48+0000\n"
+"Last-Translator: whyme <random3098@gmail.com>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -200,6 +204,8 @@ msgid ""
 "%1 already exists.\n"
 "Do you want to replace it?"
 msgstr ""
+"%1 已經存在。\n"
+"你要取代原來的嗎?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -208,6 +214,9 @@ msgid ""
 "File not found.\n"
 "Please verify the correct file name was given."
 msgstr ""
+"%1\n"
+"檔案不存在。\n"
+"請確認檔名無誤。"
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -266,6 +275,9 @@ msgid ""
 "Directory not found.\n"
 "Please verify the correct directory name was given."
 msgstr ""
+"%1\n"
+"找不到目錄。\n"
+"請確認您輸入正確的目錄名。"
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
@@ -273,6 +285,8 @@ msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
 msgstr ""
+"%1' 有防寫保護。\n"
+"您仍舊要刪除它嗎?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -430,3 +444,5 @@ msgstr "%1 KB"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 位元組"
+
+

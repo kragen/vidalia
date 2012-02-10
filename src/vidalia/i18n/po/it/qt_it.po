@@ -1,12 +1,15 @@
 # 
+# Translators:
+# runasand <runa.sandvik@gmail.com>, 2011.
+#   <tru74368@yahoo.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-03-18 11:08+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: Italian <None>\n"
+"PO-Revision-Date: 2011-10-25 20:22+0000\n"
+"Last-Translator: fetidyoo <tru74368@yahoo.com>\n"
+"Language-Team: Italian (http://www.transifex.net/projects/p/torproject/team/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -210,7 +213,7 @@ msgid ""
 "File not found.\n"
 "Please verify the correct file name was given."
 msgstr ""
-"%\n"
+"%1\n"
 "File non trovato.\n"
 " Verifica qual'è il nome corretto del file"
 
@@ -273,7 +276,7 @@ msgid ""
 msgstr ""
 "%1\n"
 "Cartella non trovata.\n"
-"Controlla il nome corretto della cartella"
+"Controlla il nome corretto della cartella."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
@@ -281,7 +284,7 @@ msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
 msgstr ""
-"'%1' è protetto.\n"
+"'%1' è di sola lettura.\n"
 "Vuoi comunque cancellare?"
 
 #: qfiledialog.cpp:2286
@@ -292,7 +295,7 @@ msgstr "Sei sicuro di voler cancellare '%1'?"
 #: qfiledialog.cpp:2299
 msgctxt "QFileDialog"
 msgid "Could not delete directory."
-msgstr "Cartella non cancellabile"
+msgstr "Impossibile cancellare la cartella."
 
 #: qfiledialog_win.cpp:128
 msgctxt "QFileDialog"
@@ -372,7 +375,7 @@ msgstr "Crea nuova cartella"
 #: qfilesystemmodel.cpp:761
 msgctxt "QFileSystemModel"
 msgid "Invalid filename"
-msgstr "Nome file invalido"
+msgstr "Nome file non valido"
 
 #: qfilesystemmodel.cpp:763
 msgctxt "QFileSystemModel"
@@ -442,3 +445,5 @@ msgstr "%1 KB"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 byte"
+
+

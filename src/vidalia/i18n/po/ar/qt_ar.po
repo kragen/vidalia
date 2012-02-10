@@ -1,10 +1,13 @@
 # 
+# Translators:
+# OsamaK <osamak@gnu.org>, 2011.
+# runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-03-13 19:49+0000\n"
+"PO-Revision-Date: 2011-03-22 16:13+0000\n"
 "Last-Translator: OsamaK <osamak@gnu.org>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -442,3 +445,5 @@ msgstr "%1 كيلو بايت"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 بايت"
+
+

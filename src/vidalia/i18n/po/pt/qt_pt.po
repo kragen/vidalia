@@ -1,11 +1,14 @@
 # 
+# Translators:
+#   <miguelmacedo@netcabo.pt>, 2011.
+# runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-03-18 11:06+0000\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2011-06-06 22:43+0000\n"
+"Last-Translator: miguelmacedo <miguelmacedo@netcabo.pt>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,12 +25,12 @@ msgstr "Activar"
 #: qmessagebox.h:319
 msgctxt "QApplication"
 msgid "Executable '%1' requires Qt %2, found Qt %3."
-msgstr "O executável '%1' requere Qt %2, Qt %3 encontrado."
+msgstr "O executável '%1' requer Qt %2, Qt %3 encontrado."
 
 #: qmessagebox.h:321
 msgctxt "QApplication"
 msgid "Incompatible Qt Library Error"
-msgstr "Erro de Incompatibilidade da Biblioteca Qt"
+msgstr "Biblioteca Qt incompatível. Erro."
 
 #: qapplication.cpp:2095
 msgctxt "QApplication"
@@ -72,7 +75,7 @@ msgstr "Aplicar"
 #: qdialogbuttonbox.cpp:543
 msgctxt "QDialogButtonBox"
 msgid "Reset"
-msgstr "Restaurar"
+msgstr "Restaurar definições"
 
 #: qdialogbuttonbox.cpp:546
 msgctxt "QDialogButtonBox"
@@ -157,7 +160,7 @@ msgstr "Tamanho"
 #: qdirmodel.cpp:427
 msgctxt "QDirModel"
 msgid "Kind"
-msgstr "Tipo"
+msgstr "Espécie"
 
 #: qdirmodel.cpp:429
 msgctxt "QDirModel"
@@ -201,7 +204,7 @@ msgid ""
 "Do you want to replace it?"
 msgstr ""
 "%1 já existe.\n"
-"Deseja substituir?"
+"Deseja substituí-lo?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -212,7 +215,7 @@ msgid ""
 msgstr ""
 "%1\n"
 "Ficheiro não encontrado.\n"
-"Por favor verifique o nome do ficheiro."
+"Por favor verifique que foi dado o nome correcto do ficheiro."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -242,12 +245,12 @@ msgstr "Recuar"
 #: ui_qfiledialog.h:274
 msgctxt "QFileDialog"
 msgid "Parent Directory"
-msgstr "Pasta Principal"
+msgstr "Pasta Parental"
 
 #: ui_qfiledialog.h:284
 msgctxt "QFileDialog"
 msgid "List View"
-msgstr "Vista em Lista"
+msgstr "Vista da Lista"
 
 #: ui_qfiledialog.h:289
 msgctxt "QFileDialog"
@@ -272,8 +275,8 @@ msgid ""
 "Please verify the correct directory name was given."
 msgstr ""
 "%1\n"
-"Pasta não encontrada.\n"
-"Por favor verifique o nome da pasta."
+"Directoria não encontrada.\n"
+"Por favor verifique que foi dado o nome correcto da pasta."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
@@ -380,8 +383,8 @@ msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
 " characters or no punctuations marks."
 msgstr ""
-"<b>O nome \"%1\" não pode ser usado.</b><p>Tente utilizar outro nome, como "
-"menos caracteres ou sem pontuação."
+"<b>O nome \"%1\" não pode ser usado.</b><p>Tente utilizar outro nome, com "
+"menos caractéres ou sem pontuação."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -396,7 +399,7 @@ msgstr "Tamanho"
 #: qfilesystemmodel.cpp:838
 msgctxt "QFileSystemModel"
 msgid "Kind"
-msgstr "Tipo"
+msgstr "Espécie"
 
 #: qfilesystemmodel.cpp:840
 msgctxt "QFileSystemModel"
@@ -442,3 +445,5 @@ msgstr "%1 KB"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 bytes"
+
+

@@ -1,11 +1,14 @@
 # 
+# Translators:
+# runasand <runa.sandvik@gmail.com>, 2011.
+#   <viktor.varga@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-03-18 11:07+0000\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2011-07-17 21:47+0000\n"
+"Last-Translator: vargaviktor <viktor.varga@gmail.com>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,7 +20,7 @@ msgstr ""
 #: qaccessibleobject.cpp:348
 msgctxt "QApplication"
 msgid "Activate"
-msgstr "Aktíválás"
+msgstr "Aktiválás"
 
 #: qmessagebox.h:319
 msgctxt "QApplication"
@@ -37,7 +40,7 @@ msgstr "QT_LAYOUT_DIRECTION"
 #: qaccessibleobject.cpp:350
 msgctxt "QApplication"
 msgid "Activates the program's main window"
-msgstr "Aktíválja a progam fõ ablakát"
+msgstr "Aktiválja a program fő ablakát"
 
 #: qmessagebox.cpp:2104
 msgctxt "QDialogButtonBox"
@@ -200,6 +203,8 @@ msgid ""
 "%1 already exists.\n"
 "Do you want to replace it?"
 msgstr ""
+"%1 már létezik.\n"
+"Szeretné felülírni?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -208,6 +213,9 @@ msgid ""
 "File not found.\n"
 "Please verify the correct file name was given."
 msgstr ""
+"%1\n"
+"Fájl nem található.\n"
+"Kérjük ellenőrizze, hogy helyes fájlnevet adott-e meg."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -266,6 +274,9 @@ msgid ""
 "Directory not found.\n"
 "Please verify the correct directory name was given."
 msgstr ""
+"%1\n"
+"Könyvtár nem található.\n"
+"Kérjük ellenőrizze, hogy helyes könyvtárnevet adott-e meg."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
@@ -273,6 +284,8 @@ msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
 msgstr ""
+"'%1' írásvédett.\n"
+"Biztos hogy ennek ellenére törölni akarja?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -322,7 +335,7 @@ msgstr "Mutasd"
 #: ui_qfiledialog.h:269
 msgctxt "QFileDialog"
 msgid "Forward"
-msgstr "Elõre"
+msgstr "Előre"
 
 #: qfiledialog.cpp:2137
 msgctxt "QFileDialog"
@@ -432,3 +445,5 @@ msgstr "%1 KB"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 bájt"
+
+

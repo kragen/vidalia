@@ -1,11 +1,14 @@
 # 
+# Translators:
+# John  <dragonandghost@gmail.com>, 2011.
+# runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-03-18 11:07+0000\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2011-09-25 13:55+0000\n"
+"Last-Translator: John <dragonandghost@gmail.com>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -436,3 +439,5 @@ msgstr "%1千字节"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1字节"
+
+
