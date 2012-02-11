@@ -1352,7 +1352,7 @@ void
 MainWindow::connected()
 {
   authenticate();
-  if(!_torControl->isVidaliaRunningTor()) {
+  if(_torControl->isVidaliaRunningTor()) {
     QString err;
     if(!_torControl->takeOwnership(&err))
       vWarn(err);
