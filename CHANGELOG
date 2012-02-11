@@ -40,6 +40,7 @@
     (9050). Fixes bug 4598.
   o Sets __ReloadTorrcOnSIGHUP to 0 if SAVECONF failed, which means
     the user can't write the torrc file. Fixes bug 4833.
+  o Enable new translations that are 100% done. Resolves ticket 5051.
 
 0.2.15  07-Oct-2011
   o Draw the bandwidth graph curves based on the local maximum, not
