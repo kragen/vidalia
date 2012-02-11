@@ -2,74 +2,38 @@
   <qresource prefix="/lang">
     <file>vidalia_ar.qm</file>
     <file>vidalia_bg.qm</file>
-    <file>vidalia_my.qm</file>
     <file>vidalia_cs.qm</file>
-    <file>vidalia_ca.qm</file>
     <file>vidalia_da.qm</file>
     <file>vidalia_de.qm</file>
-    <file>vidalia_es.qm</file>
     <file>vidalia_el.qm</file>
+    <file>vidalia_es.qm</file>
     <file>vidalia_fa.qm</file>
-    <file>vidalia_fi.qm</file>
     <file>vidalia_fr.qm</file>
-    <file>vidalia_he.qm</file>
     <file>vidalia_hu.qm</file>
-    <file>vidalia_id.qm</file>
     <file>vidalia_it.qm</file>
-    <file>vidalia_ja.qm</file>
     <file>vidalia_ko.qm</file>
-    <file>vidalia_nb.qm</file>
     <file>vidalia_nl.qm</file>
-    <file>vidalia_pl.qm</file>
     <file>vidalia_pt.qm</file>
     <file>vidalia_pt_BR.qm</file>
-    <file>vidalia_ro.qm</file>
     <file>vidalia_ru.qm</file>
-    <file>vidalia_sq.qm</file>
-    <file>vidalia_sk.qm</file>
-    <file>vidalia_sr.qm</file>
-    <file>vidalia_sv.qm</file>
-    <file>vidalia_th.qm</file>
-    <file>vidalia_tr.qm</file>
-    <file>vidalia_vi.qm</file>
-    <file>vidalia_zh_CN.qm</file>
-    <file>vidalia_zh_TW.qm</file>
   </qresource>
   <qresource prefix="/lang">
     <file>qt_ar.qm</file>
     <file>qt_bg.qm</file>
-    <file>qt_my.qm</file>
-    <file>qt_ca.qm</file>
     <file>qt_cs.qm</file>
     <file>qt_da.qm</file>
     <file>qt_de.qm</file>
     <file>qt_el.qm</file>
     <file>qt_es.qm</file>
     <file>qt_fa.qm</file>
-    <file>qt_fi.qm</file>
     <file>qt_fr.qm</file>
-    <file>qt_he.qm</file>
     <file>qt_hu.qm</file>
-    <file>qt_id.qm</file>
     <file>qt_it.qm</file>
-    <file>qt_ja.qm</file>
     <file>qt_ko.qm</file>
-    <file>qt_nb.qm</file>
     <file>qt_nl.qm</file>
-    <file>qt_pl.qm</file>
     <file>qt_pt.qm</file>
     <file>qt_pt_BR.qm</file>
-    <file>qt_ro.qm</file>
     <file>qt_ru.qm</file>
-    <file>qt_sq.qm</file>
-    <file>qt_sk.qm</file>
-    <file>qt_sr.qm</file>
-    <file>qt_sv.qm</file>
-    <file>qt_th.qm</file>
-    <file>qt_tr.qm</file>
-    <file>qt_vi.qm</file>
-    <file>qt_zh_CN.qm</file>
-    <file>qt_zh_TW.qm</file>
   </qresource>
 </RCC>
 
