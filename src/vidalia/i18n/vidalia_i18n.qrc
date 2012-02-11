@@ -16,6 +16,14 @@
     <file>vidalia_pt.qm</file>
     <file>vidalia_pt_BR.qm</file>
     <file>vidalia_ru.qm</file>
+    <file>vidalia_id.qm</file>
+    <file>vidalia_tr.qm</file>
+    <file>vidalia_zh_CN.qm</file>
+    <file>vidalia_ro.qm</file>
+    <file>vidalia_fi.qm</file>
+    <file>vidalia_he.qm</file>
+    <file>vidalia_sv.qm</file>
+    <file>vidalia_nb.qm</file>
   </qresource>
   <qresource prefix="/lang">
     <file>qt_ar.qm</file>
@@ -34,6 +42,14 @@
     <file>qt_pt.qm</file>
     <file>qt_pt_BR.qm</file>
     <file>qt_ru.qm</file>
+    <file>qt_id.qm</file>
+    <file>qt_tr.qm</file>
+    <file>qt_zh_CN.qm</file>
+    <file>qt_ro.qm</file>
+    <file>qt_fi.qm</file>
+    <file>qt_he.qm</file>
+    <file>qt_sv.qm</file>
+    <file>qt_nb.qm</file>
   </qresource>
 </RCC>
 

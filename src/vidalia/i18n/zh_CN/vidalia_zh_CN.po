@@ -1,0 +1,3846 @@
+# 
+# Translators:
+# Kevin Chen <szescxz@126.com>, 2011.
+# runasand <runa.sandvik@gmail.com>, 2011.
+#   <szescxz@126.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2011-09-07 14:40+0000\n"
+"PO-Revision-Date: 2011-12-02 13:11+0000\n"
+"Last-Translator: szescxz <szescxz@126.com>\n"
+"Language-Team: translations@vidalia-project.net\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Vidalia ts2po 0.2\n"
+
+msgctxt "AboutDialog"
+msgid "About Vidalia"
+msgstr "关于 Vidalia"
+
+msgctxt "AboutDialog"
+msgid "License"
+msgstr "许可"
+
+msgctxt "AboutDialog"
+msgid "Vidalia 0.2.0"
+msgstr "Vidalia 0.2.0"
+
+msgctxt "AboutDialog"
+msgid "Tor 0.2.0.32"
+msgstr "Tor 0.2.0.32"
+
+msgctxt "AboutDialog"
+msgid "Qt 4.4.2"
+msgstr "Qt 4.4.2"
+
+msgctxt "AdvancedPage"
+msgid "'%1' is not a valid IP address."
+msgstr "'%1' 并非有效 IP 地址."
+
+msgctxt "AdvancedPage"
+msgid ""
+"You selected 'Password' authentication, but did not specify a password."
+msgstr "你选择了 '密码' 验证方式,而你并未指定密码."
+
+msgctxt "AdvancedPage"
+msgid "Select Tor Configuration File"
+msgstr "请选择 Tor 配置文件"
+
+msgctxt "AdvancedPage"
+msgid "File Not Found"
+msgstr "未找到该文件"
+
+msgctxt "AdvancedPage"
+msgid "%1 does not exist. Would you like to create it?"
+msgstr "%1 不存在.请问是否要创建该文件?"
+
+msgctxt "AdvancedPage"
+msgid "Failed to Create File"
+msgstr "创建文件失败"
+
+msgctxt "AdvancedPage"
+msgid "Unable to create %1 [%2]"
+msgstr "无法创建 %1 [%2]"
+
+msgctxt "AdvancedPage"
+msgid "Select a Directory to Use for Tor Data"
+msgstr "请选择一个用于保存 Tor 数据的文件夹"
+
+msgctxt "AdvancedPage"
+msgid "Unable to remove Tor Service"
+msgstr "无法移除 Tor 服务"
+
+msgctxt "AdvancedPage"
+msgid "Unable to install Tor Service"
+msgstr "无法安装 Tor 服务"
+
+msgctxt "AdvancedPage"
+msgid "Vidalia was unable to install the Tor service."
+msgstr "Vidalia 无法安装 Tor 为系统服务."
+
+msgctxt "AdvancedPage"
+msgid "Authentication:"
+msgstr "验证:"
+
+msgctxt "AdvancedPage"
+msgid "Address:"
+msgstr "地址:"
+
+msgctxt "AdvancedPage"
+msgid "None"
+msgstr "无"
+
+msgctxt "AdvancedPage"
+msgid "Cookie"
+msgstr "Cookie"
+
+msgctxt "AdvancedPage"
+msgid "Password"
+msgstr "密码"
+
+msgctxt "AdvancedPage"
+msgid "Randomly Generate"
+msgstr "随机生成"
+
+msgctxt "AdvancedPage"
+msgid ":"
+msgstr ":"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File"
+msgstr "Tor配置文件"
+
+msgctxt "AdvancedPage"
+msgid "Start the Tor software with the specified configuration file (torrc)"
+msgstr "使用指定的配置文件来启动Tor软件（torrc）"
+
+msgctxt "AdvancedPage"
+msgid "Select path to your configuration file"
+msgstr "选择您的配置文件地址"
+
+msgctxt "AdvancedPage"
+msgid "Browse"
+msgstr "浏览"
+
+msgctxt "AdvancedPage"
+msgid "Data Directory"
+msgstr "数据目录"
+
+msgctxt "AdvancedPage"
+msgid "Store data for the Tor software in the following directory"
+msgstr "使用下列文件夹储存Tor软件的数据"
+
+msgctxt "AdvancedPage"
+msgid "Select the directory used to store data for the Tor software"
+msgstr "选择储存Tor软件数据的文件夹"
+
+msgctxt "AdvancedPage"
+msgid "Tor Control"
+msgstr "Tor控制"
+
+msgctxt "AdvancedPage"
+msgid "Use TCP connection (ControlPort)"
+msgstr "使用TCP连接（控制端口）"
+
+msgctxt "AdvancedPage"
+msgid "Path:"
+msgstr "路径："
+
+msgctxt "AdvancedPage"
+msgid "Use Unix domain socket (ControlSocket)"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Edit current torrc"
+msgstr "编辑当前torrc"
+
+msgctxt "AdvancedPage"
+msgid "NOTE: this will edit the currently loaded torrc"
+msgstr "注意：这将会编辑当前已加载的torrc"
+
+msgctxt "AdvancedPage"
+msgid "ControlSocket path doesn't exist."
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor configuration file location contains characters that "
+"cannot be represented in your system's current 8-bit character encoding."
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor data directory location contains characters that cannot be"
+" represented in your system's current 8-bit character encoding."
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Warning"
+msgstr "警告"
+
+msgctxt "AdvancedPage"
+msgid "You changed torrc path, would you like to restart Tor?"
+msgstr "您更改了torrc的路径，您想要重启Tor吗？"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File (torrc);;All Files (*)"
+msgstr "Tor配置文件 (torrc);;所有文件 (*)"
+
+msgctxt "AdvancedPage"
+msgid "Select a file to use for Tor socket path"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
+msgstr "自动配置控制端口"
+
+msgctxt "AdvancedPage"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
+"\n"
+"You may need to remove it manually."
+msgstr ""
+"Vidalia 无法删除 Tor 服务。\n"
+"\n"
+"你需要手工将其删除。"
+
+msgctxt "AppearancePage"
+msgid "Language"
+msgstr "语言"
+
+msgctxt "AppearancePage"
+msgid "Choose the language used in Vidalia"
+msgstr "请选择用于 Vidalia 界面显示的语言"
+
+msgctxt "AppearancePage"
+msgid "Style"
+msgstr "风格"
+
+msgctxt "AppearancePage"
+msgid "Choose Vidalia's interface style"
+msgstr "请选择 Vidalia 的界面风格"
+
+msgctxt "AppearancePage"
+msgid "Vidalia was unable to load the selected language translation."
+msgstr "Vidalia 无法载入选中的语言。"
+
+msgctxt "BandwidthGraph"
+msgid "Since:"
+msgstr "起始时间:"
+
+msgctxt "BandwidthGraph"
+msgid "Hide Settings"
+msgstr "隐藏设定"
+
+msgctxt "BandwidthGraph"
+msgid "Show Settings"
+msgstr "显示设定"
+
+msgctxt "BandwidthGraph"
+msgid "Tor Bandwidth Usage"
+msgstr "Tor 带宽使用"
+
+msgctxt "BandwidthGraph"
+msgid "Reset"
+msgstr "复位设定"
+
+msgctxt "BandwidthGraph"
+msgid "Receive Rate"
+msgstr "接收率"
+
+msgctxt "BandwidthGraph"
+msgid "Send Rate"
+msgstr "发送率"
+
+msgctxt "BandwidthGraph"
+msgid "Always on Top"
+msgstr "总在最上"
+
+msgctxt "BandwidthGraph"
+msgid "Style"
+msgstr "风格"
+
+msgctxt "BandwidthGraph"
+msgid "Changes the transparency of the Bandwidth Graph"
+msgstr "请选择带宽显示图形的透明度"
+
+msgctxt "BandwidthGraph"
+msgid "100"
+msgstr "100"
+
+msgctxt "BandwidthGraph"
+msgid "% Opaque"
+msgstr "% 不透明"
+
+msgctxt "BandwidthGraph"
+msgid "Save"
+msgstr "保存"
+
+msgctxt "BandwidthGraph"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "BridgeDownloader"
+msgid "Starting HTTPS bridge request..."
+msgstr "开始 HTTPS 网桥请求..."
+
+msgctxt "BridgeDownloader"
+msgid "Connecting to %1:%2..."
+msgstr "连接到 %1:%2..."
+
+msgctxt "BridgeDownloader"
+msgid "Sending an HTTPS request for bridges..."
+msgstr "发送网桥的 HTTPS 请求..."
+
+msgctxt "BridgeDownloader"
+msgid "Downloading a list of bridges..."
+msgstr "下载网桥的列表..."
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Downloading Bridges"
+msgstr "下载网桥"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Unable to download bridges: %1"
+msgstr "无法下载网桥: %1"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Retrying bridge request..."
+msgstr "重试网桥请求..."
+
+msgctxt "BridgeUsageDialog"
+msgid "Country"
+msgstr "国家"
+
+msgctxt "BridgeUsageDialog"
+msgid "# Clients"
+msgstr "# 客户端"
+
+msgctxt "BridgeUsageDialog"
+msgid "Clients from the following countries have used your relay since %1"
+msgstr "来自下列国家的客户端从 %1 起开始使用您的中继"
+
+msgctxt "BridgeUsageDialog"
+msgid "Bridge Usage Summary"
+msgstr "网桥使用摘要"
+
+msgctxt "BridgeUsageDialog"
+msgid "Client Summary"
+msgstr "客户端摘要"
+
+msgctxt "Circuit"
+msgid "New"
+msgstr "新建"
+
+msgctxt "Circuit"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "Circuit"
+msgid "Building"
+msgstr "正在建立"
+
+msgctxt "Circuit"
+msgid "Failed"
+msgstr "失败"
+
+msgctxt "Circuit"
+msgid "Closed"
+msgstr "已关闭"
+
+msgctxt "Circuit"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "CircuitItem"
+msgid "<Path Empty>"
+msgstr "<空路径>"
+
+msgctxt "CircuitListWidget"
+msgid "Connection"
+msgstr "连接"
+
+msgctxt "CircuitListWidget"
+msgid "Status"
+msgstr "状态"
+
+msgctxt "CircuitListWidget"
+msgid "Zoom to Circuit"
+msgstr "缩放至回路"
+
+msgctxt "CircuitListWidget"
+msgid "Close Circuit (Del)"
+msgstr "删除回路（Del）"
+
+msgctxt "CircuitListWidget"
+msgid "Close Stream (Del)"
+msgstr "删除流（Del）"
+
+msgctxt "ConfigDialog"
+msgid "General"
+msgstr "常规"
+
+msgctxt "ConfigDialog"
+msgid "Network"
+msgstr "网络"
+
+msgctxt "ConfigDialog"
+msgid "Sharing"
+msgstr "分享"
+
+msgctxt "ConfigDialog"
+msgid "Services"
+msgstr "服务"
+
+msgctxt "ConfigDialog"
+msgid "Appearance"
+msgstr "外观"
+
+msgctxt "ConfigDialog"
+msgid "Advanced"
+msgstr "高级"
+
+msgctxt "ConfigDialog"
+msgid "Help"
+msgstr "帮助"
+
+msgctxt "ConfigDialog"
+msgid "Error Saving Settings"
+msgstr "保存设置时发生错误"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to save your %1 settings."
+msgstr "Vidalia 无法保存你的 %1 设置。"
+
+msgctxt "ConfigDialog"
+msgid "Error Applying Settings"
+msgstr "应用设置时发生错误"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to apply your %1 settings to Tor."
+msgstr "Vidalia 无法应用你的 %1 设置于 Tor."
+
+msgctxt "ConfigDialog"
+msgid "Settings"
+msgstr "设置"
+
+msgctxt "ControlConnection"
+msgid "Vidalia was unable to connect to Tor. (%1)"
+msgstr "Vidalia 无法连接至 Tor。 (%1)"
+
+msgctxt "ControlConnection"
+msgid "Control socket is not connected."
+msgstr "控制接口当前未连接。"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Password Required"
+msgstr "需要密码"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Remember my password"
+msgstr "记住我的密码"
+
+msgctxt "ControlPasswordInputDialog"
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr "Vidalia 已经连接至一个运行中的需要密码的 Tor 进程。请输入您的控制密码："
+
+msgctxt "ControlSocket"
+msgid "Control socket is not connected."
+msgstr "控制接口当前未连接。"
+
+msgctxt "ControlSocket"
+msgid "Error sending control command. [%1]"
+msgstr "发送控制命令时发生错误。 [%1]"
+
+msgctxt "ControlSocket"
+msgid "Socket disconnected while attempting to read a line of data."
+msgstr "当尝试读取数据时意外断开接口连接。"
+
+msgctxt "ControlSocket"
+msgid "Invalid control reply. [%1]"
+msgstr "无效控制回应。 [%1]"
+
+msgctxt "CountryInfo"
+msgid "Afghanistan"
+msgstr "阿富汗"
+
+msgctxt "CountryInfo"
+msgid "Andorra"
+msgstr "安道尔"
+
+msgctxt "CountryInfo"
+msgid "Angola"
+msgstr "安哥拉"
+
+msgctxt "CountryInfo"
+msgid "Antigua & Barbuda"
+msgstr "安提瓜和巴布达"
+
+msgctxt "CountryInfo"
+msgid "Argentina"
+msgstr "阿根廷"
+
+msgctxt "CountryInfo"
+msgid "Armenia"
+msgstr "亚美尼亚"
+
+msgctxt "CountryInfo"
+msgid "Australia"
+msgstr "澳大利亚"
+
+msgctxt "CountryInfo"
+msgid "Azerbaijan"
+msgstr "阿塞拜疆"
+
+msgctxt "CountryInfo"
+msgid "Bahamas"
+msgstr "巴哈马"
+
+msgctxt "CountryInfo"
+msgid "Bangladesh"
+msgstr "孟加拉国"
+
+msgctxt "CountryInfo"
+msgid "Barbados"
+msgstr "巴巴多斯"
+
+msgctxt "CountryInfo"
+msgid "Belarus"
+msgstr "白俄罗斯"
+
+msgctxt "CountryInfo"
+msgid "Belgium"
+msgstr "比利时"
+
+msgctxt "CountryInfo"
+msgid "Belize"
+msgstr "伯利兹"
+
+msgctxt "CountryInfo"
+msgid "Bhutan"
+msgstr "不丹"
+
+msgctxt "CountryInfo"
+msgid "Bolivia"
+msgstr "玻利维亚"
+
+msgctxt "CountryInfo"
+msgid "Bosnia & Herzegovina"
+msgstr "波黑"
+
+msgctxt "CountryInfo"
+msgid "Botswana"
+msgstr "博茨瓦纳"
+
+msgctxt "CountryInfo"
+msgid "Brazil"
+msgstr "巴西"
+
+msgctxt "CountryInfo"
+msgid "Brunei Darussalam"
+msgstr "文莱"
+
+msgctxt "CountryInfo"
+msgid "Bulgaria"
+msgstr "保加利亚"
+
+msgctxt "CountryInfo"
+msgid "Burkina Faso"
+msgstr "布基纳法索"
+
+msgctxt "CountryInfo"
+msgid "Burundi"
+msgstr "布隆迪"
+
+msgctxt "CountryInfo"
+msgid "Cambodia"
+msgstr "柬埔寨"
+
+msgctxt "CountryInfo"
+msgid "Cameroon"
+msgstr "喀麦隆"
+
+msgctxt "CountryInfo"
+msgid "Canada"
+msgstr "加拿大"
+
+msgctxt "CountryInfo"
+msgid "Cape Verde"
+msgstr "佛得角"
+
+msgctxt "CountryInfo"
+msgid "Central African Republic"
+msgstr "中非"
+
+msgctxt "CountryInfo"
+msgid "Chad"
+msgstr "乍得"
+
+msgctxt "CountryInfo"
+msgid "Chile"
+msgstr "智利"
+
+msgctxt "CountryInfo"
+msgid "China"
+msgstr "中国"
+
+msgctxt "CountryInfo"
+msgid "Colombia"
+msgstr "哥伦比亚"
+
+msgctxt "CountryInfo"
+msgid "Comoros"
+msgstr "科摩罗"
+
+msgctxt "CountryInfo"
+msgid "Congo, The Democratic Republic of the"
+msgstr "刚果（金）"
+
+msgctxt "CountryInfo"
+msgid "Congo"
+msgstr "刚果"
+
+msgctxt "CountryInfo"
+msgid "Costa Rica"
+msgstr "哥斯达黎加"
+
+msgctxt "CountryInfo"
+msgid "Cote dâIvoire"
+msgstr "科特迪瓦"
+
+msgctxt "CountryInfo"
+msgid "Croatia"
+msgstr "克罗地亚"
+
+msgctxt "CountryInfo"
+msgid "Cuba"
+msgstr "古巴"
+
+msgctxt "CountryInfo"
+msgid "Cyprus"
+msgstr "塞浦路斯"
+
+msgctxt "CountryInfo"
+msgid "Czech Republic"
+msgstr "捷克"
+
+msgctxt "CountryInfo"
+msgid "Denmark"
+msgstr "丹麦"
+
+msgctxt "CountryInfo"
+msgid "Djibouti"
+msgstr "吉布提"
+
+msgctxt "CountryInfo"
+msgid "Dominica"
+msgstr "多米尼加"
+
+msgctxt "CountryInfo"
+msgid "Dominican Republic"
+msgstr "多米尼加共和国"
+
+msgctxt "CountryInfo"
+msgid "Ecuador"
+msgstr "厄瓜多尔"
+
+msgctxt "CountryInfo"
+msgid "Egypt"
+msgstr "埃及"
+
+msgctxt "CountryInfo"
+msgid "El Salvador"
+msgstr "萨尔瓦多"
+
+msgctxt "CountryInfo"
+msgid "Equatorial Guinea"
+msgstr "赤道几内亚"
+
+msgctxt "CountryInfo"
+msgid "Eritrea"
+msgstr "厄立特里亚"
+
+msgctxt "CountryInfo"
+msgid "Estonia"
+msgstr "爱沙尼亚"
+
+msgctxt "CountryInfo"
+msgid "France"
+msgstr "法国"
+
+msgctxt "CountryInfo"
+msgid "Gabon"
+msgstr "加蓬"
+
+msgctxt "CountryInfo"
+msgid "Gambia"
+msgstr "冈比亚"
+
+msgctxt "CountryInfo"
+msgid "Georgia"
+msgstr "格鲁吉亚"
+
+msgctxt "CountryInfo"
+msgid "Germany"
+msgstr "德国"
+
+msgctxt "CountryInfo"
+msgid "Ghana"
+msgstr "加纳"
+
+msgctxt "CountryInfo"
+msgid "Grenada"
+msgstr "格林纳达"
+
+msgctxt "CountryInfo"
+msgid "Guatemala"
+msgstr "危地马拉"
+
+msgctxt "CountryInfo"
+msgid "Guinea"
+msgstr "几内亚"
+
+msgctxt "CountryInfo"
+msgid "Guinea-Bissau"
+msgstr "几内亚比绍"
+
+msgctxt "CountryInfo"
+msgid "Guyana"
+msgstr "圭亚那"
+
+msgctxt "CountryInfo"
+msgid "Hong Kong"
+msgstr "香港"
+
+msgctxt "CountryInfo"
+msgid "Haiti"
+msgstr "海地"
+
+msgctxt "CountryInfo"
+msgid "Honduras"
+msgstr "洪都拉斯"
+
+msgctxt "CountryInfo"
+msgid "Israel"
+msgstr "以色列"
+
+msgctxt "CountryInfo"
+msgid "Italy"
+msgstr "意大利"
+
+msgctxt "CountryInfo"
+msgid "Jamaica"
+msgstr "牙买加"
+
+msgctxt "CountryInfo"
+msgid "Japan"
+msgstr "日本"
+
+msgctxt "CountryInfo"
+msgid "Jordan"
+msgstr "约旦"
+
+msgctxt "CountryInfo"
+msgid "Kazakhstan"
+msgstr "哈萨克斯坦"
+
+msgctxt "CountryInfo"
+msgid "Kenya"
+msgstr "肯尼亚"
+
+msgctxt "CountryInfo"
+msgid "Kiribati"
+msgstr "基里巴斯"
+
+msgctxt "CountryInfo"
+msgid "Kuwait"
+msgstr "科威特"
+
+msgctxt "CountryInfo"
+msgid "Kyrgyzstan"
+msgstr "吉尔吉斯斯坦"
+
+msgctxt "CountryInfo"
+msgid "Laos"
+msgstr "老挝"
+
+msgctxt "CountryInfo"
+msgid "Latvia"
+msgstr "拉脱维亚"
+
+msgctxt "CountryInfo"
+msgid "Lebanon"
+msgstr "黎巴嫩"
+
+msgctxt "CountryInfo"
+msgid "Lesotho"
+msgstr "莱索托"
+
+msgctxt "CountryInfo"
+msgid "Liberia"
+msgstr "利比里亚"
+
+msgctxt "CountryInfo"
+msgid "Liechtenstein"
+msgstr "列支敦士登"
+
+msgctxt "CountryInfo"
+msgid "Lithuania"
+msgstr "立陶宛"
+
+msgctxt "CountryInfo"
+msgid "Luxembourg"
+msgstr "卢森堡"
+
+msgctxt "CountryInfo"
+msgid "Macedonia"
+msgstr "马其顿"
+
+msgctxt "CountryInfo"
+msgid "Madagascar"
+msgstr "马达加斯加"
+
+msgctxt "CountryInfo"
+msgid "Malawi"
+msgstr "马拉维"
+
+msgctxt "CountryInfo"
+msgid "Malaysia"
+msgstr "马来西亚"
+
+msgctxt "CountryInfo"
+msgid "Mali"
+msgstr "马里"
+
+msgctxt "CountryInfo"
+msgid "Malta"
+msgstr "马耳他"
+
+msgctxt "CountryInfo"
+msgid "Marshall Islands"
+msgstr "马绍尔群岛"
+
+msgctxt "CountryInfo"
+msgid "Mauritania"
+msgstr "毛里塔尼亚"
+
+msgctxt "CountryInfo"
+msgid "Mauritius"
+msgstr "毛里求斯"
+
+msgctxt "CountryInfo"
+msgid "Micronesia"
+msgstr "密克罗尼西亚"
+
+msgctxt "CountryInfo"
+msgid "Moldova"
+msgstr "摩尔多瓦"
+
+msgctxt "CountryInfo"
+msgid "Monaco"
+msgstr "摩纳哥"
+
+msgctxt "CountryInfo"
+msgid "Mongolia"
+msgstr "蒙古"
+
+msgctxt "CountryInfo"
+msgid "Montenegro"
+msgstr "黑山"
+
+msgctxt "CountryInfo"
+msgid "Morocco"
+msgstr "摩洛哥"
+
+msgctxt "CountryInfo"
+msgid "Mozambique"
+msgstr "莫桑比克"
+
+msgctxt "CountryInfo"
+msgid "Namibia"
+msgstr "纳米比亚"
+
+msgctxt "CountryInfo"
+msgid "Nauru"
+msgstr "瑙鲁"
+
+msgctxt "CountryInfo"
+msgid "Nepal"
+msgstr "尼泊尔"
+
+msgctxt "CountryInfo"
+msgid "Netherlands"
+msgstr "荷兰"
+
+msgctxt "CountryInfo"
+msgid "New Zealand"
+msgstr "新西兰"
+
+msgctxt "CountryInfo"
+msgid "Nicaragua"
+msgstr "尼加拉瓜"
+
+msgctxt "CountryInfo"
+msgid "Niger"
+msgstr "尼日尔"
+
+msgctxt "CountryInfo"
+msgid "Nigeria"
+msgstr "尼日利亚"
+
+msgctxt "CountryInfo"
+msgid "Norway"
+msgstr "挪威"
+
+msgctxt "CountryInfo"
+msgid "Oman"
+msgstr "阿曼"
+
+msgctxt "CountryInfo"
+msgid "Pakistan"
+msgstr "巴基斯坦"
+
+msgctxt "CountryInfo"
+msgid "Palau"
+msgstr "帕劳"
+
+msgctxt "CountryInfo"
+msgid "Palestine"
+msgstr "巴勒斯坦"
+
+msgctxt "CountryInfo"
+msgid "Panama"
+msgstr "巴拿马"
+
+msgctxt "CountryInfo"
+msgid "Papua New Guinea"
+msgstr "巴布亚新几内亚"
+
+msgctxt "CountryInfo"
+msgid "Paraguay"
+msgstr "巴拉圭"
+
+msgctxt "CountryInfo"
+msgid "Peru"
+msgstr "秘鲁"
+
+msgctxt "CountryInfo"
+msgid "Philippines"
+msgstr "菲律宾"
+
+msgctxt "CountryInfo"
+msgid "Poland"
+msgstr "波兰"
+
+msgctxt "CountryInfo"
+msgid "Portugal"
+msgstr "葡萄牙"
+
+msgctxt "CountryInfo"
+msgid "Qatar"
+msgstr "卡塔尔"
+
+msgctxt "CountryInfo"
+msgid "Romania"
+msgstr "罗马尼亚"
+
+msgctxt "CountryInfo"
+msgid "Russia"
+msgstr "俄罗斯"
+
+msgctxt "CountryInfo"
+msgid "Rwanda"
+msgstr "卢旺达"
+
+msgctxt "CountryInfo"
+msgid "Saint Kitts & Nevis"
+msgstr "圣基茨和尼维斯"
+
+msgctxt "CountryInfo"
+msgid "Saint Lucia"
+msgstr "圣卢西亚"
+
+msgctxt "CountryInfo"
+msgid "Saint Vincent & the Grenadines"
+msgstr "圣文森特和格林纳丁斯"
+
+msgctxt "CountryInfo"
+msgid "Samoa"
+msgstr "萨摩亚"
+
+msgctxt "CountryInfo"
+msgid "San Marino"
+msgstr "圣马力诺"
+
+msgctxt "CountryInfo"
+msgid "Sao Tome & Principe"
+msgstr "圣多美及普林西比"
+
+msgctxt "CountryInfo"
+msgid "Saudi Arabia"
+msgstr "沙特阿拉伯"
+
+msgctxt "CountryInfo"
+msgid "Senegal"
+msgstr "塞内加尔"
+
+msgctxt "CountryInfo"
+msgid "Serbia"
+msgstr "塞尔维亚"
+
+msgctxt "CountryInfo"
+msgid "Seychelles"
+msgstr "塞舌尔"
+
+msgctxt "CountryInfo"
+msgid "Sierra Leone"
+msgstr "塞拉利昂"
+
+msgctxt "CountryInfo"
+msgid "Singapore"
+msgstr "新加坡"
+
+msgctxt "CountryInfo"
+msgid "Slovakia"
+msgstr "斯洛伐克"
+
+msgctxt "CountryInfo"
+msgid "Slovenia"
+msgstr "斯罗文尼亚"
+
+msgctxt "CountryInfo"
+msgid "Solomon Islands"
+msgstr "所罗门群岛"
+
+msgctxt "CountryInfo"
+msgid "Somalia"
+msgstr "索马里"
+
+msgctxt "CountryInfo"
+msgid "South Africa"
+msgstr "南非"
+
+msgctxt "CountryInfo"
+msgid "Spain"
+msgstr "西班牙"
+
+msgctxt "CountryInfo"
+msgid "Sri Lanka"
+msgstr "斯里兰卡"
+
+msgctxt "CountryInfo"
+msgid "Sudan"
+msgstr "苏丹"
+
+msgctxt "CountryInfo"
+msgid "Suriname"
+msgstr "苏里南"
+
+msgctxt "CountryInfo"
+msgid "Swaziland"
+msgstr "斯威士兰"
+
+msgctxt "CountryInfo"
+msgid "Sweden"
+msgstr "瑞典"
+
+msgctxt "CountryInfo"
+msgid "Switzerland"
+msgstr "瑞士"
+
+msgctxt "CountryInfo"
+msgid "Syria"
+msgstr "叙利亚"
+
+msgctxt "CountryInfo"
+msgid "Tajikistan"
+msgstr "塔吉克斯坦"
+
+msgctxt "CountryInfo"
+msgid "Tanzania"
+msgstr "坦桑尼亚"
+
+msgctxt "CountryInfo"
+msgid "Thailand"
+msgstr "泰国"
+
+msgctxt "CountryInfo"
+msgid "Timor-Leste (East Timor)"
+msgstr "东帝汶"
+
+msgctxt "CountryInfo"
+msgid "Togo"
+msgstr "多哥"
+
+msgctxt "CountryInfo"
+msgid "Tonga"
+msgstr "汤加"
+
+msgctxt "CountryInfo"
+msgid "Trinidad & Tobago"
+msgstr "特立尼达和多巴哥"
+
+msgctxt "CountryInfo"
+msgid "Tunisia"
+msgstr "突尼斯"
+
+msgctxt "CountryInfo"
+msgid "Turkey"
+msgstr "土耳其"
+
+msgctxt "CountryInfo"
+msgid "Turkmenistan"
+msgstr "土库曼尼斯坦"
+
+msgctxt "CountryInfo"
+msgid "Tuvalu"
+msgstr "图瓦卢"
+
+msgctxt "CountryInfo"
+msgid "Uganda"
+msgstr "乌干达"
+
+msgctxt "CountryInfo"
+msgid "Ukraine"
+msgstr "乌克兰"
+
+msgctxt "CountryInfo"
+msgid "United Arab Emirates"
+msgstr "阿拉伯联合酋长国"
+
+msgctxt "CountryInfo"
+msgid "United Kingdom"
+msgstr "英国"
+
+msgctxt "CountryInfo"
+msgid "United States"
+msgstr "美国"
+
+msgctxt "CountryInfo"
+msgid "Uruguay"
+msgstr "乌拉圭"
+
+msgctxt "CountryInfo"
+msgid "Uzbekistan"
+msgstr "乌兹别克斯坦"
+
+msgctxt "CountryInfo"
+msgid "Vanuatu"
+msgstr "瓦努阿图"
+
+msgctxt "CountryInfo"
+msgid "Vatican"
+msgstr "梵蒂冈"
+
+msgctxt "CountryInfo"
+msgid "Venezuela"
+msgstr "委内瑞拉"
+
+msgctxt "CountryInfo"
+msgid "Vietnam"
+msgstr "越南"
+
+msgctxt "CountryInfo"
+msgid "Western Sahara"
+msgstr "西撒哈拉"
+
+msgctxt "CountryInfo"
+msgid "Yemen"
+msgstr "也门"
+
+msgctxt "CountryInfo"
+msgid "Zambia"
+msgstr "赞比亚"
+
+msgctxt "CountryInfo"
+msgid "Zimbabwe"
+msgstr "津巴布韦"
+
+msgctxt "CountryInfo"
+msgid "Zaire"
+msgstr "扎伊尔"
+
+msgctxt "CountryInfo"
+msgid "Albania"
+msgstr "阿尔巴尼亚"
+
+msgctxt "CountryInfo"
+msgid "Algeria"
+msgstr "阿尔及利亚"
+
+msgctxt "CountryInfo"
+msgid "Austria"
+msgstr "奥地利"
+
+msgctxt "CountryInfo"
+msgid "Bahrain"
+msgstr "巴林"
+
+msgctxt "CountryInfo"
+msgid "Benin"
+msgstr "贝宁"
+
+msgctxt "CountryInfo"
+msgid "Ethiopia"
+msgstr "埃塞俄比亚"
+
+msgctxt "CountryInfo"
+msgid "Fiji"
+msgstr "斐济"
+
+msgctxt "CountryInfo"
+msgid "Finland"
+msgstr "芬兰"
+
+msgctxt "CountryInfo"
+msgid "Greece"
+msgstr "希腊"
+
+msgctxt "CountryInfo"
+msgid "Guam"
+msgstr "关岛"
+
+msgctxt "CountryInfo"
+msgid "Hungary"
+msgstr "匈牙利"
+
+msgctxt "CountryInfo"
+msgid "Iceland"
+msgstr "冰岛"
+
+msgctxt "CountryInfo"
+msgid "India"
+msgstr "印度"
+
+msgctxt "CountryInfo"
+msgid "Indonesia"
+msgstr "印度尼西亚"
+
+msgctxt "CountryInfo"
+msgid "Iran"
+msgstr "伊朗"
+
+msgctxt "CountryInfo"
+msgid "Iraq"
+msgstr "伊拉克"
+
+msgctxt "CountryInfo"
+msgid "Ireland"
+msgstr "爱尔兰"
+
+msgctxt "CountryInfo"
+msgid "Korea, North"
+msgstr "朝鲜"
+
+msgctxt "CountryInfo"
+msgid "Korea, South"
+msgstr "韩国"
+
+msgctxt "CountryInfo"
+msgid "Libya"
+msgstr "利比亚"
+
+msgctxt "CountryInfo"
+msgid "Maldives"
+msgstr "马尔代夫"
+
+msgctxt "CountryInfo"
+msgid "Mexico"
+msgstr "墨西哥"
+
+msgctxt "CountryInfo"
+msgid "Myanmar"
+msgstr "缅甸"
+
+msgctxt "CountryInfo"
+msgid "Taiwan"
+msgstr "台湾"
+
+msgctxt "CrashReportDialog"
+msgid "Submit a Crash Report"
+msgstr "提交崩溃报告"
+
+msgctxt "CrashReportDialog"
+msgid "Vidalia encountered an error and needed to close"
+msgstr "Vidalia遇到了一个错误，需要关闭"
+
+msgctxt "CrashReportDialog"
+msgid "Restart Vidalia"
+msgstr "重启Vidalia"
+
+msgctxt "CrashReportDialog"
+msgid "Don't Restart"
+msgstr "不重启"
+
+msgctxt "CrashReportDialog"
+msgid "Unable to restart Vidalia"
+msgstr "无法重启Vidalia"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"We were unable to automatically restart Vidalia. Please restart Vidalia "
+"manually."
+msgstr "无法自动重启Vidalia。请手动重启Vidalia。"
+
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+msgstr ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr "一个错误报告已建立。您可以把它发送给Vidalia的开发者以帮助识别并修正问题。提交的报告不包含任何个人身份信息。"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
+msgstr ""
+
+msgctxt "GeneralPage"
+msgid "Executables (*.exe)"
+msgstr "应用程序 (*.exe)"
+
+msgctxt "GeneralPage"
+msgid "Select Path to Tor"
+msgstr "请选择 Tor 的路径"
+
+msgctxt "GeneralPage"
+msgid "Select Proxy Executable"
+msgstr "请选择代理程序"
+
+msgctxt "GeneralPage"
+msgid "You must specify the name of your Tor executable."
+msgstr "您必须指定 Tor 程序的名字。"
+
+msgctxt "GeneralPage"
+msgid "Start Vidalia when my system starts"
+msgstr "系统启动时运行 Vidalia"
+
+msgctxt "GeneralPage"
+msgid "Browse"
+msgstr "浏览"
+
+msgctxt "GeneralPage"
+msgid "Start the Tor software when Vidalia starts"
+msgstr "Vidalia 启动时运行 Tor 软件"
+
+msgctxt "GeneralPage"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application (optional)"
+msgstr "代理程序（可选）"
+
+msgctxt "GeneralPage"
+msgid "Start a proxy application when Tor starts"
+msgstr "Tor 启动时运行代理程序"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application Arguments:"
+msgstr "代理程序参数："
+
+msgctxt "GeneralPage"
+msgid "Software Updates"
+msgstr "软件更新"
+
+msgctxt "GeneralPage"
+msgid "Check for new software updates automatically"
+msgstr "自动检查软件更新"
+
+msgctxt "GeneralPage"
+msgid "Check Now"
+msgstr "现在检查"
+
+msgctxt "GraphFrame"
+msgid "%1 KB/s"
+msgstr "%1 KB/秒"
+
+msgctxt "GraphFrame"
+msgid "%1 KB"
+msgstr "%1 KB"
+
+msgctxt "GraphFrame"
+msgid "%1 MB"
+msgstr "%1 MB"
+
+msgctxt "GraphFrame"
+msgid "%1 GB"
+msgstr "%1 GB"
+
+msgctxt "GraphFrame"
+msgid "Recv:"
+msgstr "已接收："
+
+msgctxt "GraphFrame"
+msgid "Sent:"
+msgstr "已发送："
+
+msgctxt "HelpBrowser"
+msgid "Supplied XML file is not a valid Contents document."
+msgstr "所提供的 XML 文档并非有效的目录文档."
+
+msgctxt "HelpBrowser"
+msgid "Search reached end of document"
+msgstr "搜索已到达文档底部"
+
+msgctxt "HelpBrowser"
+msgid "Search reached start of document"
+msgstr "搜索已到达文档顶部"
+
+msgctxt "HelpBrowser"
+msgid "Text not found in document"
+msgstr "搜索内容未找到"
+
+msgctxt "HelpBrowser"
+msgid "Found %1 results"
+msgstr "发现 %1 个结果"
+
+msgctxt "HelpBrowser"
+msgid "Vidalia Help"
+msgstr "Vidalia 帮助"
+
+msgctxt "HelpBrowser"
+msgid "Back"
+msgstr "返回"
+
+msgctxt "HelpBrowser"
+msgid "Move to previous page (Backspace)"
+msgstr "移至上一页(Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Backspace"
+msgstr "Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Forward"
+msgstr "前进"
+
+msgctxt "HelpBrowser"
+msgid "Move to next page (Shift+Backspace)"
+msgstr "移至下一页(Shift+Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Shift+Backspace"
+msgstr "Shift+Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Home"
+msgstr "主页"
+
+msgctxt "HelpBrowser"
+msgid "Move to the Home page (Ctrl+H)"
+msgstr "移至主页(Ctrl+H)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+msgctxt "HelpBrowser"
+msgid "Find"
+msgstr "查找"
+
+msgctxt "HelpBrowser"
+msgid "Search for a word or phrase on current page (Ctrl+F)"
+msgstr "在当前页搜索关键词或语句(Ctrl+F)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "HelpBrowser"
+msgid "Close"
+msgstr "关闭"
+
+msgctxt "HelpBrowser"
+msgid "Close Vidalia Help"
+msgstr "关闭 Vidalia 帮助"
+
+msgctxt "HelpBrowser"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "HelpBrowser"
+msgid "Find:"
+msgstr "查找:"
+
+msgctxt "HelpBrowser"
+msgid "Find Previous"
+msgstr "查找上一个"
+
+msgctxt "HelpBrowser"
+msgid "Find Next"
+msgstr "查找下一个"
+
+msgctxt "HelpBrowser"
+msgid "Case sensitive"
+msgstr "区分大小写"
+
+msgctxt "HelpBrowser"
+msgid "Whole words only"
+msgstr "匹配全部"
+
+msgctxt "HelpBrowser"
+msgid "Help Topics"
+msgstr "帮助主题"
+
+msgctxt "HelpBrowser"
+msgid "Contents"
+msgstr "目录"
+
+msgctxt "HelpBrowser"
+msgid "Search"
+msgstr "搜索"
+
+msgctxt "HelpBrowser"
+msgid "Searching for:"
+msgstr "搜索:"
+
+msgctxt "HelpBrowser"
+msgid "Found Documents"
+msgstr "搜索结果"
+
+msgctxt "HelpBrowser"
+msgid "Error Loading Help Contents:"
+msgstr "载入帮助时发生了错误："
+
+msgctxt "HelpTextBrowser"
+msgid "Opening External Link"
+msgstr "打开外部链接"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
+msgstr "Vidalia 会在默认的浏览器里打开您选择的链接。如果浏览器没有设置为使用 Tor，请求将不是匿名的。"
+
+msgctxt "HelpTextBrowser"
+msgid "Do you want Vidalia to open the link in your Web browser?"
+msgstr "您希望 Vidalia 在浏览器里打开链接吗？"
+
+msgctxt "HelpTextBrowser"
+msgid "Unable to Open Link"
+msgstr "无法打开链接"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
+msgstr "Vidalia 无法在浏览器里打开您选择的链接。您可以将 URL 复制，然后粘贴到浏览器里。"
+
+msgctxt "HelpTextBrowser"
+msgid "Error opening help file:"
+msgstr "打开帮助文件时发生了错误："
+
+msgctxt "LicenseDialog"
+msgid "License Information"
+msgstr "许可信息"
+
+msgctxt "LicenseDialog"
+msgid "License"
+msgstr "许可"
+
+msgctxt "LicenseDialog"
+msgid "Credits"
+msgstr "致谢"
+
+msgctxt "LogEvent"
+msgid "Debug"
+msgstr "调试"
+
+msgctxt "LogEvent"
+msgid "Info"
+msgstr "信息"
+
+msgctxt "LogEvent"
+msgid "Notice"
+msgstr "注意"
+
+msgctxt "LogEvent"
+msgid "Warning"
+msgstr "警告"
+
+msgctxt "LogEvent"
+msgid "Error"
+msgstr "错误"
+
+msgctxt "LogEvent"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "LogTreeItem"
+msgid "Debug"
+msgstr "调试"
+
+msgctxt "LogTreeItem"
+msgid "Info"
+msgstr "信息"
+
+msgctxt "LogTreeItem"
+msgid "Notice"
+msgstr "注意"
+
+msgctxt "LogTreeItem"
+msgid "Warning"
+msgstr "警告"
+
+msgctxt "LogTreeItem"
+msgid "Error"
+msgstr "错误"
+
+msgctxt "LogTreeItem"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "MainWindow"
+msgid "Start Tor"
+msgstr "启动 Tor"
+
+msgctxt "MainWindow"
+msgid "Exit"
+msgstr "退出"
+
+msgctxt "MainWindow"
+msgid "Bandwidth Graph"
+msgstr "性能图形"
+
+msgctxt "MainWindow"
+msgid "Message Log"
+msgstr "消息日志"
+
+msgctxt "MainWindow"
+msgid "Network Map"
+msgstr "网络地图"
+
+msgctxt "MainWindow"
+msgid "Control Panel"
+msgstr "控制面板"
+
+msgctxt "MainWindow"
+msgid "Settings"
+msgstr "设定"
+
+msgctxt "MainWindow"
+msgid "About"
+msgstr "关于"
+
+msgctxt "MainWindow"
+msgid "Help"
+msgstr "帮助"
+
+msgctxt "MainWindow"
+msgid "New Identity"
+msgstr "更换身份"
+
+msgctxt "MainWindow"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MainWindow"
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+msgctxt "MainWindow"
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+msgctxt "MainWindow"
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+msgctxt "MainWindow"
+msgid "Ctrl+?"
+msgstr "Ctrl+?"
+
+msgctxt "MainWindow"
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+msgctxt "MainWindow"
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+msgctxt "MainWindow"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "MainWindow"
+msgid "View"
+msgstr "查看"
+
+msgctxt "MainWindow"
+msgid "Vidalia Help"
+msgstr "Vidalia 帮助"
+
+msgctxt "MainWindow"
+msgid "Error starting web browser"
+msgstr "启动浏览器时发生了错误"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured web browser"
+msgstr "Vidalia 无法启动选定的浏览器"
+
+msgctxt "MainWindow"
+msgid "Error starting IM client"
+msgstr "启动即时通讯客户端时发生了错误"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured IM client"
+msgstr "Vidalia 无法启动选定的即时通讯客户端"
+
+msgctxt "MainWindow"
+msgid "Error starting proxy server"
+msgstr "启动代理服务器时发生了错误"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured proxy server"
+msgstr "Vidalia 无法启动选定的代理服务器"
+
+msgctxt "MainWindow"
+msgid "Connecting to a relay directory"
+msgstr "连接中继目录"
+
+msgctxt "MainWindow"
+msgid "Establishing an encrypted directory connection"
+msgstr "建立加密的目录连接"
+
+msgctxt "MainWindow"
+msgid "Retrieving network status"
+msgstr "接收网络状态"
+
+msgctxt "MainWindow"
+msgid "Loading network status"
+msgstr "载入网络状态"
+
+msgctxt "MainWindow"
+msgid "Loading authority certificates"
+msgstr "载入授权服务器证书"
+
+msgctxt "MainWindow"
+msgid "Requesting relay information"
+msgstr "请求中继信息"
+
+msgctxt "MainWindow"
+msgid "Loading relay information"
+msgstr "载入中继信息"
+
+msgctxt "MainWindow"
+msgid "Connecting to the Tor network"
+msgstr "连接 Tor 网络"
+
+msgctxt "MainWindow"
+msgid "Establishing a Tor circuit"
+msgstr "建立 Tor 回路"
+
+msgctxt "MainWindow"
+msgid "Connected to the Tor network!"
+msgstr "Tor 网络已经连接！"
+
+msgctxt "MainWindow"
+msgid "Unrecognized startup status"
+msgstr "未知的启动状态"
+
+msgctxt "MainWindow"
+msgid "miscellaneous"
+msgstr "杂项"
+
+msgctxt "MainWindow"
+msgid "identity mismatch"
+msgstr "身份不一致"
+
+msgctxt "MainWindow"
+msgid "done"
+msgstr "结束"
+
+msgctxt "MainWindow"
+msgid "connection refused"
+msgstr "连接被拒绝"
+
+msgctxt "MainWindow"
+msgid "connection timeout"
+msgstr "连接超时"
+
+msgctxt "MainWindow"
+msgid "read/write error"
+msgstr "读写错误"
+
+msgctxt "MainWindow"
+msgid "no route to host"
+msgstr "没有可用链路"
+
+msgctxt "MainWindow"
+msgid "insufficient resources"
+msgstr "资源不够"
+
+msgctxt "MainWindow"
+msgid "unknown"
+msgstr "未知"
+
+msgctxt "MainWindow"
+msgid "Tor is not running"
+msgstr "Tor 未运行"
+
+msgctxt "MainWindow"
+msgid "Tor is shutting down"
+msgstr "正在关闭 Tor"
+
+msgctxt "MainWindow"
+msgid "Stop Tor Now"
+msgstr "立刻停止 Tor"
+
+msgctxt "MainWindow"
+msgid "Stop Tor"
+msgstr "停止 Tor"
+
+msgctxt "MainWindow"
+msgid "Starting the Tor software"
+msgstr "Tor 软件启动中"
+
+msgctxt "MainWindow"
+msgid "Starting Tor"
+msgstr "启动 Tor"
+
+msgctxt "MainWindow"
+msgid "Error Starting Tor"
+msgstr "启动 Tor 时发生错误"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
+msgstr "Vidalia 无法启动 Tor.请检查 Tor 可执行程序的路径以及设定是否正确."
+
+msgctxt "MainWindow"
+msgid "Connecting to Tor"
+msgstr "连接 Tor"
+
+msgctxt "MainWindow"
+msgid "Connection Error"
+msgstr "连接错误"
+
+msgctxt "MainWindow"
+msgid "Relaying is Enabled"
+msgstr "中继功能已启用"
+
+msgctxt "MainWindow"
+msgid "Error Shutting Down"
+msgstr "关闭时发生了错误"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to stop the Tor software."
+msgstr "Vidalia 无法停止 Tor 软件。"
+
+msgctxt "MainWindow"
+msgid "Unexpected Error"
+msgstr "异常错误"
+
+msgctxt "MainWindow"
+msgid "Authenticating to Tor"
+msgstr "Tor 验证中"
+
+msgctxt "MainWindow"
+msgid "Cookie Authentication Required"
+msgstr "需要 Cookie 验证"
+
+msgctxt "MainWindow"
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
+msgstr "Tor 要求 Vidalia 发送 认证Cookie 中的内容但 Vidalia 无法找到 Cookie。"
+
+msgctxt "MainWindow"
+msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
+msgstr "你要自己浏览 'control_auth_cookie' 文件吗?"
+
+msgctxt "MainWindow"
+msgid "Data Directory"
+msgstr "数据目录"
+
+msgctxt "MainWindow"
+msgid "Control Cookie (control_auth_cookie)"
+msgstr "认证Cookie (control_auth_cookie)"
+
+msgctxt "MainWindow"
+msgid "Error Registering for Events"
+msgstr "事件记录错误"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
+msgstr "Vidalia 无法注册某些事件，可能造成 Vidalia 的很多功能不可用。"
+
+msgctxt "MainWindow"
+msgid "Authentication Error"
+msgstr "认证出错"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
+msgstr "Vidalia无法通过Tor软件的认证。(%1)"
+
+msgctxt "MainWindow"
+msgid "Please check your control port authentication settings."
+msgstr "请检查控制端口验证设定."
+
+msgctxt "MainWindow"
+msgid "Tor Update Available"
+msgstr "有可用的 Tor 更新"
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr "目前安装的 Tor 版本已过时或不再推荐使用。请访问 Tor 网站下载最新版。"
+
+msgctxt "MainWindow"
+msgid "Tor website: %1"
+msgstr "Tor 网站：%1"
+
+msgctxt "MainWindow"
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
+msgstr "所有新建连接将会不同于之前的连接."
+
+msgctxt "MainWindow"
+msgid "Failed to Create New Identity"
+msgstr "新身份创建失败"
+
+msgctxt "MainWindow"
+msgid "Port Forwarding Failed"
+msgstr "端口映射失败"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to configure automatic port forwarding."
+msgstr "Vidalia 无法配置端口的自动映射。"
+
+msgctxt "MainWindow"
+msgid "Vidalia Control Panel"
+msgstr "Vidalia 控制面板"
+
+msgctxt "MainWindow"
+msgid "Status"
+msgstr "状态"
+
+msgctxt "MainWindow"
+msgid "Vidalia Shortcuts"
+msgstr "Vidalia 快捷方式"
+
+msgctxt "MainWindow"
+msgid "Setup Relaying"
+msgstr "设置中继服务器\n"
+
+msgctxt "MainWindow"
+msgid "Set up a relay and help the network grow"
+msgstr "创建中继节点帮助Tor网络成长"
+
+msgctxt "MainWindow"
+msgid "View the Network"
+msgstr "查看网络地图"
+
+msgctxt "MainWindow"
+msgid "View a map of the Tor network"
+msgstr "查看 Tor 网络的分布图"
+
+msgctxt "MainWindow"
+msgid "Use a New Identity"
+msgstr "更换身份"
+
+msgctxt "MainWindow"
+msgid "Make subsequent connections appear new"
+msgstr "创建一个新的网络连接"
+
+msgctxt "MainWindow"
+msgid "View recent bandwidth usage"
+msgstr "浏览最近的带宽使用情况"
+
+msgctxt "MainWindow"
+msgid "View log message history"
+msgstr "浏览日志记录"
+
+msgctxt "MainWindow"
+msgid "View help documentation"
+msgstr "查看帮助文档"
+
+msgctxt "MainWindow"
+msgid "Configure Vidalia"
+msgstr "配置 Vidalia"
+
+msgctxt "MainWindow"
+msgid "View version and license information"
+msgstr "查看版本和授权信息"
+
+msgctxt "MainWindow"
+msgid "Exit Vidalia"
+msgstr "退出 Vidalia"
+
+msgctxt "MainWindow"
+msgid "Show this window on startup"
+msgstr "启动时显示此窗口"
+
+msgctxt "MainWindow"
+msgid "Hide"
+msgstr "隐藏"
+
+msgctxt "MainWindow"
+msgid "Hide this window"
+msgstr "隐藏此窗口"
+
+msgctxt "MainWindow"
+msgid "Password Reset Failed"
+msgstr "重置密码失败"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
+msgstr "Vidalia尝试重置Tor的控制密码，但无法重新启动Tor。请检查任务管理器确保没有其他的Tor进程运行。"
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended."
+msgstr "当前安装的Tor版本已经过时，不再推荐使用。"
+
+msgctxt "MainWindow"
+msgid ""
+"Would you like to check if a newer package is available for installation?"
+msgstr "您是否需要检查有无新的安装包可以安装。"
+
+msgctxt "MainWindow"
+msgid "Potentially Unsafe Connection"
+msgstr "潜在的不安全连接"
+
+msgctxt "MainWindow"
+msgid ""
+"Tor has automatically closed your connection in order to protect your "
+"anonymity."
+msgstr "Tor 已经自动关闭了您的连接保护您的匿名性。"
+
+msgctxt "MainWindow"
+msgid "Update Failed"
+msgstr "失败"
+
+msgctxt "MainWindow"
+msgid "Your software is up to date"
+msgstr "您的软件已是最新"
+
+msgctxt "MainWindow"
+msgid ""
+"There are no new Tor software packages available for your computer at this "
+"time."
+msgstr "您的系统目前没有更新的Tor软件包可用。"
+
+msgctxt "MainWindow"
+msgid "Installation Failed"
+msgstr "安装失败"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to install your software updates."
+msgstr "Vidalia 无法安装 Tor 为系统服务."
+
+msgctxt "MainWindow"
+msgid "The following error occurred:"
+msgstr "发生如下错误："
+
+msgctxt "MainWindow"
+msgid ""
+"Anything sent over this connection could be monitored. Please check your "
+"application's configuration and use only encrypted protocols, such as SSL, "
+"if possible."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr "失败（%1）"
+
+msgctxt "MainWindow"
+msgid ""
+"Your relay is shutting down.\n"
+"Click 'Stop' again to stop your relay now."
+msgstr ""
+"正在关闭您的中继服务。\n"
+"再次单击'停止'立刻关闭中继。"
+
+msgctxt "MainWindow"
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new relay?"
+msgstr ""
+"您目前正在运行中继服务。中断中继将意外中断其与各客户端间的连接。\n"
+"\n"
+"您是否想延迟关闭以便给与您的客户端时间转移至新的中继？"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
+"Please check the message log for recent warning or error messages."
+msgstr ""
+"Vidalia检测到Tor软件意外退出。\n"
+"\n"
+"请检查消息日志获取最近的警告及错误信息。"
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr ""
+
+msgctxt "MessageLog"
+msgid "Error Setting Filter"
+msgstr "设定过滤条件时发生错误"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to register for Tor's log events."
+msgstr "Vidalia 无法注册 Tor 日志事件."
+
+msgctxt "MessageLog"
+msgid "Error Opening Log File"
+msgstr "打开日志文件时发生错误"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to open the specified log file."
+msgstr "Vidalia 无法打开指定的日志文件."
+
+msgctxt "MessageLog"
+msgid "Log Filename Required"
+msgstr "必须指定日志文件名"
+
+msgctxt "MessageLog"
+msgid "You must enter a filename to be able to save log messages to a file."
+msgstr "必须指定保存消息文件的文件名."
+
+msgctxt "MessageLog"
+msgid "Select Log File"
+msgstr "请选择日志文件"
+
+msgctxt "MessageLog"
+msgid "Save Log Messages"
+msgstr "保存日志内容"
+
+msgctxt "MessageLog"
+msgid "Text Files (*.txt)"
+msgstr "文本文件 (*.txt)"
+
+msgctxt "MessageLog"
+msgid "Vidalia"
+msgstr "Vidalia"
+
+msgctxt "MessageLog"
+msgid "Find in Message Log"
+msgstr "查找于消息日志"
+
+msgctxt "MessageLog"
+msgid "Find:"
+msgstr "查找:"
+
+msgctxt "MessageLog"
+msgid "Not Found"
+msgstr "未找到"
+
+msgctxt "MessageLog"
+msgid "Search found 0 matches."
+msgstr "找到 0 个匹配结果."
+
+msgctxt "MessageLog"
+msgid "Message Log"
+msgstr "消息日志"
+
+msgctxt "MessageLog"
+msgid "Message Filters..."
+msgstr "消息过滤..."
+
+msgctxt "MessageLog"
+msgid "Set message filters"
+msgstr "设定消息过滤条件"
+
+msgctxt "MessageLog"
+msgid "History Size..."
+msgstr "日志大小..."
+
+msgctxt "MessageLog"
+msgid "Set maximum number of messages to display"
+msgstr "设定消息最大显示的条数"
+
+msgctxt "MessageLog"
+msgid "Clear"
+msgstr "清空"
+
+msgctxt "MessageLog"
+msgid "Clear all messages from the Message Log (Ctrl+E)"
+msgstr "清空消息日志中的全部内容(Ctrl+E)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+E"
+msgstr "Ctrl+E"
+
+msgctxt "MessageLog"
+msgid "Copy"
+msgstr "复制"
+
+msgctxt "MessageLog"
+msgid "Copy the selected messages to the clipboard (Ctrl+C)"
+msgstr "复制选中消息至剪贴板(Ctrl+C)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+msgctxt "MessageLog"
+msgid "Select All"
+msgstr "选择全部"
+
+msgctxt "MessageLog"
+msgid "Select all messages (Ctrl+A)"
+msgstr "选择全部消息(Ctrl+A)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+A"
+msgstr "Ctrl+A"
+
+msgctxt "MessageLog"
+msgid "Save All"
+msgstr "保存全部"
+
+msgctxt "MessageLog"
+msgid "Save all messages to a file"
+msgstr "保存全部消息至文件"
+
+msgctxt "MessageLog"
+msgid "Save Selected"
+msgstr "保存所选"
+
+msgctxt "MessageLog"
+msgid "Save selected messages to a file"
+msgstr "保存所选消息至文件"
+
+msgctxt "MessageLog"
+msgid "Settings"
+msgstr "设定"
+
+msgctxt "MessageLog"
+msgid "Adjust Message Log Settings"
+msgstr "调整消息日志设定"
+
+msgctxt "MessageLog"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MessageLog"
+msgid "Help"
+msgstr "帮助"
+
+msgctxt "MessageLog"
+msgid "Show the help browser"
+msgstr "显示帮助浏览器"
+
+msgctxt "MessageLog"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "MessageLog"
+msgid "Close"
+msgstr "关闭"
+
+msgctxt "MessageLog"
+msgid "Close the Message Log"
+msgstr "关闭消息日志"
+
+msgctxt "MessageLog"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "MessageLog"
+msgid "Find"
+msgstr "查找"
+
+msgctxt "MessageLog"
+msgid "Find all messages containing the search text (Ctrl+F)"
+msgstr "从消息中查找文字(Ctrl+F)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "MessageLog"
+msgid "Time"
+msgstr "时间"
+
+msgctxt "MessageLog"
+msgid "Type"
+msgstr "类型"
+
+msgctxt "MessageLog"
+msgid "Message"
+msgstr "内容"
+
+msgctxt "MessageLog"
+msgid "Saves the current Message Log settings"
+msgstr "保存当前消息日志设定"
+
+msgctxt "MessageLog"
+msgid "Save Settings"
+msgstr "保存设定"
+
+msgctxt "MessageLog"
+msgid "Cancels changes made to settings"
+msgstr "放弃保存已更改的设定"
+
+msgctxt "MessageLog"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "MessageLog"
+msgid "Message Filter"
+msgstr "消息过滤"
+
+msgctxt "MessageLog"
+msgid "Error"
+msgstr "错误"
+
+msgctxt "MessageLog"
+msgid "Warning"
+msgstr "警告"
+
+msgctxt "MessageLog"
+msgid "Notice"
+msgstr "注意"
+
+msgctxt "MessageLog"
+msgid "Info"
+msgstr "信息"
+
+msgctxt "MessageLog"
+msgid "Debug"
+msgstr "调试"
+
+msgctxt "MessageLog"
+msgid "Message Log History"
+msgstr "日志历史记录"
+
+msgctxt "MessageLog"
+msgid "Number of messages to display in the message log window"
+msgstr "在日志窗口显示的消息条数"
+
+msgctxt "MessageLog"
+msgid "messages"
+msgstr "消息"
+
+msgctxt "MessageLog"
+msgid "Browse"
+msgstr "浏览"
+
+msgctxt "MessageLog"
+msgid "Enable automatically saving all new log messages to a file"
+msgstr "启用自动保存消息内容至文件"
+
+msgctxt "MessageLog"
+msgid "Automatically save new log messages to a file"
+msgstr "自动保存新的消息内容至文件"
+
+msgctxt "MessageLog"
+msgid "Basic"
+msgstr "基本法"
+
+msgctxt "MessageLog"
+msgid "Tor Status"
+msgstr "Tor状态"
+
+msgctxt "MessageLog"
+msgid "Advanced"
+msgstr "高级"
+
+msgctxt "MessageLog"
+msgid "Always Save New Log Messages"
+msgstr "总是保存新消息"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
+"gone very wrong and Tor cannot proceed."
+msgstr "此类消息表示有故障发生Tor无法继续执行。"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that only appear when \n"
+"something has gone wrong with Tor."
+msgstr "此类消息表示Tor发生出现问题。"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear infrequently \n"
+"during normal Tor operation and are \n"
+"not considered errors, but you may \n"
+"care about."
+msgstr ""
+"此类消息在Tor运行时偶尔出现\n"
+"并非错误但可能需要关注。"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear frequently \n"
+"during normal Tor operation."
+msgstr "此类消息在Tor正常运行中经常出现。"
+
+msgctxt "MessageLog"
+msgid ""
+"Hyper-verbose messages primarily of \n"
+"interest to Tor developers."
+msgstr "Tor开发者需要的详细消息。"
+
+msgctxt "MessageLog"
+msgid ""
+"Cannot write file %1\n"
+"\n"
+"%2."
+msgstr ""
+"无法写入文件%1\n"
+"\n"
+"%2。"
+
+msgctxt "NetViewer"
+msgid "Tor Network Map"
+msgstr "Tor 网络地图"
+
+msgctxt "NetViewer"
+msgid "Refresh"
+msgstr "刷新"
+
+msgctxt "NetViewer"
+msgid "Refresh the list of Tor relays and connections"
+msgstr "刷新 Tor 中继服务器和连接信息"
+
+msgctxt "NetViewer"
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+msgctxt "NetViewer"
+msgid "Help"
+msgstr "帮助"
+
+msgctxt "NetViewer"
+msgid "Show the network map help"
+msgstr "显示关于网络地图的帮助信息"
+
+msgctxt "NetViewer"
+msgid "Show network map help"
+msgstr "显示网络地图帮助"
+
+msgctxt "NetViewer"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "NetViewer"
+msgid "Close"
+msgstr "关闭"
+
+msgctxt "NetViewer"
+msgid "Close the network map"
+msgstr "关闭网络地图"
+
+msgctxt "NetViewer"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "NetViewer"
+msgid "Zoom In"
+msgstr "放大"
+
+msgctxt "NetViewer"
+msgid "Zoom in on the network map"
+msgstr "放大网络地图"
+
+msgctxt "NetViewer"
+msgid "+"
+msgstr "+"
+
+msgctxt "NetViewer"
+msgid "Zoom Out"
+msgstr "缩小"
+
+msgctxt "NetViewer"
+msgid "Zoom out on the network map"
+msgstr "缩小网络地图"
+
+msgctxt "NetViewer"
+msgid "-"
+msgstr "-"
+
+msgctxt "NetViewer"
+msgid "Zoom To Fit"
+msgstr "适合图像"
+
+msgctxt "NetViewer"
+msgid "Zooms to fit all currently displayed circuits"
+msgstr "缩放网络地图以显示完整回路"
+
+msgctxt "NetViewer"
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+msgctxt "NetViewer"
+msgid "Relay Not Found"
+msgstr "未找到该文件"
+
+msgctxt "NetViewer"
+msgid "No details on the selected relay are available."
+msgstr "尚无所选中继节点的细节信息。"
+
+msgctxt "NetViewer"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "NetViewer"
+msgid "Full Screen"
+msgstr "全屏"
+
+msgctxt "NetViewer"
+msgid "View the network map as a full screen window"
+msgstr "全屏查看网络地图"
+
+msgctxt "NetViewer"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "NetworkPage"
+msgid "Invalid Bridge"
+msgstr "无效网桥"
+
+msgctxt "NetworkPage"
+msgid "The specified bridge identifier is not valid."
+msgstr "指定网桥识别无效"
+
+msgctxt "NetworkPage"
+msgid "Copy (Ctrl+C)"
+msgstr "复制(Ctrl+C)"
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
+msgstr "你必须指定 Tor 用于访问网络的 IP 地址或主机名,以及端口."
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
+msgstr "你必须指定一个或多个端口用于连接防火墙."
+
+msgctxt "NetworkPage"
+msgid "'%1' is not a valid port number."
+msgstr "'%1' 不是一个有效的端口."
+
+msgctxt "NetworkPage"
+msgid "Check if your local network requires a proxy to access the Internet"
+msgstr "如果您的局域网需要代理服务器接入Internet请选择此项"
+
+msgctxt "NetworkPage"
+msgid "I use a proxy to access the Internet"
+msgstr "我使用代理服务器连接到网络"
+
+msgctxt "NetworkPage"
+msgid "Proxy Settings"
+msgstr "代理设定"
+
+msgctxt "NetworkPage"
+msgid "Username:"
+msgstr "用户名"
+
+msgctxt "NetworkPage"
+msgid "Password:"
+msgstr "密码:"
+
+msgctxt "NetworkPage"
+msgid "Port:"
+msgstr "端口:"
+
+msgctxt "NetworkPage"
+msgid "Check to only connect to relays using ports allowed by your firewall"
+msgstr "选择此项Tor将仅连接端口被防火墙所允许的中继。"
+
+msgctxt "NetworkPage"
+msgid "My firewall only lets me connect to certain ports"
+msgstr "我的防火墙只允许我连接到指定端口"
+
+msgctxt "NetworkPage"
+msgid "Firewall Settings"
+msgstr "防火墙设定"
+
+msgctxt "NetworkPage"
+msgid "Allowed Ports:"
+msgstr "允许端口:"
+
+msgctxt "NetworkPage"
+msgid "80, 443"
+msgstr "80, 443"
+
+msgctxt "NetworkPage"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
+msgstr "选择此项则加密目录请求，您还可以选择性地通过 桥接中继 访问Tor网络。"
+
+msgctxt "NetworkPage"
+msgid "My ISP blocks connections to the Tor network"
+msgstr "我的 ISP 阻挡了对 Tor 网络的连接"
+
+msgctxt "NetworkPage"
+msgid "Bridge Settings"
+msgstr "网桥设置"
+
+msgctxt "NetworkPage"
+msgid "Add a Bridge:"
+msgstr "添加一个网桥:"
+
+msgctxt "NetworkPage"
+msgid "Remove the selected bridges from the list"
+msgstr "从列表中移除选中的网桥"
+
+msgctxt "NetworkPage"
+msgid "Copy the selected bridges to the clipboard"
+msgstr "复制选中的网桥至剪贴板"
+
+msgctxt "NetworkPage"
+msgid "Find Bridges Now"
+msgstr "立刻搜索网桥"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How else can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">如何通过其他方式获取网桥?</a>"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">如何才能搜集到网桥?</a>"
+
+msgctxt "NetworkPage"
+msgid ""
+"No new bridges are currently available. You can either wait a while and try "
+"again, or try another method of finding new bridges."
+msgstr "目前没有新网桥可用，您可以稍后再试，或通过其他渠道搜集新网桥。"
+
+msgctxt "NetworkPage"
+msgid "Click Help to see other methods of finding new bridges."
+msgstr "单击帮助查看获取新网桥的其他渠道。"
+
+msgctxt "NetworkPage"
+msgid "Address:"
+msgstr "地址："
+
+msgctxt "NetworkPage"
+msgid "Type:"
+msgstr "类型："
+
+msgctxt "NetworkPage"
+msgid "You must select the proxy type."
+msgstr "您必须选择代理类型。"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 4"
+msgstr "SOCKS 4"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 5"
+msgstr "SOCKS 5"
+
+msgctxt "NetworkPage"
+msgid "HTTP"
+msgstr "HTTP"
+
+msgctxt "NetworkPage"
+msgid "HTTP / HTTPS"
+msgstr "HTTP / HTTPS"
+
+msgctxt "Policy"
+msgid "accept"
+msgstr "接受"
+
+msgctxt "Policy"
+msgid "reject"
+msgstr "拒绝"
+
+msgctxt "RouterDescriptor"
+msgid "Online"
+msgstr "联机"
+
+msgctxt "RouterDescriptor"
+msgid "Hibernating"
+msgstr "休眠"
+
+msgctxt "RouterDescriptor"
+msgid "Offline"
+msgstr "脱机"
+
+msgctxt "RouterDescriptorView"
+msgid "Location:"
+msgstr "地理位置"
+
+msgctxt "RouterDescriptorView"
+msgid "IP Address:"
+msgstr "IP 地址:"
+
+msgctxt "RouterDescriptorView"
+msgid "Platform:"
+msgstr "系统平台:"
+
+msgctxt "RouterDescriptorView"
+msgid "Bandwidth:"
+msgstr "带宽:"
+
+msgctxt "RouterDescriptorView"
+msgid "Uptime:"
+msgstr "运行时间"
+
+msgctxt "RouterDescriptorView"
+msgid "Last Updated:"
+msgstr "最后更新:"
+
+msgctxt "RouterDescriptorView"
+msgid "Copy"
+msgstr "复制"
+
+msgctxt "RouterInfoDialog"
+msgid "Hibernating"
+msgstr "休眠"
+
+msgctxt "RouterInfoDialog"
+msgid "Online"
+msgstr "联机"
+
+msgctxt "RouterInfoDialog"
+msgid "Offline"
+msgstr "脱机"
+
+msgctxt "RouterInfoDialog"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "RouterInfoDialog"
+msgid "Relay Details"
+msgstr "中继详情"
+
+msgctxt "RouterInfoDialog"
+msgid "Summary"
+msgstr "概况"
+
+msgctxt "RouterInfoDialog"
+msgid "Name:"
+msgstr "名称:"
+
+msgctxt "RouterInfoDialog"
+msgid "Status:"
+msgstr "状态"
+
+msgctxt "RouterInfoDialog"
+msgid "Location:"
+msgstr "地理位置"
+
+msgctxt "RouterInfoDialog"
+msgid "IP Address:"
+msgstr "IP 地址:"
+
+msgctxt "RouterInfoDialog"
+msgid "Platform:"
+msgstr "系统平台:"
+
+msgctxt "RouterInfoDialog"
+msgid "Bandwidth:"
+msgstr "带宽:"
+
+msgctxt "RouterInfoDialog"
+msgid "Uptime:"
+msgstr "运行时间"
+
+msgctxt "RouterInfoDialog"
+msgid "Contact:"
+msgstr "信息:"
+
+msgctxt "RouterInfoDialog"
+msgid "Last Updated:"
+msgstr "最后更新:"
+
+msgctxt "RouterInfoDialog"
+msgid "Descriptor"
+msgstr "描述信息块"
+
+msgctxt "RouterListItem"
+msgid "Offline"
+msgstr "脱机"
+
+msgctxt "RouterListItem"
+msgid "Hibernating"
+msgstr "休眠"
+
+msgctxt "RouterListItem"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "RouterListWidget"
+msgid "Relay"
+msgstr "中继"
+
+msgctxt "RouterListWidget"
+msgid "Zoom to Relay"
+msgstr "移动至中继"
+
+msgctxt "RouterListWidget"
+msgid "%1 relays online"
+msgstr "%1 中继在线"
+
+msgctxt "RouterListWidget"
+msgid "Copy"
+msgstr "复制"
+
+msgctxt "RouterListWidget"
+msgid "Nickname"
+msgstr "昵称"
+
+msgctxt "RouterListWidget"
+msgid "Fingerprint"
+msgstr "节点密钥指纹"
+
+msgctxt "ServerPage"
+msgid "Bridge Support Unavailable"
+msgstr "网桥功能不可用"
+
+msgctxt "ServerPage"
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
+msgstr "你已将 Tor 设定为网桥中继服务器,然而你的 Tor 版本并不支持此功能."
+
+msgctxt "ServerPage"
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr "请升级你的 Tor 软件或者将 Tor 设定为普通中继服务器."
+
+msgctxt "ServerPage"
+msgid "Your bridge relay is not running."
+msgstr "您的桥接中继尚未运行"
+
+msgctxt "ServerPage"
+msgid "You must specify at least a relay nickname and port."
+msgstr "你必须指定至少一个中继名称和端口."
+
+msgctxt "ServerPage"
+msgid "Run as a client only"
+msgstr "仅运行客户端功能"
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network"
+msgstr "Tor 网络中继"
+
+msgctxt "ServerPage"
+msgid "Relay Port:"
+msgstr "中继端口:"
+
+msgctxt "ServerPage"
+msgid "Enable to mirror the relay directory"
+msgstr "启用此项为中继目录服务器创建镜像"
+
+msgctxt "ServerPage"
+msgid "Attempt to automatically configure port forwarding"
+msgstr "尝试自动配置端口映射"
+
+msgctxt "ServerPage"
+msgid "Test"
+msgstr "测试"
+
+msgctxt "ServerPage"
+msgid "Show help topic on port forwarding"
+msgstr "显示有关端口映射的帮助主题"
+
+msgctxt "ServerPage"
+msgid "Directory Port:"
+msgstr "目录端口:"
+
+msgctxt "ServerPage"
+msgid "Directory Port Number"
+msgstr "请指定目录端口"
+
+msgctxt "ServerPage"
+msgid "Contact Info:"
+msgstr "信息:"
+
+msgctxt "ServerPage"
+msgid "Name of your relay"
+msgstr "您中继服务的名称"
+
+msgctxt "ServerPage"
+msgid "Port on which users and other relays can communicate with your relay"
+msgstr "您中继服务的端口，供其他用户或中继与其通讯时连接。"
+
+msgctxt "ServerPage"
+msgid "Nickname:"
+msgstr "名称:"
+
+msgctxt "ServerPage"
+msgid "Basic Settings"
+msgstr "基本设定"
+
+msgctxt "ServerPage"
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr "如网络连接的下行速率较大,而上行速度较慢,请选择适用的网络连接类型(主要适用于 DSL 用户)"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 256 Kbps"
+msgstr "宽带/DSL 256 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 512 Kbps"
+msgstr "宽带/DSL 512 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 768 Kbps"
+msgstr "宽带/DSL 768 Kbps"
+
+msgctxt "ServerPage"
+msgid "T1/Cable/DSL 1.5 Mbps"
+msgstr "T1/宽带/DSL 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "> 1.5 Mbps"
+msgstr "带宽大于 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "Custom"
+msgstr "自定义"
+
+msgctxt "ServerPage"
+msgid "Select the entry that most closely resembles your Internet connection"
+msgstr "请选择适合或接近的网络连接类型"
+
+msgctxt "ServerPage"
+msgid "Show help topic on bandwidth rate limits"
+msgstr "显示关于带宽速率限制的相关帮助主题"
+
+msgctxt "ServerPage"
+msgid "Average Rate"
+msgstr "平均速率"
+
+msgctxt "ServerPage"
+msgid "Long-term average bandwidth limit"
+msgstr "长期平均带宽限制"
+
+msgctxt "ServerPage"
+msgid "KB/s"
+msgstr "KB/s"
+
+msgctxt "ServerPage"
+msgid "Maximum Rate"
+msgstr "最大速率"
+
+msgctxt "ServerPage"
+msgid "Peak bandwidth rate limit"
+msgstr "峰值带宽速率限制"
+
+msgctxt "ServerPage"
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr "你的最大带宽速率必须大于或等于你的平均带宽速率.两个数值必须至少 20KB/s"
+
+msgctxt "ServerPage"
+msgid "Bandwidth Limits"
+msgstr "带宽限制"
+
+msgctxt "ServerPage"
+msgid "Ports 6660 - 6669 and 6697"
+msgstr "端口范围: 6660-6669 和 6697"
+
+msgctxt "ServerPage"
+msgid "Internet Relay Chat (IRC)"
+msgstr "IRC 聊天服务"
+
+msgctxt "ServerPage"
+msgid "Ports 110, 143, 993 and 995"
+msgstr "端口范围: 110,143,993 和 995"
+
+msgctxt "ServerPage"
+msgid "Retrieve Mail (POP, IMAP)"
+msgstr "邮件接收服务(POP,IMAP)"
+
+msgctxt "ServerPage"
+msgid "Ports unspecified by other checkboxes"
+msgstr "除以上指定端口外的其它所有端口"
+
+msgctxt "ServerPage"
+msgid "Misc Other Services"
+msgstr "其它服务"
+
+msgctxt "ServerPage"
+msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
+msgstr ""
+"端口范围: 706,1863,5050,5190,5222,8300 和 8888 {706, 1863, 5050, 5190, 5222, "
+"5223, 8300 ?}"
+
+msgctxt "ServerPage"
+msgid "Instant Messaging (IM)"
+msgstr "即时通讯服务(IM)"
+
+msgctxt "ServerPage"
+msgid "Port 443"
+msgstr "端口: 443"
+
+msgctxt "ServerPage"
+msgid "Secure Websites (SSL)"
+msgstr "加密网站(SSL)"
+
+msgctxt "ServerPage"
+msgid "Port 80"
+msgstr "端口: 80"
+
+msgctxt "ServerPage"
+msgid "Websites"
+msgstr "普通网站"
+
+msgctxt "ServerPage"
+msgid "Show help topic on exit policies"
+msgstr "显示关于服务策略的相关帮助主题"
+
+msgctxt "ServerPage"
+msgid ""
+"What Internet resources should users be able to access from your relay?"
+msgstr "用户通过您的中继服务可以访问的Internet资源"
+
+msgctxt "ServerPage"
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
+msgstr "Tor仍会默认拦截某些出站邮件或文件共享程序以减少垃圾邮件及其他网络滥用行为。"
+
+msgctxt "ServerPage"
+msgid "Exit Policies"
+msgstr "服务策略"
+
+msgctxt "ServerPage"
+msgid "Let others access your bridge by giving them this line:"
+msgstr "将此行告诉朋友他们就可以访问您的网桥："
+
+msgctxt "ServerPage"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
+msgstr "此行为您的网桥身份，您可以将其告知他人。"
+
+msgctxt "ServerPage"
+msgid "Copy your bridge relay's identity to the clipboard"
+msgstr "复制网桥身份至剪切板"
+
+msgctxt "ServerPage"
+msgid "No Recent Usage"
+msgstr "最近没有使用"
+
+msgctxt "ServerPage"
+msgid "No clients have used your relay recently."
+msgstr "最近没有客户端使用您的中继"
+
+msgctxt "ServerPage"
+msgid ""
+"Leave your relay running so clients have a better chance of finding and "
+"using it."
+msgstr "保持您的中继运行，让其他客户端有更多的机会发现并使用它。"
+
+msgctxt "ServerPage"
+msgid "Bridge History"
+msgstr "日志历史记录"
+
+msgctxt "ServerPage"
+msgid "Vidalia was unable to retrieve your bridge's usage history."
+msgstr "Vidalia 无法保存你的 %1 设定."
+
+msgctxt "ServerPage"
+msgid ""
+"Tor returned an improperly formatted response when Vidalia requested your "
+"bridge's usage history."
+msgstr "Vidalia请求网桥使用历史时，Tor返回了格式错误的响应。"
+
+msgctxt "ServerPage"
+msgid "The returned response was: %1"
+msgstr "返回的响应为：%1"
+
+msgctxt "ServerPage"
+msgid "Help censored users reach the Tor network"
+msgstr "帮助用户访问 Tor 网络(限于 Tor 0.2.0.3-alpha 或更高版本) {0.2.0.8-?}"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeUsage\">Who has used my bridge?</a>"
+msgstr "<a href=\"#bridgeUsage\">谁曾使用过我的网桥?</a>"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeHelp\">What's this?</a>"
+msgstr "<a href=\"#bridgeHelp\">这是什么？</a>"
+
+msgctxt "ServerPage"
+msgid "Automatically distribute my bridge address"
+msgstr "自动发布我的网桥地址"
+
+msgctxt "ServerPage"
+msgid "Mirror the Relay Directory"
+msgstr "镜像中继目录"
+
+msgctxt "ServerPage"
+msgid ""
+"Email address at which you may be reached if there is a\n"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgstr ""
+"中继故障时联系您的Email地址\n"
+"您还可以同时提供您的PGP/GPG指纹。"
+
+msgctxt "ServicePage"
+msgid "Error while trying to unpublish all services"
+msgstr "取消发布所有服务时出错"
+
+msgctxt "ServicePage"
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
+msgstr "请至少配置一个服务目录并为每项服务配置一个虚拟端口。删除其他的项目。"
+
+msgctxt "ServicePage"
+msgid "Error"
+msgstr "错误"
+
+msgctxt "ServicePage"
+msgid "Please select a Service."
+msgstr "请选择一项服务"
+
+msgctxt "ServicePage"
+msgid "Select Service Directory"
+msgstr "选择服务目录"
+
+msgctxt "ServicePage"
+msgid "Virtual Port may only contain valid port numbers [1..65535]."
+msgstr "虚拟端口必须合法的端口号[1-65535]。"
+
+msgctxt "ServicePage"
+msgid "Target may only contain address:port, address, or port."
+msgstr "目标可必须包含地址:端口、地址或端口。"
+
+msgctxt "ServicePage"
+msgid "Directory already in use by another service."
+msgstr "此目录已被其他服务占用。"
+
+msgctxt "ServicePage"
+msgid "Form"
+msgstr "表单"
+
+msgctxt "ServicePage"
+msgid "Provided Hidden Services"
+msgstr "已提供隐藏服务"
+
+msgctxt "ServicePage"
+msgid "Onion Address"
+msgstr "Oinon地址"
+
+msgctxt "ServicePage"
+msgid "Virtual Port"
+msgstr "虚拟端口"
+
+msgctxt "ServicePage"
+msgid "Target"
+msgstr "本地目标"
+
+msgctxt "ServicePage"
+msgid "Directory Path"
+msgstr "目录位置"
+
+msgctxt "ServicePage"
+msgid "Enabled"
+msgstr "启用"
+
+msgctxt "ServicePage"
+msgid "Add new service to list"
+msgstr "向列表中添加新服务"
+
+msgctxt "ServicePage"
+msgid "Remove selected service from list"
+msgstr "从列表中移除选中的服务"
+
+msgctxt "ServicePage"
+msgid "Copy onion address of selected service to clipboard"
+msgstr "将选中服务的.Onion地址复制到剪贴板"
+
+msgctxt "ServicePage"
+msgid "Browse in local file system and choose directory for selected service"
+msgstr "浏览本地文件系统为所选服务设定服务目录"
+
+msgctxt "ServicePage"
+msgid "Created by Tor"
+msgstr "由Tor创建"
+
+msgctxt "StatusEventWidget"
+msgid "Copy to Clipboard"
+msgstr "复制到剪贴板"
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is Running"
+msgstr "Tor软件正在运行"
+
+msgctxt "StatusEventWidget"
+msgid "You are currently running version \"%1\" of the Tor software."
+msgstr "您当前正在运行版本为 %1 的Tor。"
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is not Running"
+msgstr "Tor未运行"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Click \"Start Tor\" in the Vidalia Control Panel to restart the Tor "
+"software. If Tor exited unexpectedly, select the \"Advanced\" tab above for "
+"details about any errors encountered."
+msgstr ""
+"单击位于 Vidalia 控制面板的“启动 Tor”以重启 Tor 软件。如果 Tor 意外退出，选中顶端的“高级”选项卡以查看所遇到的错误的信息。"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which is no "
+"longer recommended. Please upgrade to the most recent version of the "
+"software, which may contain important security, reliability and performance "
+"fixes."
+msgstr "您正在运行版本为 %1 的 Tor 软件，且此版本已经不再推荐使用。请升级到最新的版本，它可以提升重要的安全性、可靠性与性能。"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which may no "
+"longer work with the current Tor network. Please upgrade to the most recent "
+"version of the software, which may contain important security, reliability "
+"and performance fixes."
+msgstr ""
+"您正在运行版本为 %1 的 Tor 软件，且此版本已不再支持现在的 Tor 网络。请升级到最新的版本，它可以提升重要的安全性、可靠性与性能。"
+
+msgctxt "StatusEventWidget"
+msgid "Your Tor Software is Out-of-date"
+msgstr "您的Tor已过时"
+
+msgctxt "StatusEventWidget"
+msgid "Connected to the Tor Network"
+msgstr "已连接到Tor网络"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"We were able to successfully establish a connection to the Tor network. You "
+"can now configure your applications to use the Internet anonymously."
+msgstr "我们已成功创建一个到 Tor 网络的连接。您可以现在配置您的应用程序以匿名方式访问互联网。"
+
+msgctxt "StatusEventWidget"
+msgid "Tor Software Error"
+msgstr "Tor软件错误"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"The Tor software encountered an internal bug. Please report the following "
+"error message to the Tor developers at bugs.torproject.org: \"%1\""
+msgstr "Tor 软件遇到了一个内部错误。请将下列错误信息通过 bugs.torproject.org 发送给 Tor 的开发者：“%1”"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the past compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the future compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your Computer's Clock is Potentially Incorrect"
+msgstr "您的计算机的时钟可能不正确"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended. For your "
+"protection, Tor has automatically closed this connection."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Potentially Dangerous Connection!"
+msgstr "含有潜在危险的连接！"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications established a connection through Tor to \"%1\" "
+"using a protocol that may leak information about your destination. Please "
+"ensure you configure your applications to use only SOCKS4a or SOCKS5 with "
+"remote hostname resolution."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Unknown SOCKS Protocol"
+msgstr "未知 SOCKS 协议"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor using a"
+" protocol that Tor does not understand. Please ensure you configure your "
+"applications to use only SOCKS4a or SOCKS5 with remote hostname resolution."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Invalid Destination Hostname"
+msgstr "错误目标主机名"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor to "
+"\"%1\", which Tor does not recognize as a valid hostname. Please check your "
+"application's configuration."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "External IP Address Changed"
+msgstr "外部 IP 地址已改变"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined your relay's public IP address is currently %1%2. If that"
+" is not correct, please consider setting the 'Address' option in your "
+"relay's configuration."
+msgstr "Tor已确定您的中继的当前公共IP地址是 %1%2。如果这不正确，请尝试设置中继配置中的地址选项。"
+
+msgctxt "StatusEventWidget"
+msgid "DNS Hijacking Detected"
+msgstr "检测到 DNS 劫持"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for domains"
+" that do not exist. Some ISPs and other DNS providers, such as OpenDNS, are "
+"known to do this in order to display their own search or advertising pages."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for well "
+"known domains. Since clients rely on Tor network relays to provide accurate "
+"DNS repsonses, your relay will not be configured as an exit relay."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Checking Server Port Reachability"
+msgstr "正在检测服务器端口的连接性"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's server port is reachable from the"
+" Tor network by connecting to itself at %1:%2. This test could take several "
+"minutes."
+msgstr "Tor正在尝试确定Tor网络可以连接到您的服务器端口 %1:%2。这可能需要几分钟。"
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Successful!"
+msgstr "服务器端口连接性测试成功！"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's server port is reachable from the Tor network!"
+msgstr "Tor网络可以连接到您的中继服务器的端口！"
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Failed"
+msgstr "服务器端口连接性测试失败"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's server port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and server port, "
+"please check your relay's configuration."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Checking Directory Port Reachability"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's directory port is reachable from "
+"the Tor network by connecting to itself at %1:%2. This test could take "
+"several minutes."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Successful!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's directory port is reachable from the Tor network!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Failed"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's directory port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and directory port,"
+" please check your relay's configuration."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Relay Descriptor Rejected"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's descriptor, which enables clients to connect to your relay, was"
+" rejected by the directory server at %1:%2. The reason given was: %3"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your Relay is Online"
+msgstr "您的中继已在线"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay is now online and available for Tor clients to use. You should "
+"see an increase in network traffic shown by the Bandwidth Graph within a few"
+" hours as more clients learn about your relay. Thank you for contributing to"
+" the Tor network!"
+msgstr ""
+
+msgctxt "Stream"
+msgid "New"
+msgstr "新建"
+
+msgctxt "Stream"
+msgid "Resolving"
+msgstr "正在解析"
+
+msgctxt "Stream"
+msgid "Connecting"
+msgstr "正在连接"
+
+msgctxt "Stream"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "Stream"
+msgid "Failed"
+msgstr "失败"
+
+msgctxt "Stream"
+msgid "Closed"
+msgstr "关闭"
+
+msgctxt "Stream"
+msgid "Retrying"
+msgstr "正在重试"
+
+msgctxt "Stream"
+msgid "Remapped"
+msgstr "重新映射"
+
+msgctxt "Stream"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "TorProcess"
+msgid "Process %1 failed to stop. [%2]"
+msgstr "进程 %1 停止失败. [%2]"
+
+msgctxt "TorService"
+msgid "The Tor service is not installed."
+msgstr "未安装 Tor 服务."
+
+msgctxt "TorService"
+msgid "Unable to start the Tor service."
+msgstr "无法启动 Tor 服务."
+
+msgctxt "TorSettings"
+msgid "Failed to hash the control password."
+msgstr "密码指纹生成失败。"
+
+msgctxt "TorrcDialog"
+msgid "Editing torrc"
+msgstr "正在编辑 torrc"
+
+msgctxt "TorrcDialog"
+msgid ""
+"Save settings. If unchecked it will only apply settings to the current Tor "
+"instance."
+msgstr "保存设置。若取消勾选将只在本次 Tor 运行时生效。"
+
+msgctxt "TorrcDialog"
+msgid "Cut"
+msgstr "剪切"
+
+msgctxt "TorrcDialog"
+msgid "Copy"
+msgstr "复制"
+
+msgctxt "TorrcDialog"
+msgid "Paste"
+msgstr "粘贴"
+
+msgctxt "TorrcDialog"
+msgid "Undo"
+msgstr "撤销"
+
+msgctxt "TorrcDialog"
+msgid "Redo"
+msgstr "重做"
+
+msgctxt "TorrcDialog"
+msgid "Select All"
+msgstr "全部选定"
+
+msgctxt "TorrcDialog"
+msgid "Apply all"
+msgstr "全部接受"
+
+msgctxt "TorrcDialog"
+msgid "Apply selection only"
+msgstr "只接受选定项"
+
+msgctxt "TorrcDialog"
+msgid "Error connecting to Tor"
+msgstr "与Tor连接发生错误"
+
+msgctxt "TorrcDialog"
+msgid "Selection is empty. Please select some text, or check \"Apply all\""
+msgstr "您没有选择任何文本。请选择一些文本，或勾选“全部应用”"
+
+msgctxt "TorrcDialog"
+msgid "Error at line %1: \"%2\""
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Error"
+msgstr "错误"
+
+msgctxt "TorrcDialog"
+msgid "An error ocurred while opening torrc file"
+msgstr "打开torrc文件时发生错误"
+
+msgctxt "UPNPControl"
+msgid "Success"
+msgstr "成功"
+
+msgctxt "UPNPControl"
+msgid "No UPnP-enabled devices found"
+msgstr "未发现任何UPnP支持设备"
+
+msgctxt "UPNPControl"
+msgid "No valid UPnP-enabled Internet gateway devices found"
+msgstr "未发现支持UPnP的Internet网关设备"
+
+msgctxt "UPNPControl"
+msgid "WSAStartup failed"
+msgstr "WSAStartup 函数调用失败"
+
+msgctxt "UPNPControl"
+msgid "Failed to add a port mapping"
+msgstr "无法添加映射端口"
+
+msgctxt "UPNPControl"
+msgid "Failed to retrieve a port mapping"
+msgstr "无法获取映射端口"
+
+msgctxt "UPNPControl"
+msgid "Failed to remove a port mapping"
+msgstr "无法删除映射端口"
+
+msgctxt "UPNPControl"
+msgid "Unknown error"
+msgstr "未知错误"
+
+msgctxt "UPNPTestDialog"
+msgid "Discovering UPnP-enabled devices"
+msgstr "正在搜索UPnP设备"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating directory port mapping"
+msgstr "正在更新目录端口映射"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating relay port mapping"
+msgstr "正在更新端口映射"
+
+msgctxt "UPNPTestDialog"
+msgid "Test completed successfully!"
+msgstr "成功完成测试！"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing UPnP Support"
+msgstr "正在测试UPnP支持"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing Universal Plug & Play Support"
+msgstr "正在测试 Universal Plug & Play 支持"
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because it could "
+"not find '%1'."
+msgstr "Vidalia无法找到“%1”，不能检查软件更新。"
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because Tor's "
+"update process exited unexpectedly."
+msgstr "由于Tor的更新进程以外退出，Vidalia无法检查软件更新。"
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for available updates..."
+msgstr "正在检测有无可用的软件更新..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Hide"
+msgstr "隐藏"
+
+msgctxt "UpdateProgressDialog"
+msgid "Downloading updates..."
+msgstr "正在下载更新..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Installing updated software..."
+msgstr "正在更新软件..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Done! Your software is now up to date."
+msgstr "完成！您的软件已经更新。"
+
+msgctxt "UpdateProgressDialog"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "UpdateProgressDialog"
+msgid "Software Updates"
+msgstr "软件更新"
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for updates..."
+msgstr "正在检查更新..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Software Updates Available"
+msgstr "有可用更新"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Remind Me Later"
+msgstr "以后提醒"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Install"
+msgstr "安装"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "The following updated software packages are ready for installation:"
+msgstr "如下更新软件包已准备好安装："
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Package"
+msgstr "软件包"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Version"
+msgstr "版本"
+
+msgctxt "VMessageBox"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "VMessageBox"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "VMessageBox"
+msgid "Yes"
+msgstr "是"
+
+msgctxt "VMessageBox"
+msgid "No"
+msgstr "否"
+
+msgctxt "VMessageBox"
+msgid "Help"
+msgstr "帮助"
+
+msgctxt "VMessageBox"
+msgid "Retry"
+msgstr "重试"
+
+msgctxt "VMessageBox"
+msgid "Show Log"
+msgstr "显示日志"
+
+msgctxt "VMessageBox"
+msgid "Show Settings"
+msgstr "显示设定"
+
+msgctxt "VMessageBox"
+msgid "Continue"
+msgstr "继续"
+
+msgctxt "VMessageBox"
+msgid "Quit"
+msgstr "退出"
+
+msgctxt "VMessageBox"
+msgid "Browse"
+msgstr "浏览"
+
+msgctxt "Vidalia"
+msgid "Invalid Argument"
+msgstr "无效参数"
+
+msgctxt "Vidalia"
+msgid "Vidalia is already running"
+msgstr "Vidalia 已经运行"
+
+msgctxt "Vidalia"
+msgid "Displays this usage message and exits."
+msgstr "显示使用信息和退出"
+
+msgctxt "Vidalia"
+msgid "Resets ALL stored Vidalia settings."
+msgstr "复位所有储存的 Vidalia 设定."
+
+msgctxt "Vidalia"
+msgid "Sets the directory Vidalia uses for data files."
+msgstr "设定 Vidalia 数据保存位置."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's pidfile."
+msgstr "设定 Vidalia 进程文件的名称和保存位置."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's logfile."
+msgstr "设定 Vidalia 日志文件的名称和保存位置"
+
+msgctxt "Vidalia"
+msgid "Sets the verbosity of Vidalia's logging."
+msgstr "设定 Vidalia 的日志冗余."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's interface style."
+msgstr "设定 Vidalia 的界面样式."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's language."
+msgstr "设定 Vidalia 的界面语言."
+
+msgctxt "Vidalia"
+msgid "Vidalia Usage Information"
+msgstr "Vidalia 使用信息"
+
+msgctxt "Vidalia"
+msgid "Unable to open log file '%1': %2"
+msgstr "无法打开日志文件 '%1': %2"
+
+msgctxt "Vidalia"
+msgid "Value required for parameter :"
+msgstr ""
+
+msgctxt "Vidalia"
+msgid "Invalid language code specified:"
+msgstr "指定语言代码无效："
+
+msgctxt "Vidalia"
+msgid "Invalid GUI style specified:"
+msgstr "指定界面风格无效："
+
+msgctxt "Vidalia"
+msgid "Invalid log level specified:"
+msgstr "指定日志等级无效："
+
+msgctxt "Vidalia"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
+"\n"
+"Would you like to continue starting Vidalia?"
+msgstr ""
+"似乎另一个Vidalia进程已经运行。如果没有其他的Vidalia进程运行，您可以选择继续。\n"
+"\n"
+"您要启动Vidalia吗?"
+
+msgctxt "stringutil.h"
+msgid "%1 secs"
+msgstr "%1 秒"
+
+msgctxt "stringutil.h"
+msgid "%1 B/s"
+msgstr "%1 B/s"
+
+msgctxt "stringutil.h"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 MB/s"
+msgstr "%1 MB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 GB/s"
+msgstr "%1 GB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 days"
+msgstr "%1 日"
+
+msgctxt "stringutil.h"
+msgid "%1 hours"
+msgstr "%1 小时"
+
+msgctxt "stringutil.h"
+msgid "%1 mins"
+msgstr "%1 分"
+
+

@@ -44,39 +44,39 @@ LanguageSupport::languages()
     // languages.insert("eo",    "Esperanto");
     languages.insert("fa",
       QString::fromUtf8("\331\201\330\247\330\261\330\263\333\214"));
-    // languages.insert("fi",    "suomi");
+    languages.insert("fi",    "suomi");
     languages.insert("fr",    
       QString::fromUtf8("fran\303\247ais"));
-    // languages.insert("he",
-    //   QString::fromUtf8("\327\242\327\221\327\250\327\231\327\252"));
+    languages.insert("he",
+      QString::fromUtf8("\327\242\327\221\327\250\327\231\327\252"));
     languages.insert("hu",    "magyar nyelv");
     languages.insert("it",    "Italiano");
-    // languages.insert("id",    "Indonesian");
+    languages.insert("id",    "Indonesian");
     // languages.insert("ja",
     //   QString::fromUtf8("\346\227\245\346\234\254\350\252\236"));
     languages.insert("ko",    "Korean");
-    // languages.insert("nb",    
-    //   QString::fromUtf8("Bokm\303\245l"));
+    languages.insert("nb",    
+      QString::fromUtf8("Bokm\303\245l"));
     languages.insert("nl",    "Nederlands");
     // languages.insert("pl",    "Polski");
     languages.insert("pt",    
       QString::fromUtf8("Portugu\303\252s"));
     languages.insert("pt_BR",    
       QString::fromUtf8("Portugu\303\252s brasileiro"));
-    // languages.insert("ro",
-    //   QString::fromUtf8("rom\303\242n\304\203"));
+    languages.insert("ro",
+      QString::fromUtf8("rom\303\242n\304\203"));
     languages.insert("ru",
       QString::fromUtf8("\320\240\321\203\321\201\321\201\320\272\320\270\320\271"));
     // languages.insert("sq",    "Shqip");
-    // languages.insert("sv",    "svenska");
+    languages.insert("sv",    "svenska");
     // languages.insert("sk",    "Slovak");
     // languages.insert("sr",    "Servian");
     // languages.insert("th",    "Thai");
-    // languages.insert("tr",    QString::fromUtf8("T\303\274rk\303\247e"));
+    languages.insert("tr",    QString::fromUtf8("T\303\274rk\303\247e"));
     // languages.insert("vi",
     //   QString::fromUtf8("ti\341\272\277ng Vi\341\273\207t"));
-    // languages.insert("zh_CN", 
-    //   QString::fromUtf8("\347\256\200\344\275\223\345\255\227"));
+    languages.insert("zh_CN", 
+      QString::fromUtf8("\347\256\200\344\275\223\345\255\227"));
     // languages.insert("zh_TW", 
     //   QString::fromUtf8("\347\260\241\351\253\224\345\255\227"));
   }

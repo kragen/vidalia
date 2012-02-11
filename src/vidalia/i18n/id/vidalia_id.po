@@ -1,0 +1,3994 @@
+# 
+# Translators:
+# daweng  <thedaweng@yahoo.com>, 2011.
+# runasand <runa.sandvik@gmail.com>, 2011.
+#   <thedaweng@yahoo.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2011-09-07 14:40+0000\n"
+"PO-Revision-Date: 2011-09-08 00:47+0000\n"
+"Last-Translator: daweng <thedaweng@yahoo.com>\n"
+"Language-Team: translations@vidalia-project.net\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Vidalia ts2po 0.2\n"
+
+msgctxt "AboutDialog"
+msgid "About Vidalia"
+msgstr "Tentang Vidalia"
+
+msgctxt "AboutDialog"
+msgid "License"
+msgstr "Lisensi"
+
+msgctxt "AboutDialog"
+msgid "Vidalia 0.2.0"
+msgstr "Vidalia 0.2.0"
+
+msgctxt "AboutDialog"
+msgid "Tor 0.2.0.32"
+msgstr "Tor 0.2.0.32"
+
+msgctxt "AboutDialog"
+msgid "Qt 4.4.2"
+msgstr "4.4.2 qt"
+
+msgctxt "AdvancedPage"
+msgid "'%1' is not a valid IP address."
+msgstr "'%1' bukanlah alamat IP yang valid."
+
+msgctxt "AdvancedPage"
+msgid ""
+"You selected 'Password' authentication, but did not specify a password."
+msgstr ""
+"Anda memilih 'Password' authentication, tetapi Anda tidak memberikan "
+"password."
+
+msgctxt "AdvancedPage"
+msgid "Select Tor Configuration File"
+msgstr "Pilih File Konfigurasi Tor"
+
+msgctxt "AdvancedPage"
+msgid "File Not Found"
+msgstr "File tidak ditemukan"
+
+msgctxt "AdvancedPage"
+msgid "%1 does not exist. Would you like to create it?"
+msgstr "%1 tidak ada. Apakah Anda akan membuatnya?"
+
+msgctxt "AdvancedPage"
+msgid "Failed to Create File"
+msgstr "Gagal untuk membuat file"
+
+msgctxt "AdvancedPage"
+msgid "Unable to create %1 [%2]"
+msgstr "Tidak bisa membuat %1 [%2]"
+
+msgctxt "AdvancedPage"
+msgid "Select a Directory to Use for Tor Data"
+msgstr "Pilih Direktori yang akan digunakan untuk Tor Data"
+
+msgctxt "AdvancedPage"
+msgid "Unable to remove Tor Service"
+msgstr "Tidak bisa untuk menghapus Tor Service"
+
+msgctxt "AdvancedPage"
+msgid "Unable to install Tor Service"
+msgstr "Tidak bisa menginstall Tor Service"
+
+msgctxt "AdvancedPage"
+msgid "Vidalia was unable to install the Tor service."
+msgstr "Vidalia tidak bisa menginstall Tor Service"
+
+msgctxt "AdvancedPage"
+msgid "Authentication:"
+msgstr "Autentifikasi:"
+
+msgctxt "AdvancedPage"
+msgid "Address:"
+msgstr "Alamat:"
+
+msgctxt "AdvancedPage"
+msgid "None"
+msgstr "Tidak ada"
+
+msgctxt "AdvancedPage"
+msgid "Cookie"
+msgstr "Cookie"
+
+msgctxt "AdvancedPage"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "AdvancedPage"
+msgid "Randomly Generate"
+msgstr "Hasilkan secara acak"
+
+msgctxt "AdvancedPage"
+msgid ":"
+msgstr ":"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File"
+msgstr "File Konfigurasi Tor"
+
+msgctxt "AdvancedPage"
+msgid "Start the Tor software with the specified configuration file (torrc)"
+msgstr "Jalankan software Tor dengan file konfigurasi spesifik (torrc)"
+
+msgctxt "AdvancedPage"
+msgid "Select path to your configuration file"
+msgstr "Pilih path ke file konfigurasimu"
+
+msgctxt "AdvancedPage"
+msgid "Browse"
+msgstr "Browse"
+
+msgctxt "AdvancedPage"
+msgid "Data Directory"
+msgstr "Direktori Data"
+
+msgctxt "AdvancedPage"
+msgid "Store data for the Tor software in the following directory"
+msgstr "Simpan data untuk software Tor  pada direktori berikut ini"
+
+msgctxt "AdvancedPage"
+msgid "Select the directory used to store data for the Tor software"
+msgstr ""
+"Pilih direktori yang digunakan untuk menyimpan data pada software Tor."
+
+msgctxt "AdvancedPage"
+msgid "Tor Control"
+msgstr "Kontrol "
+
+msgctxt "AdvancedPage"
+msgid "Use TCP connection (ControlPort)"
+msgstr "Gunakan koneksi TCP (ControlPort)"
+
+msgctxt "AdvancedPage"
+msgid "Path:"
+msgstr "Path:"
+
+msgctxt "AdvancedPage"
+msgid "Use Unix domain socket (ControlSocket)"
+msgstr "Gunakan  domain socket Unix(ControlSocket)"
+
+msgctxt "AdvancedPage"
+msgid "Edit current torrc"
+msgstr "Edit torrc saat ini"
+
+msgctxt "AdvancedPage"
+msgid "NOTE: this will edit the currently loaded torrc"
+msgstr "Catatan: ini akan mengedit saat ini dimuat torrc"
+
+msgctxt "AdvancedPage"
+msgid "ControlSocket path doesn't exist."
+msgstr "Path ControlSocket tidak ada."
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor configuration file location contains characters that "
+"cannot be represented in your system's current 8-bit character encoding."
+msgstr ""
+"Lokasi file konfigurasi Tor yang ditentukan berisi karakter yang tidak dapat"
+" diwakili dalam pengkodean karakter saat sistem anda 8-bit."
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor data directory location contains characters that cannot be"
+" represented in your system's current 8-bit character encoding."
+msgstr ""
+"Lokasi direktori data Tor yang ditentukan berisi karakter yang tidak dapat "
+"diwakili dalam pengkodean karakter saat sistem anda 8-bit."
+
+msgctxt "AdvancedPage"
+msgid "Warning"
+msgstr "Peringatan"
+
+msgctxt "AdvancedPage"
+msgid "You changed torrc path, would you like to restart Tor?"
+msgstr "Anda berubah path torrc, apakah Anda ingin me-restart Tor?"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File (torrc);;All Files (*)"
+msgstr "Tor Konfigurasi File (torrc);; All Files (*)"
+
+msgctxt "AdvancedPage"
+msgid "Select a file to use for Tor socket path"
+msgstr "Pilih file untuk digunakan untuk path soket Tor"
+
+msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
+"\n"
+"You may need to remove it manually."
+msgstr ""
+"Vidalia tidak dapat menghapus layanan Tor. Anda mungkin perlu menghapus "
+"secara manual."
+
+msgctxt "AppearancePage"
+msgid "Language"
+msgstr "Bahasa"
+
+msgctxt "AppearancePage"
+msgid "Choose the language used in Vidalia"
+msgstr "Pilih bahasa yang digunakan dalam Vidalia"
+
+msgctxt "AppearancePage"
+msgid "Style"
+msgstr "Ragam"
+
+msgctxt "AppearancePage"
+msgid "Choose Vidalia's interface style"
+msgstr "Pilih ragam interface Vidalia"
+
+msgctxt "AppearancePage"
+msgid "Vidalia was unable to load the selected language translation."
+msgstr "Vidalia tidak bisa memuat bahasa yang dipilih."
+
+msgctxt "BandwidthGraph"
+msgid "Since:"
+msgstr "Sejak:"
+
+msgctxt "BandwidthGraph"
+msgid "Hide Settings"
+msgstr "Sembunyikan Pengaturan"
+
+msgctxt "BandwidthGraph"
+msgid "Show Settings"
+msgstr "Tampilkan Pengaturan"
+
+msgctxt "BandwidthGraph"
+msgid "Tor Bandwidth Usage"
+msgstr "Penggunaan Bandwidth Tor "
+
+msgctxt "BandwidthGraph"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "BandwidthGraph"
+msgid "Receive Rate"
+msgstr "Tingkat Penerimaan"
+
+msgctxt "BandwidthGraph"
+msgid "Send Rate"
+msgstr "Tingkat Pengiriman"
+
+msgctxt "BandwidthGraph"
+msgid "Always on Top"
+msgstr "Selalu diatas"
+
+msgctxt "BandwidthGraph"
+msgid "Style"
+msgstr "Ragam"
+
+msgctxt "BandwidthGraph"
+msgid "Changes the transparency of the Bandwidth Graph"
+msgstr "Ubah transparansi grafik bandwidth"
+
+msgctxt "BandwidthGraph"
+msgid "100"
+msgstr "100"
+
+msgctxt "BandwidthGraph"
+msgid "% Opaque"
+msgstr "% kekusaman"
+
+msgctxt "BandwidthGraph"
+msgid "Save"
+msgstr "Simpan"
+
+msgctxt "BandwidthGraph"
+msgid "Cancel"
+msgstr "Batal"
+
+msgctxt "BridgeDownloader"
+msgid "Starting HTTPS bridge request..."
+msgstr "Mulai meminta penghubung HTTPS ..."
+
+msgctxt "BridgeDownloader"
+msgid "Connecting to %1:%2..."
+msgstr "Menghubungkan ke %1:%2."
+
+msgctxt "BridgeDownloader"
+msgid "Sending an HTTPS request for bridges..."
+msgstr "Mengirim permintaan HTTPS untuk penghubung ..."
+
+msgctxt "BridgeDownloader"
+msgid "Downloading a list of bridges..."
+msgstr "Men-download daftar penghubung ..."
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Downloading Bridges"
+msgstr "Men-download Penghubung"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Unable to download bridges: %1"
+msgstr "Tidak dapat mendownload penghubung: %1"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Retrying bridge request..."
+msgstr "Mencoba kembali permintaan penghubung ..."
+
+msgctxt "BridgeUsageDialog"
+msgid "Country"
+msgstr "Negara"
+
+msgctxt "BridgeUsageDialog"
+msgid "# Clients"
+msgstr "# Klien"
+
+msgctxt "BridgeUsageDialog"
+msgid "Clients from the following countries have used your relay since %1"
+msgstr "Klien dari negara berikut telah menggunakan relay anda sejak %1"
+
+msgctxt "BridgeUsageDialog"
+msgid "Bridge Usage Summary"
+msgstr "Ringkasan Penggunaan Penghubung"
+
+msgctxt "BridgeUsageDialog"
+msgid "Client Summary"
+msgstr "Ringkasan Klien "
+
+msgctxt "Circuit"
+msgid "New"
+msgstr "Baru"
+
+msgctxt "Circuit"
+msgid "Open"
+msgstr "Buka"
+
+msgctxt "Circuit"
+msgid "Building"
+msgstr "Bangunan"
+
+msgctxt "Circuit"
+msgid "Failed"
+msgstr "Gagal"
+
+msgctxt "Circuit"
+msgid "Closed"
+msgstr "Tutup"
+
+msgctxt "Circuit"
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+msgctxt "CircuitItem"
+msgid "<Path Empty>"
+msgstr "<Path Kosong>"
+
+msgctxt "CircuitListWidget"
+msgid "Connection"
+msgstr "Koneksi"
+
+msgctxt "CircuitListWidget"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "CircuitListWidget"
+msgid "Zoom to Circuit"
+msgstr "Zoom ke sirkuit"
+
+msgctxt "CircuitListWidget"
+msgid "Close Circuit (Del)"
+msgstr "Tutup sirkuit (Del)"
+
+msgctxt "CircuitListWidget"
+msgid "Close Stream (Del)"
+msgstr "Tutup Aliran (Del)"
+
+msgctxt "ConfigDialog"
+msgid "General"
+msgstr "Umum"
+
+msgctxt "ConfigDialog"
+msgid "Network"
+msgstr "Jaringan"
+
+msgctxt "ConfigDialog"
+msgid "Sharing"
+msgstr "Berbagi"
+
+msgctxt "ConfigDialog"
+msgid "Services"
+msgstr "Layanan"
+
+msgctxt "ConfigDialog"
+msgid "Appearance"
+msgstr "Penampilan"
+
+msgctxt "ConfigDialog"
+msgid "Advanced"
+msgstr "Tingkat tinggi"
+
+msgctxt "ConfigDialog"
+msgid "Help"
+msgstr "Bantuan"
+
+msgctxt "ConfigDialog"
+msgid "Error Saving Settings"
+msgstr "Error Menyimpan Pengaturan"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to save your %1 settings."
+msgstr "Vidalia tidak bisa menyimpan pengaturan %1. "
+
+msgctxt "ConfigDialog"
+msgid "Error Applying Settings"
+msgstr "Error Menerapkan Pengaturan"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to apply your %1 settings to Tor."
+msgstr "Vidalia tidak bisa menerapkan pengaturan %1 ke Tor."
+
+msgctxt "ConfigDialog"
+msgid "Settings"
+msgstr "Pengaturan"
+
+msgctxt "ControlConnection"
+msgid "Vidalia was unable to connect to Tor. (%1)"
+msgstr "Vidalia tidak bisa terhubung ke Tor. (%1)"
+
+msgctxt "ControlConnection"
+msgid "Control socket is not connected."
+msgstr "Kendali socket tidak terhubung."
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Password Required"
+msgstr "Diperlukan Password"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Remember my password"
+msgstr "Ingat password saya"
+
+msgctxt "ControlPasswordInputDialog"
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr ""
+"Vidalia telah tersambung ke Tor proses berjalan yang membutuhkan password. "
+"Silakan masukkan sandi kendali Anda:"
+
+msgctxt "ControlSocket"
+msgid "Control socket is not connected."
+msgstr "Kendali socket tidak terhubung."
+
+msgctxt "ControlSocket"
+msgid "Error sending control command. [%1]"
+msgstr "Error mengirim perintah kendali. [%1]"
+
+msgctxt "ControlSocket"
+msgid "Socket disconnected while attempting to read a line of data."
+msgstr "Koneksi socket terputus ketika mencoba untuk membaca aliran data."
+
+msgctxt "ControlSocket"
+msgid "Invalid control reply. [%1]"
+msgstr "Balasan Kendali tidak valid. [%1]"
+
+msgctxt "CountryInfo"
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+msgctxt "CountryInfo"
+msgid "Andorra"
+msgstr "Andorra"
+
+msgctxt "CountryInfo"
+msgid "Angola"
+msgstr "Angola"
+
+msgctxt "CountryInfo"
+msgid "Antigua & Barbuda"
+msgstr "Antigua &amp; Barbuda"
+
+msgctxt "CountryInfo"
+msgid "Argentina"
+msgstr "Argentina"
+
+msgctxt "CountryInfo"
+msgid "Armenia"
+msgstr "Armenia"
+
+msgctxt "CountryInfo"
+msgid "Australia"
+msgstr "Australia"
+
+msgctxt "CountryInfo"
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+msgctxt "CountryInfo"
+msgid "Bahamas"
+msgstr "Bahama"
+
+msgctxt "CountryInfo"
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+msgctxt "CountryInfo"
+msgid "Barbados"
+msgstr "Barbados"
+
+msgctxt "CountryInfo"
+msgid "Belarus"
+msgstr "Belarusia"
+
+msgctxt "CountryInfo"
+msgid "Belgium"
+msgstr "Belgia"
+
+msgctxt "CountryInfo"
+msgid "Belize"
+msgstr "Belize"
+
+msgctxt "CountryInfo"
+msgid "Bhutan"
+msgstr "Bhutan"
+
+msgctxt "CountryInfo"
+msgid "Bolivia"
+msgstr "Bolivia"
+
+msgctxt "CountryInfo"
+msgid "Bosnia & Herzegovina"
+msgstr "Bosnia &amp; Herzegovina"
+
+msgctxt "CountryInfo"
+msgid "Botswana"
+msgstr "Botswana"
+
+msgctxt "CountryInfo"
+msgid "Brazil"
+msgstr "Brazil"
+
+msgctxt "CountryInfo"
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+msgctxt "CountryInfo"
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+msgctxt "CountryInfo"
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+msgctxt "CountryInfo"
+msgid "Burundi"
+msgstr "Burundi"
+
+msgctxt "CountryInfo"
+msgid "Cambodia"
+msgstr "Kamboja"
+
+msgctxt "CountryInfo"
+msgid "Cameroon"
+msgstr "Kamerun"
+
+msgctxt "CountryInfo"
+msgid "Canada"
+msgstr "Kanada"
+
+msgctxt "CountryInfo"
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+msgctxt "CountryInfo"
+msgid "Central African Republic"
+msgstr "Republik Afrika Tengah"
+
+msgctxt "CountryInfo"
+msgid "Chad"
+msgstr "Chad"
+
+msgctxt "CountryInfo"
+msgid "Chile"
+msgstr "Chile"
+
+msgctxt "CountryInfo"
+msgid "China"
+msgstr "Cina"
+
+msgctxt "CountryInfo"
+msgid "Colombia"
+msgstr "Kolumbia"
+
+msgctxt "CountryInfo"
+msgid "Comoros"
+msgstr "Komoro"
+
+msgctxt "CountryInfo"
+msgid "Congo, The Democratic Republic of the"
+msgstr "Kongo, Republik Demokratik"
+
+msgctxt "CountryInfo"
+msgid "Congo"
+msgstr "Kongo"
+
+msgctxt "CountryInfo"
+msgid "Costa Rica"
+msgstr "Kosta Rika"
+
+msgctxt "CountryInfo"
+msgid "Cote dâIvoire"
+msgstr "Pantai Gading"
+
+msgctxt "CountryInfo"
+msgid "Croatia"
+msgstr "Kroasia"
+
+msgctxt "CountryInfo"
+msgid "Cuba"
+msgstr "Kuba"
+
+msgctxt "CountryInfo"
+msgid "Cyprus"
+msgstr "Siprus"
+
+msgctxt "CountryInfo"
+msgid "Czech Republic"
+msgstr "Republik Ceko"
+
+msgctxt "CountryInfo"
+msgid "Denmark"
+msgstr "Denmark"
+
+msgctxt "CountryInfo"
+msgid "Djibouti"
+msgstr "Djibouti"
+
+msgctxt "CountryInfo"
+msgid "Dominica"
+msgstr "Dominika"
+
+msgctxt "CountryInfo"
+msgid "Dominican Republic"
+msgstr "Republik Dominika"
+
+msgctxt "CountryInfo"
+msgid "Ecuador"
+msgstr "Ekuador"
+
+msgctxt "CountryInfo"
+msgid "Egypt"
+msgstr "Mesir"
+
+msgctxt "CountryInfo"
+msgid "El Salvador"
+msgstr "El Salvador"
+
+msgctxt "CountryInfo"
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+msgctxt "CountryInfo"
+msgid "Eritrea"
+msgstr "Eritrea"
+
+msgctxt "CountryInfo"
+msgid "Estonia"
+msgstr "Estonia"
+
+msgctxt "CountryInfo"
+msgid "France"
+msgstr "Perancis"
+
+msgctxt "CountryInfo"
+msgid "Gabon"
+msgstr "Gabon"
+
+msgctxt "CountryInfo"
+msgid "Gambia"
+msgstr "Gambia"
+
+msgctxt "CountryInfo"
+msgid "Georgia"
+msgstr "Georgia"
+
+msgctxt "CountryInfo"
+msgid "Germany"
+msgstr "Jerman"
+
+msgctxt "CountryInfo"
+msgid "Ghana"
+msgstr "Ghana"
+
+msgctxt "CountryInfo"
+msgid "Grenada"
+msgstr "Grenada"
+
+msgctxt "CountryInfo"
+msgid "Guatemala"
+msgstr "Guatemala"
+
+msgctxt "CountryInfo"
+msgid "Guinea"
+msgstr "Guinea"
+
+msgctxt "CountryInfo"
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+msgctxt "CountryInfo"
+msgid "Guyana"
+msgstr "Guyana"
+
+msgctxt "CountryInfo"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "CountryInfo"
+msgid "Haiti"
+msgstr "Haiti"
+
+msgctxt "CountryInfo"
+msgid "Honduras"
+msgstr "Honduras"
+
+msgctxt "CountryInfo"
+msgid "Israel"
+msgstr "Israel"
+
+msgctxt "CountryInfo"
+msgid "Italy"
+msgstr "Italia"
+
+msgctxt "CountryInfo"
+msgid "Jamaica"
+msgstr "Jamaika"
+
+msgctxt "CountryInfo"
+msgid "Japan"
+msgstr "Jepang"
+
+msgctxt "CountryInfo"
+msgid "Jordan"
+msgstr "Yordania"
+
+msgctxt "CountryInfo"
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+msgctxt "CountryInfo"
+msgid "Kenya"
+msgstr "Kenya"
+
+msgctxt "CountryInfo"
+msgid "Kiribati"
+msgstr "Kiribati"
+
+msgctxt "CountryInfo"
+msgid "Kuwait"
+msgstr "Kuwait"
+
+msgctxt "CountryInfo"
+msgid "Kyrgyzstan"
+msgstr "Kirgistan"
+
+msgctxt "CountryInfo"
+msgid "Laos"
+msgstr "Laos"
+
+msgctxt "CountryInfo"
+msgid "Latvia"
+msgstr "Latvia"
+
+msgctxt "CountryInfo"
+msgid "Lebanon"
+msgstr "Libanon"
+
+msgctxt "CountryInfo"
+msgid "Lesotho"
+msgstr "Lesotho"
+
+msgctxt "CountryInfo"
+msgid "Liberia"
+msgstr "Liberia"
+
+msgctxt "CountryInfo"
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+msgctxt "CountryInfo"
+msgid "Lithuania"
+msgstr "Lithuania"
+
+msgctxt "CountryInfo"
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+msgctxt "CountryInfo"
+msgid "Macedonia"
+msgstr "Makedonia"
+
+msgctxt "CountryInfo"
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+msgctxt "CountryInfo"
+msgid "Malawi"
+msgstr "Malawi"
+
+msgctxt "CountryInfo"
+msgid "Malaysia"
+msgstr "Malaysia"
+
+msgctxt "CountryInfo"
+msgid "Mali"
+msgstr "Mali"
+
+msgctxt "CountryInfo"
+msgid "Malta"
+msgstr "Malta"
+
+msgctxt "CountryInfo"
+msgid "Marshall Islands"
+msgstr "Kepulauan Marshall"
+
+msgctxt "CountryInfo"
+msgid "Mauritania"
+msgstr "Mauritania"
+
+msgctxt "CountryInfo"
+msgid "Mauritius"
+msgstr "Mauritius"
+
+msgctxt "CountryInfo"
+msgid "Micronesia"
+msgstr "Mikronesia"
+
+msgctxt "CountryInfo"
+msgid "Moldova"
+msgstr "Moldova"
+
+msgctxt "CountryInfo"
+msgid "Monaco"
+msgstr "Monaco"
+
+msgctxt "CountryInfo"
+msgid "Mongolia"
+msgstr "Mongolia"
+
+msgctxt "CountryInfo"
+msgid "Montenegro"
+msgstr "Montenegro"
+
+msgctxt "CountryInfo"
+msgid "Morocco"
+msgstr "Maroko"
+
+msgctxt "CountryInfo"
+msgid "Mozambique"
+msgstr "Mozambik"
+
+msgctxt "CountryInfo"
+msgid "Namibia"
+msgstr "Namibia"
+
+msgctxt "CountryInfo"
+msgid "Nauru"
+msgstr "Nauru"
+
+msgctxt "CountryInfo"
+msgid "Nepal"
+msgstr "Nepal"
+
+msgctxt "CountryInfo"
+msgid "Netherlands"
+msgstr "Belanda"
+
+msgctxt "CountryInfo"
+msgid "New Zealand"
+msgstr "Selandia Baru"
+
+msgctxt "CountryInfo"
+msgid "Nicaragua"
+msgstr "Nikaragua"
+
+msgctxt "CountryInfo"
+msgid "Niger"
+msgstr "Niger"
+
+msgctxt "CountryInfo"
+msgid "Nigeria"
+msgstr "Nigeria"
+
+msgctxt "CountryInfo"
+msgid "Norway"
+msgstr "Norwegia"
+
+msgctxt "CountryInfo"
+msgid "Oman"
+msgstr "Oman"
+
+msgctxt "CountryInfo"
+msgid "Pakistan"
+msgstr "Pakistan"
+
+msgctxt "CountryInfo"
+msgid "Palau"
+msgstr "Palau"
+
+msgctxt "CountryInfo"
+msgid "Palestine"
+msgstr "Palestina"
+
+msgctxt "CountryInfo"
+msgid "Panama"
+msgstr "Panama"
+
+msgctxt "CountryInfo"
+msgid "Papua New Guinea"
+msgstr "Papua Nugini"
+
+msgctxt "CountryInfo"
+msgid "Paraguay"
+msgstr "Paraguai"
+
+msgctxt "CountryInfo"
+msgid "Peru"
+msgstr "Peru"
+
+msgctxt "CountryInfo"
+msgid "Philippines"
+msgstr "Pilipina"
+
+msgctxt "CountryInfo"
+msgid "Poland"
+msgstr "Polandia"
+
+msgctxt "CountryInfo"
+msgid "Portugal"
+msgstr "Portugal"
+
+msgctxt "CountryInfo"
+msgid "Qatar"
+msgstr "Qatar"
+
+msgctxt "CountryInfo"
+msgid "Romania"
+msgstr "Rumania"
+
+msgctxt "CountryInfo"
+msgid "Russia"
+msgstr "Rusia"
+
+msgctxt "CountryInfo"
+msgid "Rwanda"
+msgstr "Rwanda"
+
+msgctxt "CountryInfo"
+msgid "Saint Kitts & Nevis"
+msgstr "Saint Kitts and Nevis"
+
+msgctxt "CountryInfo"
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+msgctxt "CountryInfo"
+msgid "Saint Vincent & the Grenadines"
+msgstr "Saint Vincent and Grenadines"
+
+msgctxt "CountryInfo"
+msgid "Samoa"
+msgstr "Samoa"
+
+msgctxt "CountryInfo"
+msgid "San Marino"
+msgstr "San Marino"
+
+msgctxt "CountryInfo"
+msgid "Sao Tome & Principe"
+msgstr "Sao Tome &amp; Principe"
+
+msgctxt "CountryInfo"
+msgid "Saudi Arabia"
+msgstr "Arab Saudi"
+
+msgctxt "CountryInfo"
+msgid "Senegal"
+msgstr "Senegal"
+
+msgctxt "CountryInfo"
+msgid "Serbia"
+msgstr "Serbia"
+
+msgctxt "CountryInfo"
+msgid "Seychelles"
+msgstr "Sisilia"
+
+msgctxt "CountryInfo"
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+msgctxt "CountryInfo"
+msgid "Singapore"
+msgstr "Singapura"
+
+msgctxt "CountryInfo"
+msgid "Slovakia"
+msgstr "Slowakia"
+
+msgctxt "CountryInfo"
+msgid "Slovenia"
+msgstr "Slovenia"
+
+msgctxt "CountryInfo"
+msgid "Solomon Islands"
+msgstr "Kepulauan Solomon"
+
+msgctxt "CountryInfo"
+msgid "Somalia"
+msgstr "Somalia"
+
+msgctxt "CountryInfo"
+msgid "South Africa"
+msgstr "Afrika Selatan"
+
+msgctxt "CountryInfo"
+msgid "Spain"
+msgstr "Spanyol"
+
+msgctxt "CountryInfo"
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+msgctxt "CountryInfo"
+msgid "Sudan"
+msgstr "Sudan"
+
+msgctxt "CountryInfo"
+msgid "Suriname"
+msgstr "Suriname"
+
+msgctxt "CountryInfo"
+msgid "Swaziland"
+msgstr "Swaziland"
+
+msgctxt "CountryInfo"
+msgid "Sweden"
+msgstr "Swedia"
+
+msgctxt "CountryInfo"
+msgid "Switzerland"
+msgstr "Switzerland"
+
+msgctxt "CountryInfo"
+msgid "Syria"
+msgstr "Suriah"
+
+msgctxt "CountryInfo"
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+msgctxt "CountryInfo"
+msgid "Tanzania"
+msgstr "Tanzania"
+
+msgctxt "CountryInfo"
+msgid "Thailand"
+msgstr "Thailand"
+
+msgctxt "CountryInfo"
+msgid "Timor-Leste (East Timor)"
+msgstr "Timor-Leste (Timor Timur)"
+
+msgctxt "CountryInfo"
+msgid "Togo"
+msgstr "Togo"
+
+msgctxt "CountryInfo"
+msgid "Tonga"
+msgstr "Tonga"
+
+msgctxt "CountryInfo"
+msgid "Trinidad & Tobago"
+msgstr "Trinidad dan Tobago"
+
+msgctxt "CountryInfo"
+msgid "Tunisia"
+msgstr "Tunisia"
+
+msgctxt "CountryInfo"
+msgid "Turkey"
+msgstr "Turki"
+
+msgctxt "CountryInfo"
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+msgctxt "CountryInfo"
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+msgctxt "CountryInfo"
+msgid "Uganda"
+msgstr "Uganda"
+
+msgctxt "CountryInfo"
+msgid "Ukraine"
+msgstr "Ukraina"
+
+msgctxt "CountryInfo"
+msgid "United Arab Emirates"
+msgstr "Uni Emirat Arab"
+
+msgctxt "CountryInfo"
+msgid "United Kingdom"
+msgstr "Inggris"
+
+msgctxt "CountryInfo"
+msgid "United States"
+msgstr "Amerika Serikat"
+
+msgctxt "CountryInfo"
+msgid "Uruguay"
+msgstr "Uruguay"
+
+msgctxt "CountryInfo"
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+msgctxt "CountryInfo"
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+msgctxt "CountryInfo"
+msgid "Vatican"
+msgstr "Vatikan"
+
+msgctxt "CountryInfo"
+msgid "Venezuela"
+msgstr "Venezuela"
+
+msgctxt "CountryInfo"
+msgid "Vietnam"
+msgstr "Vietnam"
+
+msgctxt "CountryInfo"
+msgid "Western Sahara"
+msgstr "Sahara Barat"
+
+msgctxt "CountryInfo"
+msgid "Yemen"
+msgstr "Yaman"
+
+msgctxt "CountryInfo"
+msgid "Zambia"
+msgstr "Zambia"
+
+msgctxt "CountryInfo"
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+msgctxt "CountryInfo"
+msgid "Zaire"
+msgstr "Zaire"
+
+msgctxt "CountryInfo"
+msgid "Albania"
+msgstr "Albania"
+
+msgctxt "CountryInfo"
+msgid "Algeria"
+msgstr "Aljazair"
+
+msgctxt "CountryInfo"
+msgid "Austria"
+msgstr "Austria"
+
+msgctxt "CountryInfo"
+msgid "Bahrain"
+msgstr "Bahrain"
+
+msgctxt "CountryInfo"
+msgid "Benin"
+msgstr "Benin"
+
+msgctxt "CountryInfo"
+msgid "Ethiopia"
+msgstr "Etiopia"
+
+msgctxt "CountryInfo"
+msgid "Fiji"
+msgstr "Fiji"
+
+msgctxt "CountryInfo"
+msgid "Finland"
+msgstr "Finlandia"
+
+msgctxt "CountryInfo"
+msgid "Greece"
+msgstr "Yunani"
+
+msgctxt "CountryInfo"
+msgid "Guam"
+msgstr "Guam"
+
+msgctxt "CountryInfo"
+msgid "Hungary"
+msgstr "Hongaria"
+
+msgctxt "CountryInfo"
+msgid "Iceland"
+msgstr "Islandia"
+
+msgctxt "CountryInfo"
+msgid "India"
+msgstr "India"
+
+msgctxt "CountryInfo"
+msgid "Indonesia"
+msgstr "Indonesia"
+
+msgctxt "CountryInfo"
+msgid "Iran"
+msgstr "Iran"
+
+msgctxt "CountryInfo"
+msgid "Iraq"
+msgstr "Irak"
+
+msgctxt "CountryInfo"
+msgid "Ireland"
+msgstr "Irlandia"
+
+msgctxt "CountryInfo"
+msgid "Korea, North"
+msgstr "Korea Utara"
+
+msgctxt "CountryInfo"
+msgid "Korea, South"
+msgstr "Korea Selatan"
+
+msgctxt "CountryInfo"
+msgid "Libya"
+msgstr "Libya"
+
+msgctxt "CountryInfo"
+msgid "Maldives"
+msgstr "Maladewa"
+
+msgctxt "CountryInfo"
+msgid "Mexico"
+msgstr "Meksiko"
+
+msgctxt "CountryInfo"
+msgid "Myanmar"
+msgstr "Myanmar"
+
+msgctxt "CountryInfo"
+msgid "Taiwan"
+msgstr "Taiwan"
+
+msgctxt "CrashReportDialog"
+msgid "Submit a Crash Report"
+msgstr "Menyampaikan Laporan kerusakan"
+
+msgctxt "CrashReportDialog"
+msgid "Vidalia encountered an error and needed to close"
+msgstr "Vidalia mengalami galat dan dibutuhkan untuk menutup"
+
+msgctxt "CrashReportDialog"
+msgid "Restart Vidalia"
+msgstr "Restart Vidalia"
+
+msgctxt "CrashReportDialog"
+msgid "Don't Restart"
+msgstr "Jangan Restart"
+
+msgctxt "CrashReportDialog"
+msgid "Unable to restart Vidalia"
+msgstr "Tidak dapat me-restart Vidalia"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"We were unable to automatically restart Vidalia. Please restart Vidalia "
+"manually."
+msgstr ""
+"Kami tidak dapat secara otomatis restart Vidalia. Silahkan restart Vidalia "
+"secara manual."
+
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
+msgstr ""
+
+msgctxt "GeneralPage"
+msgid "Executables (*.exe)"
+msgstr "Executables (*.exe)"
+
+msgctxt "GeneralPage"
+msgid "Select Path to Tor"
+msgstr "Pilih path ke Tor"
+
+msgctxt "GeneralPage"
+msgid "Select Proxy Executable"
+msgstr "Pilih Proxy Executable"
+
+msgctxt "GeneralPage"
+msgid "You must specify the name of your Tor executable."
+msgstr "Anda harus merinci nama Tor executable."
+
+msgctxt "GeneralPage"
+msgid "Start Vidalia when my system starts"
+msgstr "Jalankan Vidalia ketika sistem saya berjalan"
+
+msgctxt "GeneralPage"
+msgid "Browse"
+msgstr "Jelajah"
+
+msgctxt "GeneralPage"
+msgid "Start the Tor software when Vidalia starts"
+msgstr "Jalankan software Tor ketika Vidalia berjalan"
+
+msgctxt "GeneralPage"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application (optional)"
+msgstr "Proxy Application (pilihan)"
+
+msgctxt "GeneralPage"
+msgid "Start a proxy application when Tor starts"
+msgstr "Jalankan Proxy Application ketika Tor berjalan"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application Arguments:"
+msgstr "Proxy Application Arguments:"
+
+msgctxt "GeneralPage"
+msgid "Software Updates"
+msgstr "Software Updates"
+
+msgctxt "GeneralPage"
+msgid "Check for new software updates automatically"
+msgstr "Periksa untuk pembaruan perangkat lunak baru secara otomatis"
+
+msgctxt "GeneralPage"
+msgid "Check Now"
+msgstr "Periksa Sekarang"
+
+msgctxt "GraphFrame"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "GraphFrame"
+msgid "%1 KB"
+msgstr "%1 KB"
+
+msgctxt "GraphFrame"
+msgid "%1 MB"
+msgstr "%1 MB"
+
+msgctxt "GraphFrame"
+msgid "%1 GB"
+msgstr "%1 GB"
+
+msgctxt "GraphFrame"
+msgid "Recv:"
+msgstr "Terima:"
+
+msgctxt "GraphFrame"
+msgid "Sent:"
+msgstr "Terkirim:"
+
+msgctxt "HelpBrowser"
+msgid "Supplied XML file is not a valid Contents document."
+msgstr "File XML yang disediakan tidak berisi dokumen yang valid."
+
+msgctxt "HelpBrowser"
+msgid "Search reached end of document"
+msgstr "Pencarian mencapai akhir dari dokumen"
+
+msgctxt "HelpBrowser"
+msgid "Search reached start of document"
+msgstr "Pencarian mencapai awal dari dokumen"
+
+msgctxt "HelpBrowser"
+msgid "Text not found in document"
+msgstr "Teks tidak ditemukan di dokumen"
+
+msgctxt "HelpBrowser"
+msgid "Found %1 results"
+msgstr "Menemukan %1 hasil"
+
+msgctxt "HelpBrowser"
+msgid "Vidalia Help"
+msgstr "Bantuan Vidalia"
+
+msgctxt "HelpBrowser"
+msgid "Back"
+msgstr "Kembali"
+
+msgctxt "HelpBrowser"
+msgid "Move to previous page (Backspace)"
+msgstr "Pindah ke halaman sebelumnya (Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Backspace"
+msgstr "Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Forward"
+msgstr "Maju"
+
+msgctxt "HelpBrowser"
+msgid "Move to next page (Shift+Backspace)"
+msgstr "Pindah ke halaman selanjutnya (Shift+Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Shift+Backspace"
+msgstr "Shift+Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Home"
+msgstr "Home"
+
+msgctxt "HelpBrowser"
+msgid "Move to the Home page (Ctrl+H)"
+msgstr "Pindah ke Home page (Ctrl+H)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+msgctxt "HelpBrowser"
+msgid "Find"
+msgstr "Cari"
+
+msgctxt "HelpBrowser"
+msgid "Search for a word or phrase on current page (Ctrl+F)"
+msgstr "Cari kata atau prase pada halaman ini (Ctrl+F)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "HelpBrowser"
+msgid "Close"
+msgstr "Tutup"
+
+msgctxt "HelpBrowser"
+msgid "Close Vidalia Help"
+msgstr "Tutup Bantuan Vidalia"
+
+msgctxt "HelpBrowser"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "HelpBrowser"
+msgid "Find:"
+msgstr "Cari:"
+
+msgctxt "HelpBrowser"
+msgid "Find Previous"
+msgstr "Cari Sebelumnya"
+
+msgctxt "HelpBrowser"
+msgid "Find Next"
+msgstr "Cari Selanjutnya"
+
+msgctxt "HelpBrowser"
+msgid "Case sensitive"
+msgstr "Besar kecil huruf berpengaruh"
+
+msgctxt "HelpBrowser"
+msgid "Whole words only"
+msgstr "Kata-kata utuh saja"
+
+msgctxt "HelpBrowser"
+msgid "Help Topics"
+msgstr "Topik Bantuan"
+
+msgctxt "HelpBrowser"
+msgid "Contents"
+msgstr "Isi"
+
+msgctxt "HelpBrowser"
+msgid "Search"
+msgstr "Cari"
+
+msgctxt "HelpBrowser"
+msgid "Searching for:"
+msgstr "Mencari:"
+
+msgctxt "HelpBrowser"
+msgid "Found Documents"
+msgstr "Dokumen ditemukan"
+
+msgctxt "HelpBrowser"
+msgid "Error Loading Help Contents:"
+msgstr "Error Memuat Isi Bantuan:"
+
+msgctxt "HelpTextBrowser"
+msgid "Opening External Link"
+msgstr "Membuka Tautan Ekternal"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
+msgstr ""
+"Vidalia dapat membuka tautan yang Anda pilih melalui default browser. Jika "
+"browser Anda tidak dikonfigurasi untuk penggunaan Tor maka aktivitas "
+"browsing Anda tidak anonymous lagi."
+
+msgctxt "HelpTextBrowser"
+msgid "Do you want Vidalia to open the link in your Web browser?"
+msgstr "Anda ingin Vidalia membuka tautan di browser Anda?"
+
+msgctxt "HelpTextBrowser"
+msgid "Unable to Open Link"
+msgstr "Tidak bisa membuka tautan"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
+msgstr ""
+"Vidalia tidak bisa membuka tautan yang dipilih pada browser Anda. Anda dapat"
+" menyalin URL dan menempelkannya pada browser Anda."
+
+msgctxt "HelpTextBrowser"
+msgid "Error opening help file:"
+msgstr "Error membuka file bantuan:"
+
+msgctxt "LicenseDialog"
+msgid "License Information"
+msgstr "Informasi Lisensi"
+
+msgctxt "LicenseDialog"
+msgid "License"
+msgstr "Lisensi"
+
+msgctxt "LicenseDialog"
+msgid "Credits"
+msgstr "Kredit"
+
+msgctxt "LogEvent"
+msgid "Debug"
+msgstr "Debug"
+
+msgctxt "LogEvent"
+msgid "Info"
+msgstr "Informasi"
+
+msgctxt "LogEvent"
+msgid "Notice"
+msgstr "Perhatian"
+
+msgctxt "LogEvent"
+msgid "Warning"
+msgstr "Peringatan"
+
+msgctxt "LogEvent"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "LogEvent"
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+msgctxt "LogTreeItem"
+msgid "Debug"
+msgstr "Debug"
+
+msgctxt "LogTreeItem"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "LogTreeItem"
+msgid "Notice"
+msgstr "Pemberitahuan"
+
+msgctxt "LogTreeItem"
+msgid "Warning"
+msgstr "Peringatan"
+
+msgctxt "LogTreeItem"
+msgid "Error"
+msgstr "Kesalahan"
+
+msgctxt "LogTreeItem"
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+msgctxt "MainWindow"
+msgid "Start Tor"
+msgstr "Jalankan Tor"
+
+msgctxt "MainWindow"
+msgid "Exit"
+msgstr "Keluar"
+
+msgctxt "MainWindow"
+msgid "Bandwidth Graph"
+msgstr "Grafik Bandwidth"
+
+msgctxt "MainWindow"
+msgid "Message Log"
+msgstr "Pesan Log"
+
+msgctxt "MainWindow"
+msgid "Network Map"
+msgstr "Peta Jaringan"
+
+msgctxt "MainWindow"
+msgid "Control Panel"
+msgstr "Panel Kendali"
+
+msgctxt "MainWindow"
+msgid "Settings"
+msgstr "Pengaturan"
+
+msgctxt "MainWindow"
+msgid "About"
+msgstr "Mengenai"
+
+msgctxt "MainWindow"
+msgid "Help"
+msgstr "Bantuan"
+
+msgctxt "MainWindow"
+msgid "New Identity"
+msgstr "Identitas Baru"
+
+msgctxt "MainWindow"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MainWindow"
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+msgctxt "MainWindow"
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+msgctxt "MainWindow"
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+msgctxt "MainWindow"
+msgid "Ctrl+?"
+msgstr "Ctrl+?"
+
+msgctxt "MainWindow"
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+msgctxt "MainWindow"
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+msgctxt "MainWindow"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "MainWindow"
+msgid "View"
+msgstr "Tampilan"
+
+msgctxt "MainWindow"
+msgid "Vidalia Help"
+msgstr "Bantuan Vidalia"
+
+msgctxt "MainWindow"
+msgid "Error starting web browser"
+msgstr "Error menjalankan browser"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured web browser"
+msgstr "Vidalia tidak bisa menjalankan browser yang telah dikonfigurasi"
+
+msgctxt "MainWindow"
+msgid "Error starting IM client"
+msgstr "Error menjalankan IM klien"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured IM client"
+msgstr "Vidalia tidak bisa menjalankan IM klien yang telah dikonfigurasi"
+
+msgctxt "MainWindow"
+msgid "Error starting proxy server"
+msgstr "Error menjalankan proxy server"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured proxy server"
+msgstr "Vidalia tidak bisa menjalankan proxy server yang telah dikonfigurasi"
+
+msgctxt "MainWindow"
+msgid "Connecting to a relay directory"
+msgstr "Menghubungkan diri ke direktori relay"
+
+msgctxt "MainWindow"
+msgid "Establishing an encrypted directory connection"
+msgstr "Membuat koneksi direktori terenkripsi "
+
+msgctxt "MainWindow"
+msgid "Retrieving network status"
+msgstr "Mengambil status jaringan"
+
+msgctxt "MainWindow"
+msgid "Loading network status"
+msgstr "Memuat status jaringan"
+
+msgctxt "MainWindow"
+msgid "Loading authority certificates"
+msgstr "Memuat sertifikat otoritas"
+
+msgctxt "MainWindow"
+msgid "Requesting relay information"
+msgstr "Meminta informasi relay"
+
+msgctxt "MainWindow"
+msgid "Loading relay information"
+msgstr "Memuat informasi relay"
+
+msgctxt "MainWindow"
+msgid "Connecting to the Tor network"
+msgstr "Menghubungkan diri ke jaringan Tor"
+
+msgctxt "MainWindow"
+msgid "Establishing a Tor circuit"
+msgstr "Membuat sirkuit Tor"
+
+msgctxt "MainWindow"
+msgid "Connected to the Tor network!"
+msgstr "Telah terhubung ke jaringan Tor"
+
+msgctxt "MainWindow"
+msgid "Unrecognized startup status"
+msgstr "Status startup tidak dikenal"
+
+msgctxt "MainWindow"
+msgid "miscellaneous"
+msgstr "aneka"
+
+msgctxt "MainWindow"
+msgid "identity mismatch"
+msgstr "identitas tidak cocok"
+
+msgctxt "MainWindow"
+msgid "done"
+msgstr "selesai"
+
+msgctxt "MainWindow"
+msgid "connection refused"
+msgstr "koneksi ditolak"
+
+msgctxt "MainWindow"
+msgid "connection timeout"
+msgstr "waktu koneksi habis"
+
+msgctxt "MainWindow"
+msgid "read/write error"
+msgstr "error baca/tulis"
+
+msgctxt "MainWindow"
+msgid "no route to host"
+msgstr "tidak ada rute ke host"
+
+msgctxt "MainWindow"
+msgid "insufficient resources"
+msgstr "sumber daya tidak mencukupi"
+
+msgctxt "MainWindow"
+msgid "unknown"
+msgstr "tidak diketahui"
+
+msgctxt "MainWindow"
+msgid "Tor is not running"
+msgstr "Tor tidak berjalan"
+
+msgctxt "MainWindow"
+msgid "Tor is shutting down"
+msgstr "Tor mati"
+
+msgctxt "MainWindow"
+msgid "Stop Tor Now"
+msgstr "Hentikan Tor Sekarang"
+
+msgctxt "MainWindow"
+msgid "Stop Tor"
+msgstr "Hentikan Tor"
+
+msgctxt "MainWindow"
+msgid "Starting the Tor software"
+msgstr "Menjalankan software Tor"
+
+msgctxt "MainWindow"
+msgid "Starting Tor"
+msgstr "Menjalankan Tor"
+
+msgctxt "MainWindow"
+msgid "Error Starting Tor"
+msgstr "Error menjalankan Tor"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
+msgstr ""
+"Vidalia tidak bisa menjalankan Tor. Periksa pengaturan Anda untuk memastikan"
+" nama dan lokasi yang benar dari executable Tor Anda."
+
+msgctxt "MainWindow"
+msgid "Connecting to Tor"
+msgstr "Menghubungkan diri ke Tor"
+
+msgctxt "MainWindow"
+msgid "Connection Error"
+msgstr "Error Koneksi"
+
+msgctxt "MainWindow"
+msgid "Relaying is Enabled"
+msgstr "Relay diaktifkan"
+
+msgctxt "MainWindow"
+msgid "Error Shutting Down"
+msgstr "Kesalahan Shutting Down"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to stop the Tor software."
+msgstr "Vidalia tidak dapat menghentikan perangkat lunak Tor."
+
+msgctxt "MainWindow"
+msgid "Unexpected Error"
+msgstr "Kesalahan tak terduga"
+
+msgctxt "MainWindow"
+msgid "Authenticating to Tor"
+msgstr "Otentikasi untuk Tor"
+
+msgctxt "MainWindow"
+msgid "Cookie Authentication Required"
+msgstr "Diperlukan Cookie Otentikasi "
+
+msgctxt "MainWindow"
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
+msgstr ""
+"Perangkat lunak Tor memerlukan Vidalia untuk mengirim isi dari cookie "
+"otentikasi, tapi Vidalia tidak dapat menemukannya."
+
+msgctxt "MainWindow"
+msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
+msgstr "Apakah Anda ingin menelusuri sendiri 'control_auth_cookie' file?"
+
+msgctxt "MainWindow"
+msgid "Data Directory"
+msgstr "Direktori Data"
+
+msgctxt "MainWindow"
+msgid "Control Cookie (control_auth_cookie)"
+msgstr "Cookie Control (control_auth_cookie)"
+
+msgctxt "MainWindow"
+msgid "Error Registering for Events"
+msgstr "Kesalahan memasukkan agenda"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
+msgstr ""
+"Vidalia tidak dapat mendaftar untuk beberapa bagian. Banyak fitur Vidalia "
+"mungkin tidak tersedia."
+
+msgctxt "MainWindow"
+msgid "Authentication Error"
+msgstr "Kesalahan Otentikasi "
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
+msgstr "Vidalia tidak dapat mengotentikasi Perangkat Lunak Tor. (%1)"
+
+msgctxt "MainWindow"
+msgid "Please check your control port authentication settings."
+msgstr "Silakan periksa pengaturan kontrol port otentikasi Anda."
+
+msgctxt "MainWindow"
+msgid "Tor Update Available"
+msgstr "Tor Update Tersedia"
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr ""
+"Versi saat ini terinstal Tor ketinggalan zaman atau tidak lagi dianjurkan. "
+"Silakan kunjungi website Tor untuk mendownload versi terbaru."
+
+msgctxt "MainWindow"
+msgid "Tor website: %1"
+msgstr "Situs web Tor: %1"
+
+msgctxt "MainWindow"
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
+msgstr "Semua koneksi berikutnya akan tampil berbeda dari koneksi lama Anda."
+
+msgctxt "MainWindow"
+msgid "Failed to Create New Identity"
+msgstr "Gagal membuat Identitas Baru"
+
+msgctxt "MainWindow"
+msgid "Port Forwarding Failed"
+msgstr "Gagal Penerusan Port"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to configure automatic port forwarding."
+msgstr "Vidalia tidak dapat mengkonfigurasi port terusan otomatis."
+
+msgctxt "MainWindow"
+msgid "Vidalia Control Panel"
+msgstr "Panel Kontrol Vidalia "
+
+msgctxt "MainWindow"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "MainWindow"
+msgid "Vidalia Shortcuts"
+msgstr "Cara Pintas Vidalia "
+
+msgctxt "MainWindow"
+msgid "Setup Relaying"
+msgstr "Setup Relay\n"
+
+msgctxt "MainWindow"
+msgid "Set up a relay and help the network grow"
+msgstr "Mengatur relay dan membantu jaringan tumbuh"
+
+msgctxt "MainWindow"
+msgid "View the Network"
+msgstr "Lihat Jaringan"
+
+msgctxt "MainWindow"
+msgid "View a map of the Tor network"
+msgstr "Lihat peta jaringan Tor"
+
+msgctxt "MainWindow"
+msgid "Use a New Identity"
+msgstr "Gunakan Identitas Baru"
+
+msgctxt "MainWindow"
+msgid "Make subsequent connections appear new"
+msgstr "Membuat sambungan berikutnya muncul seperti baru"
+
+msgctxt "MainWindow"
+msgid "View recent bandwidth usage"
+msgstr "Lihat penggunaan bandwidth terbaru"
+
+msgctxt "MainWindow"
+msgid "View log message history"
+msgstr "Lihat log rekaman pesan"
+
+msgctxt "MainWindow"
+msgid "View help documentation"
+msgstr "Lihat dokumentasi bantuan"
+
+msgctxt "MainWindow"
+msgid "Configure Vidalia"
+msgstr "Konfigurasi Vidalia"
+
+msgctxt "MainWindow"
+msgid "View version and license information"
+msgstr "Lihat versi dan informasi lisensi"
+
+msgctxt "MainWindow"
+msgid "Exit Vidalia"
+msgstr "Keluar Vidalia"
+
+msgctxt "MainWindow"
+msgid "Show this window on startup"
+msgstr "Tampilkan jendela ini pada startup"
+
+msgctxt "MainWindow"
+msgid "Hide"
+msgstr "Sembunyikan"
+
+msgctxt "MainWindow"
+msgid "Hide this window"
+msgstr "Sembunyikan jendela ini"
+
+msgctxt "MainWindow"
+msgid "Password Reset Failed"
+msgstr "Password Reset Gagal"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
+msgstr ""
+"Vidalia mencoba untuk mereset password kontrol Tor, tetapi tidak dapat me-"
+"restart perangkat lunak Tor. Silakan cek Task Manager untuk memastikan tidak"
+" ada proses Tor lain yang berjalan."
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended."
+msgstr ""
+"Versi saat ini terinstal Tor ketinggalan zaman atau tidak lagi dianjurkan."
+
+msgctxt "MainWindow"
+msgid ""
+"Would you like to check if a newer package is available for installation?"
+msgstr ""
+"Apakah Anda ingin memeriksa apakah paket baru tersedia untuk instalasi?"
+
+msgctxt "MainWindow"
+msgid "Potentially Unsafe Connection"
+msgstr "Koneksi  Berpotensi Tidak Aman"
+
+msgctxt "MainWindow"
+msgid ""
+"Tor has automatically closed your connection in order to protect your "
+"anonymity."
+msgstr "Tor secara otomatis menutup koneksi untuk melindungi penyamaran Anda."
+
+msgctxt "MainWindow"
+msgid "Update Failed"
+msgstr "Perbarui Gagal"
+
+msgctxt "MainWindow"
+msgid "Your software is up to date"
+msgstr "Perangkat lunak Anda telah terbarui"
+
+msgctxt "MainWindow"
+msgid ""
+"There are no new Tor software packages available for your computer at this "
+"time."
+msgstr ""
+"Tidak ada paket perangkat lunak baru Tor tersedia untuk komputer Anda saat "
+"ini."
+
+msgctxt "MainWindow"
+msgid "Installation Failed"
+msgstr "Instalasi Gagal"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to install your software updates."
+msgstr "Vidalia tidak dapat menginstal pembaruan perangkat lunak Anda."
+
+msgctxt "MainWindow"
+msgid "The following error occurred:"
+msgstr "Kesalahan berikut terjadi:"
+
+msgctxt "MainWindow"
+msgid ""
+"Anything sent over this connection could be monitored. Please check your "
+"application's configuration and use only encrypted protocols, such as SSL, "
+"if possible."
+msgstr ""
+"Segala yang dikirim melalui koneksi ini bisa dipantau. Mohon periksa "
+"konfigurasi aplikasi Anda dan hanya menggunakan protokol terenkripsi, "
+"seperti SSL, jika memungkinkan."
+
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr "gagal (%1)"
+
+msgctxt "MainWindow"
+msgid ""
+"Your relay is shutting down.\n"
+"Click 'Stop' again to stop your relay now."
+msgstr ""
+"relay Anda munutup. Klik 'Stop' lagi untuk menghentikan relay Anda sekarang."
+
+msgctxt "MainWindow"
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new relay?"
+msgstr ""
+"Anda sedang menjalankan relay. Mengakhiri relay Anda akan mengganggu koneksi"
+" buka dari klien. Apakah Anda ingin matikan secara sopan dan memberikan "
+"klien waktu untuk mencari relay baru?"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
+"Please check the message log for recent warning or error messages."
+msgstr ""
+"Vidalia mendeteksi bahwa perangkat lunak Tor keluar tak terduga. Silakan "
+"memeriksa log pesan untuk peringatan terbaru atau pesan kesalahan."
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr ""
+
+msgctxt "MessageLog"
+msgid "Error Setting Filter"
+msgstr "Kesalahan Setting Filter"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to register for Tor's log events."
+msgstr "Vidalia tidak dapat meregister log kejadian Tor's."
+
+msgctxt "MessageLog"
+msgid "Error Opening Log File"
+msgstr "Error Membuka File Log"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to open the specified log file."
+msgstr "Vidalia tidak dapat membuka file log yang ditentukan."
+
+msgctxt "MessageLog"
+msgid "Log Filename Required"
+msgstr "Log Filename Diperlukan"
+
+msgctxt "MessageLog"
+msgid "You must enter a filename to be able to save log messages to a file."
+msgstr ""
+"Anda harus memasukkan sebuah nama berkas untuk dapat menyimpan pesan log ke "
+"sebuah file."
+
+msgctxt "MessageLog"
+msgid "Select Log File"
+msgstr "Pilih Log File"
+
+msgctxt "MessageLog"
+msgid "Save Log Messages"
+msgstr "Simpan Pesan Log"
+
+msgctxt "MessageLog"
+msgid "Text Files (*.txt)"
+msgstr "File teks (*. txt)"
+
+msgctxt "MessageLog"
+msgid "Vidalia"
+msgstr "Vidalia"
+
+msgctxt "MessageLog"
+msgid "Find in Message Log"
+msgstr "Cari di pesan Log"
+
+msgctxt "MessageLog"
+msgid "Find:"
+msgstr "Cari:"
+
+msgctxt "MessageLog"
+msgid "Not Found"
+msgstr "Tidak Ditemukan"
+
+msgctxt "MessageLog"
+msgid "Search found 0 matches."
+msgstr "Ditemukan 0 cocok."
+
+msgctxt "MessageLog"
+msgid "Message Log"
+msgstr "Log Pesan "
+
+msgctxt "MessageLog"
+msgid "Message Filters..."
+msgstr "Filter Pesan ..."
+
+msgctxt "MessageLog"
+msgid "Set message filters"
+msgstr "Mengatur pesan filter"
+
+msgctxt "MessageLog"
+msgid "History Size..."
+msgstr "Ukuran histori ..."
+
+msgctxt "MessageLog"
+msgid "Set maximum number of messages to display"
+msgstr "Tetapkan jumlah pesan maksimum untuk ditampilkan"
+
+msgctxt "MessageLog"
+msgid "Clear"
+msgstr "Hapus"
+
+msgctxt "MessageLog"
+msgid "Clear all messages from the Message Log (Ctrl+E)"
+msgstr "Hapus semua pesan dari pesan Log (Ctrl + E)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+E"
+msgstr "Ctrl + E"
+
+msgctxt "MessageLog"
+msgid "Copy"
+msgstr "Salin"
+
+msgctxt "MessageLog"
+msgid "Copy the selected messages to the clipboard (Ctrl+C)"
+msgstr "Salin pesan yang dipilih ke clipboard (Ctrl + C)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+C"
+msgstr "Ctrl + C"
+
+msgctxt "MessageLog"
+msgid "Select All"
+msgstr "Pilih Semua"
+
+msgctxt "MessageLog"
+msgid "Select all messages (Ctrl+A)"
+msgstr "Pilih semua pesan (Ctrl + A)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+A"
+msgstr "Ctrl + A"
+
+msgctxt "MessageLog"
+msgid "Save All"
+msgstr "Simpan Semua"
+
+msgctxt "MessageLog"
+msgid "Save all messages to a file"
+msgstr "Simpan semua pesan ke file"
+
+msgctxt "MessageLog"
+msgid "Save Selected"
+msgstr "Simpan Dipilih"
+
+msgctxt "MessageLog"
+msgid "Save selected messages to a file"
+msgstr "Menyimpan pesan yang dipilih ke file"
+
+msgctxt "MessageLog"
+msgid "Settings"
+msgstr "Pengaturan"
+
+msgctxt "MessageLog"
+msgid "Adjust Message Log Settings"
+msgstr "Sesuaikan pesan Pengaturan log"
+
+msgctxt "MessageLog"
+msgid "Ctrl+T"
+msgstr "Ctrl + T"
+
+msgctxt "MessageLog"
+msgid "Help"
+msgstr "Bantuan"
+
+msgctxt "MessageLog"
+msgid "Show the help browser"
+msgstr "Tampilkan bantuan browser"
+
+msgctxt "MessageLog"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "MessageLog"
+msgid "Close"
+msgstr "Tutup"
+
+msgctxt "MessageLog"
+msgid "Close the Message Log"
+msgstr "Tutup pesan Log"
+
+msgctxt "MessageLog"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "MessageLog"
+msgid "Find"
+msgstr "Cari"
+
+msgctxt "MessageLog"
+msgid "Find all messages containing the search text (Ctrl+F)"
+msgstr "Cari semua pesan yang berisi teks pencarian (Ctrl + F)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+F"
+msgstr "Ctrl + F"
+
+msgctxt "MessageLog"
+msgid "Time"
+msgstr "Waktu"
+
+msgctxt "MessageLog"
+msgid "Type"
+msgstr "Jenis"
+
+msgctxt "MessageLog"
+msgid "Message"
+msgstr "Pesan"
+
+msgctxt "MessageLog"
+msgid "Saves the current Message Log settings"
+msgstr "Menyimpan pesan saat pengaturan Log"
+
+msgctxt "MessageLog"
+msgid "Save Settings"
+msgstr "Simpan Pengaturan"
+
+msgctxt "MessageLog"
+msgid "Cancels changes made to settings"
+msgstr "Membatalkan perubahan yang dilakukan untuk pengaturan"
+
+msgctxt "MessageLog"
+msgid "Cancel"
+msgstr "Membatalkan"
+
+msgctxt "MessageLog"
+msgid "Message Filter"
+msgstr "Filter pesan"
+
+msgctxt "MessageLog"
+msgid "Error"
+msgstr "Kesalahan"
+
+msgctxt "MessageLog"
+msgid "Warning"
+msgstr "Peringatan"
+
+msgctxt "MessageLog"
+msgid "Notice"
+msgstr "Pemberitahuan"
+
+msgctxt "MessageLog"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "MessageLog"
+msgid "Debug"
+msgstr "Debug"
+
+msgctxt "MessageLog"
+msgid "Message Log History"
+msgstr "Pesan Log Sejarah"
+
+msgctxt "MessageLog"
+msgid "Number of messages to display in the message log window"
+msgstr "Jumlah pesan untuk menampilkan di jendela log pesan"
+
+msgctxt "MessageLog"
+msgid "messages"
+msgstr "pesan"
+
+msgctxt "MessageLog"
+msgid "Browse"
+msgstr "Jelajahi"
+
+msgctxt "MessageLog"
+msgid "Enable automatically saving all new log messages to a file"
+msgstr "Aktifkan simpan otomatis semua pesan log baru ke sebuah file"
+
+msgctxt "MessageLog"
+msgid "Automatically save new log messages to a file"
+msgstr "Secara otomatis menyimpan pesan log baru ke sebuah file"
+
+msgctxt "MessageLog"
+msgid "Basic"
+msgstr "Dasar"
+
+msgctxt "MessageLog"
+msgid "Tor Status"
+msgstr "Status Tor "
+
+msgctxt "MessageLog"
+msgid "Advanced"
+msgstr "Lebih lanjut"
+
+msgctxt "MessageLog"
+msgid "Always Save New Log Messages"
+msgstr "Selalu Simpan Pesan Log Baru"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
+"gone very wrong and Tor cannot proceed."
+msgstr ""
+"Pesan yang muncul ketika sesuatu telah sangat salah dan Tor tidak dapat "
+"dilanjutkan."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that only appear when \n"
+"something has gone wrong with Tor."
+msgstr "Pesan yang hanya muncul ketika sesuatu yang tidak beres dengan Tor."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear infrequently \n"
+"during normal Tor operation and are \n"
+"not considered errors, but you may \n"
+"care about."
+msgstr ""
+"Pesan yang muncul jarang selama operasi Tor normal dan tidak dianggap "
+"sebagai kesalahan, tetapi Anda mungkin peduli."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear frequently \n"
+"during normal Tor operation."
+msgstr "Pesan yang sering muncul selama operasi normal Tor."
+
+msgctxt "MessageLog"
+msgid ""
+"Hyper-verbose messages primarily of \n"
+"interest to Tor developers."
+msgstr "Hyper-verbose pesan terutama menarik bagi pengembang Tor."
+
+msgctxt "MessageLog"
+msgid ""
+"Cannot write file %1\n"
+"\n"
+"%2."
+msgstr ""
+"Tidak dapat menulis file %1\n"
+"\n"
+"%2."
+
+msgctxt "NetViewer"
+msgid "Tor Network Map"
+msgstr "Tor Peta Jaringan"
+
+msgctxt "NetViewer"
+msgid "Refresh"
+msgstr "Segarkan"
+
+msgctxt "NetViewer"
+msgid "Refresh the list of Tor relays and connections"
+msgstr "Segarkan daftar Tor relay dan koneksi"
+
+msgctxt "NetViewer"
+msgid "Ctrl+R"
+msgstr "Ctrl + R"
+
+msgctxt "NetViewer"
+msgid "Help"
+msgstr "Bantuan"
+
+msgctxt "NetViewer"
+msgid "Show the network map help"
+msgstr "Tampilkan peta jaringan bantuan"
+
+msgctxt "NetViewer"
+msgid "Show network map help"
+msgstr "Tampilkan peta jaringan bantuan"
+
+msgctxt "NetViewer"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "NetViewer"
+msgid "Close"
+msgstr "Dekat"
+
+msgctxt "NetViewer"
+msgid "Close the network map"
+msgstr "Tutup peta jaringan"
+
+msgctxt "NetViewer"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "NetViewer"
+msgid "Zoom In"
+msgstr "Perbesar"
+
+msgctxt "NetViewer"
+msgid "Zoom in on the network map"
+msgstr "Zoom in pada peta jaringan"
+
+msgctxt "NetViewer"
+msgid "+"
+msgstr "+"
+
+msgctxt "NetViewer"
+msgid "Zoom Out"
+msgstr "Zoom Out"
+
+msgctxt "NetViewer"
+msgid "Zoom out on the network map"
+msgstr "Zoom out pada peta jaringan"
+
+msgctxt "NetViewer"
+msgid "-"
+msgstr "-"
+
+msgctxt "NetViewer"
+msgid "Zoom To Fit"
+msgstr "Zoom Untuk Fit"
+
+msgctxt "NetViewer"
+msgid "Zooms to fit all currently displayed circuits"
+msgstr "Memperbesar untuk cocok untuk semua sirkuit saat ini ditampilkan"
+
+msgctxt "NetViewer"
+msgid "Ctrl+Z"
+msgstr "Ctrl + Z"
+
+msgctxt "NetViewer"
+msgid "Relay Not Found"
+msgstr "Relay Tidak Ditemukan"
+
+msgctxt "NetViewer"
+msgid "No details on the selected relay are available."
+msgstr "Tidak ada rincian tentang relay dipilih yang tersedia."
+
+msgctxt "NetViewer"
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+msgctxt "NetViewer"
+msgid "Full Screen"
+msgstr "Layar Penuh"
+
+msgctxt "NetViewer"
+msgid "View the network map as a full screen window"
+msgstr "Lihat peta jaringan sebagai jendela layar penuh"
+
+msgctxt "NetViewer"
+msgid "Ctrl+F"
+msgstr "Ctrl + F"
+
+msgctxt "NetworkPage"
+msgid "Invalid Bridge"
+msgstr "Kesalahan Penghubung"
+
+msgctxt "NetworkPage"
+msgid "The specified bridge identifier is not valid."
+msgstr "Identifier Penghubung yang ditentukan tidak valid."
+
+msgctxt "NetworkPage"
+msgid "Copy (Ctrl+C)"
+msgstr "Salin (Ctrl + C)"
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
+msgstr ""
+"Anda harus menentukan baik alamat IP atau nama host dan nomor port untuk "
+"mengkonfigurasi Tor untuk menggunakan proxy untuk mengakses Internet."
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
+msgstr ""
+"Anda harus menentukan satu atau lebih port yang diizinkan firewall Anda "
+"untuk terhubung."
+
+msgctxt "NetworkPage"
+msgid "'%1' is not a valid port number."
+msgstr "'%1' bukan nomor port yang valid."
+
+msgctxt "NetworkPage"
+msgid "Check if your local network requires a proxy to access the Internet"
+msgstr ""
+"Periksa apakah jaringan lokal Anda memerlukan proxy untuk mengakses Internet"
+
+msgctxt "NetworkPage"
+msgid "I use a proxy to access the Internet"
+msgstr "Saya menggunakan proxy untuk mengakses Internet"
+
+msgctxt "NetworkPage"
+msgid "Proxy Settings"
+msgstr "Pengaturan Proxy"
+
+msgctxt "NetworkPage"
+msgid "Username:"
+msgstr "Nama User:"
+
+msgctxt "NetworkPage"
+msgid "Password:"
+msgstr "Kata Kunci:"
+
+msgctxt "NetworkPage"
+msgid "Port:"
+msgstr "Port:"
+
+msgctxt "NetworkPage"
+msgid "Check to only connect to relays using ports allowed by your firewall"
+msgstr ""
+"Periksa untuk hanya melakukan koneksi ke relay menggunakan port diizinkan "
+"oleh firewall Anda"
+
+msgctxt "NetworkPage"
+msgid "My firewall only lets me connect to certain ports"
+msgstr "Firewall saya hanya mengizinkan saya terhubung ke port tertentu"
+
+msgctxt "NetworkPage"
+msgid "Firewall Settings"
+msgstr "Pengaturan Firewall"
+
+msgctxt "NetworkPage"
+msgid "Allowed Ports:"
+msgstr "Port yang diizinkan:"
+
+msgctxt "NetworkPage"
+msgid "80, 443"
+msgstr "80, 443"
+
+msgctxt "NetworkPage"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
+msgstr ""
+"Periksa untuk mengenkripsi permintaan direktori dan, opsional, gunakan relay"
+" jembatan untuk mengakses jaringan Tor"
+
+msgctxt "NetworkPage"
+msgid "My ISP blocks connections to the Tor network"
+msgstr "ISP saya memblok koneksi ke jaringan Tor"
+
+msgctxt "NetworkPage"
+msgid "Bridge Settings"
+msgstr "Pengaturan Penghubung"
+
+msgctxt "NetworkPage"
+msgid "Add a Bridge:"
+msgstr "Tambahkan sebuah Penghubung:"
+
+msgctxt "NetworkPage"
+msgid "Remove the selected bridges from the list"
+msgstr "Lepaskan penghubung yang dipilih dari daftar"
+
+msgctxt "NetworkPage"
+msgid "Copy the selected bridges to the clipboard"
+msgstr "Salin penghubung dipilih ke clipboard"
+
+msgctxt "NetworkPage"
+msgid "Find Bridges Now"
+msgstr "Cari Penghubung Sekarang"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How else can I find bridges?</a>"
+msgstr ""
+"<a href=\"bridges.finding\">Bagaimana lagi saya bisa menemukan "
+"penghubung?</a>"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How can I find bridges?</a>"
+msgstr ""
+"<a href=\"bridges.finding\">Bagaimana saya dapat menemukan penghubung?</a>"
+
+msgctxt "NetworkPage"
+msgid ""
+"No new bridges are currently available. You can either wait a while and try "
+"again, or try another method of finding new bridges."
+msgstr ""
+"Tidak ada penghubung baru yang saat ini tersedia. Anda dapat menunggu "
+"beberapa saat lalu coba lagi, atau mencoba metode lain untuk menemukan "
+"penghubung baru."
+
+msgctxt "NetworkPage"
+msgid "Click Help to see other methods of finding new bridges."
+msgstr ""
+"Klik Bantuan untuk melihat metode lain untuk menemukan penghubung baru."
+
+msgctxt "NetworkPage"
+msgid "Address:"
+msgstr "Alamat:"
+
+msgctxt "NetworkPage"
+msgid "Type:"
+msgstr "Tipe:"
+
+msgctxt "NetworkPage"
+msgid "You must select the proxy type."
+msgstr "Anda harus memilih jenis proxy."
+
+msgctxt "NetworkPage"
+msgid "SOCKS 4"
+msgstr "SOCKS 4"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 5"
+msgstr "SOCKS 5"
+
+msgctxt "NetworkPage"
+msgid "HTTP"
+msgstr "HTTP"
+
+msgctxt "NetworkPage"
+msgid "HTTP / HTTPS"
+msgstr "HTTP / HTTPS"
+
+msgctxt "Policy"
+msgid "accept"
+msgstr "terima"
+
+msgctxt "Policy"
+msgid "reject"
+msgstr "tolak"
+
+msgctxt "RouterDescriptor"
+msgid "Online"
+msgstr "Online"
+
+msgctxt "RouterDescriptor"
+msgid "Hibernating"
+msgstr "Hibernate"
+
+msgctxt "RouterDescriptor"
+msgid "Offline"
+msgstr "Offline"
+
+msgctxt "RouterDescriptorView"
+msgid "Location:"
+msgstr "Lokasi:"
+
+msgctxt "RouterDescriptorView"
+msgid "IP Address:"
+msgstr "Alamat IP:"
+
+msgctxt "RouterDescriptorView"
+msgid "Platform:"
+msgstr "Platform:"
+
+msgctxt "RouterDescriptorView"
+msgid "Bandwidth:"
+msgstr "Bandwidth:"
+
+msgctxt "RouterDescriptorView"
+msgid "Uptime:"
+msgstr "Uptime:"
+
+msgctxt "RouterDescriptorView"
+msgid "Last Updated:"
+msgstr "Terakhir Diperbarui:"
+
+msgctxt "RouterDescriptorView"
+msgid "Copy"
+msgstr "Salin"
+
+msgctxt "RouterInfoDialog"
+msgid "Hibernating"
+msgstr "Hibernasi"
+
+msgctxt "RouterInfoDialog"
+msgid "Online"
+msgstr "Online"
+
+msgctxt "RouterInfoDialog"
+msgid "Offline"
+msgstr "Offline"
+
+msgctxt "RouterInfoDialog"
+msgid "Unknown"
+msgstr "Unknown"
+
+msgctxt "RouterInfoDialog"
+msgid "Relay Details"
+msgstr "Relay Details"
+
+msgctxt "RouterInfoDialog"
+msgid "Summary"
+msgstr "Ringkasan"
+
+msgctxt "RouterInfoDialog"
+msgid "Name:"
+msgstr "Nama:"
+
+msgctxt "RouterInfoDialog"
+msgid "Status:"
+msgstr "Status:"
+
+msgctxt "RouterInfoDialog"
+msgid "Location:"
+msgstr "Lokasi:"
+
+msgctxt "RouterInfoDialog"
+msgid "IP Address:"
+msgstr "Alamat IP:"
+
+msgctxt "RouterInfoDialog"
+msgid "Platform:"
+msgstr "Platform:"
+
+msgctxt "RouterInfoDialog"
+msgid "Bandwidth:"
+msgstr "Bandwidth:"
+
+msgctxt "RouterInfoDialog"
+msgid "Uptime:"
+msgstr "Uptime:"
+
+msgctxt "RouterInfoDialog"
+msgid "Contact:"
+msgstr "Kontak:"
+
+msgctxt "RouterInfoDialog"
+msgid "Last Updated:"
+msgstr "Terakhir Diperbarui:"
+
+msgctxt "RouterInfoDialog"
+msgid "Descriptor"
+msgstr "Descriptor"
+
+msgctxt "RouterListItem"
+msgid "Offline"
+msgstr "Offline"
+
+msgctxt "RouterListItem"
+msgid "Hibernating"
+msgstr "Hibernate"
+
+msgctxt "RouterListItem"
+msgid "%1 KB/s"
+msgstr "%1 KB / s"
+
+msgctxt "RouterListWidget"
+msgid "Relay"
+msgstr "Relay"
+
+msgctxt "RouterListWidget"
+msgid "Zoom to Relay"
+msgstr "Zoom untuk Relay"
+
+msgctxt "RouterListWidget"
+msgid "%1 relays online"
+msgstr "%1 relay online"
+
+msgctxt "RouterListWidget"
+msgid "Copy"
+msgstr "Salin"
+
+msgctxt "RouterListWidget"
+msgid "Nickname"
+msgstr "Julukan"
+
+msgctxt "RouterListWidget"
+msgid "Fingerprint"
+msgstr "Sidik jari"
+
+msgctxt "ServerPage"
+msgid "Bridge Support Unavailable"
+msgstr "Penghubung Dukungan Tidak Tersedia"
+
+msgctxt "ServerPage"
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
+msgstr ""
+"Anda telah mengkonfigurasi Tor untuk bertindak sebagai penghubung relay "
+"untuk pengguna disensor, namun versi Anda Tor tidak mendukung penghubung."
+
+msgctxt "ServerPage"
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr ""
+"Silakan meng-upgrade perangkat lunak atau mengkonfigurasi Tor untuk "
+"bertindak sebagai relay Tor normal."
+
+msgctxt "ServerPage"
+msgid "Your bridge relay is not running."
+msgstr "relay jembatan anda tidak aktif."
+
+msgctxt "ServerPage"
+msgid "You must specify at least a relay nickname and port."
+msgstr "Anda harus menentukan paling tidak nama panggilan relay dan port."
+
+msgctxt "ServerPage"
+msgid "Run as a client only"
+msgstr "Jalankan hanya sebagai klien"
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network"
+msgstr "Lalu lintas relay untuk jaringan Tor"
+
+msgctxt "ServerPage"
+msgid "Relay Port:"
+msgstr "Port Relay:"
+
+msgctxt "ServerPage"
+msgid "Enable to mirror the relay directory"
+msgstr "Hidupkan untuk dapat mirrir direktori"
+
+msgctxt "ServerPage"
+msgid "Attempt to automatically configure port forwarding"
+msgstr "Mencoba untuk secara otomatis mengkonfigurasi penerusan port "
+
+msgctxt "ServerPage"
+msgid "Test"
+msgstr "Tes"
+
+msgctxt "ServerPage"
+msgid "Show help topic on port forwarding"
+msgstr "Tampilkan topik bantuan di port forwarding"
+
+msgctxt "ServerPage"
+msgid "Directory Port:"
+msgstr "Direktori Port:"
+
+msgctxt "ServerPage"
+msgid "Directory Port Number"
+msgstr "Direktori Nomor Port"
+
+msgctxt "ServerPage"
+msgid "Contact Info:"
+msgstr "Info Kontak:"
+
+msgctxt "ServerPage"
+msgid "Name of your relay"
+msgstr "Nama relay Anda"
+
+msgctxt "ServerPage"
+msgid "Port on which users and other relays can communicate with your relay"
+msgstr ""
+"Port di mana pengguna dan relay lain dapat berkomunikasi dengan relay Anda"
+
+msgctxt "ServerPage"
+msgid "Nickname:"
+msgstr "Nickname:"
+
+msgctxt "ServerPage"
+msgid "Basic Settings"
+msgstr "Pengaturan Dasar"
+
+msgctxt "ServerPage"
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr ""
+"Untuk koneksi Internet dengan kecepatan download cepat tetapi lambat upload,"
+" silahkan isi di sini kecepatan upload anda."
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 256 Kbps"
+msgstr "Kabel / DSL 256 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 512 Kbps"
+msgstr "Kable / DSL 512 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 768 Kbps"
+msgstr "Kable / DSL 768 Kbps"
+
+msgctxt "ServerPage"
+msgid "T1/Cable/DSL 1.5 Mbps"
+msgstr "T1/Kable/DSL 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "> 1.5 Mbps"
+msgstr "> 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "Custom"
+msgstr "Sesukanya"
+
+msgctxt "ServerPage"
+msgid "Select the entry that most closely resembles your Internet connection"
+msgstr "Pilih entri yang paling menyerupai koneksi Internet Anda"
+
+msgctxt "ServerPage"
+msgid "Show help topic on bandwidth rate limits"
+msgstr "Tampilkan topik bantuan pada tingkat batas bandwidth"
+
+msgctxt "ServerPage"
+msgid "Average Rate"
+msgstr "Kecepatan Rata-rata"
+
+msgctxt "ServerPage"
+msgid "Long-term average bandwidth limit"
+msgstr "Rata-rata Batas bandwith jangka panjang "
+
+msgctxt "ServerPage"
+msgid "KB/s"
+msgstr "KB / s"
+
+msgctxt "ServerPage"
+msgid "Maximum Rate"
+msgstr "Kecepatan Maksimum"
+
+msgctxt "ServerPage"
+msgid "Peak bandwidth rate limit"
+msgstr "Batas tingkat kecepatan bandwidth"
+
+msgctxt "ServerPage"
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr ""
+"Kecepatan bandwidth maksimum Anda harus lebih besar dari atau sama dengan "
+"bandwidth rata-rata. Kedua nilai harus minimal 20 KB / s."
+
+msgctxt "ServerPage"
+msgid "Bandwidth Limits"
+msgstr "Batas Bandwidth "
+
+msgctxt "ServerPage"
+msgid "Ports 6660 - 6669 and 6697"
+msgstr "Ports 6660 - 6669 dan 6697"
+
+msgctxt "ServerPage"
+msgid "Internet Relay Chat (IRC)"
+msgstr "Internet Relay Chat (IRC)"
+
+msgctxt "ServerPage"
+msgid "Ports 110, 143, 993 and 995"
+msgstr "Port 110, 143, 993 dan 995"
+
+msgctxt "ServerPage"
+msgid "Retrieve Mail (POP, IMAP)"
+msgstr "Ambil Mail (POP, IMAP)"
+
+msgctxt "ServerPage"
+msgid "Ports unspecified by other checkboxes"
+msgstr "Port tidak ditentukan oleh checkbox lain"
+
+msgctxt "ServerPage"
+msgid "Misc Other Services"
+msgstr "servis lain-lainnya"
+
+msgctxt "ServerPage"
+msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
+msgstr "Port 706, 1863, 5050, 5190, 5222, 5223, 8300 dan 8888"
+
+msgctxt "ServerPage"
+msgid "Instant Messaging (IM)"
+msgstr "Pesan Instan (IM)"
+
+msgctxt "ServerPage"
+msgid "Port 443"
+msgstr "Port 443"
+
+msgctxt "ServerPage"
+msgid "Secure Websites (SSL)"
+msgstr "Situs Web Aman (SSL)"
+
+msgctxt "ServerPage"
+msgid "Port 80"
+msgstr "Port 80"
+
+msgctxt "ServerPage"
+msgid "Websites"
+msgstr "Situs Web"
+
+msgctxt "ServerPage"
+msgid "Show help topic on exit policies"
+msgstr "Tampilkan topik bantuan mengenai kebijakan keluar"
+
+msgctxt "ServerPage"
+msgid ""
+"What Internet resources should users be able to access from your relay?"
+msgstr ""
+"Apa sumber daya Internet harus pengguna akan dapat Anda akses dari relay?"
+
+msgctxt "ServerPage"
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
+msgstr ""
+"Tor masih akan memblokir beberapa surat keluar dan file berbagi aplikasi "
+"secara default untuk mengurangi spam dan penyalahgunaan lainnya."
+
+msgctxt "ServerPage"
+msgid "Exit Policies"
+msgstr "Kebijakan Keluar "
+
+msgctxt "ServerPage"
+msgid "Let others access your bridge by giving them this line:"
+msgstr ""
+"Biarkan orang lain akses penghubung Anda dengan memberikan mereka baris ini:"
+
+msgctxt "ServerPage"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
+msgstr ""
+"Ini adalah identitas relay penghubung yang dapat Anda berikan kepada orang "
+"lain"
+
+msgctxt "ServerPage"
+msgid "Copy your bridge relay's identity to the clipboard"
+msgstr "Salin relay penghubung identitas Anda ke clipboard"
+
+msgctxt "ServerPage"
+msgid "No Recent Usage"
+msgstr "Tidak ada Penggunaan terbaru"
+
+msgctxt "ServerPage"
+msgid "No clients have used your relay recently."
+msgstr "Tidak ada klien yang menggunakan relay anda sekarang."
+
+msgctxt "ServerPage"
+msgid ""
+"Leave your relay running so clients have a better chance of finding and "
+"using it."
+msgstr ""
+"Tinggalkan relay Anda berjalan sehingga klien memiliki kesempatan yang lebih"
+" baik untuk menemukan dan menggunakannya."
+
+msgctxt "ServerPage"
+msgid "Bridge History"
+msgstr "Histori Penghubung"
+
+msgctxt "ServerPage"
+msgid "Vidalia was unable to retrieve your bridge's usage history."
+msgstr "Vidalia tidak dapat mengambil sejarah penggunaan penghubung Anda."
+
+msgctxt "ServerPage"
+msgid ""
+"Tor returned an improperly formatted response when Vidalia requested your "
+"bridge's usage history."
+msgstr ""
+"Tor kembali respon tidak diformat dengan benar ketika diminta Vidalia "
+"sejarah penggunaan penghubung Anda."
+
+msgctxt "ServerPage"
+msgid "The returned response was: %1"
+msgstr "Respon yang dikembalikan:%1"
+
+msgctxt "ServerPage"
+msgid "Help censored users reach the Tor network"
+msgstr "Bantu pengguna disensor menjangkau jaringan Tor"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeUsage\">Who has used my bridge?</a>"
+msgstr ""
+"<a href=\"#bridgeUsage\">Siapa yang telah menggunakan penghubung saya?</a>"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeHelp\">What's this?</a>"
+msgstr "<a href=\"#bridgeHelp\">Apa ini?</a>"
+
+msgctxt "ServerPage"
+msgid "Automatically distribute my bridge address"
+msgstr "Secara otomatis mendistribusikan alamat penghubung saya"
+
+msgctxt "ServerPage"
+msgid "Mirror the Relay Directory"
+msgstr "Mirror Direktori Relay"
+
+msgctxt "ServerPage"
+msgid ""
+"Email address at which you may be reached if there is a\n"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgstr ""
+"Alamat email di mana Anda bisa dihubungi jika ada masalah dengan relay Anda."
+" Anda juga mungkin mencakup sidik jari Anda PGP atau GPG."
+
+msgctxt "ServicePage"
+msgid "Error while trying to unpublish all services"
+msgstr "Kesalahan ketika mencoba untuk membatalkan publikasi semua layanan"
+
+msgctxt "ServicePage"
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
+msgstr ""
+"Harap mengkonfigurasi setidaknya sebuah direktori layanan dan port virtual "
+"untuk setiap layanan yang ingin Anda simpan. Lepaskan yang lain."
+
+msgctxt "ServicePage"
+msgid "Error"
+msgstr "Kesalahan"
+
+msgctxt "ServicePage"
+msgid "Please select a Service."
+msgstr "Silakan pilih Layanan."
+
+msgctxt "ServicePage"
+msgid "Select Service Directory"
+msgstr "Pilih Direktori Layanan"
+
+msgctxt "ServicePage"
+msgid "Virtual Port may only contain valid port numbers [1..65535]."
+msgstr "Port Virtual hanya dapat berisi nomor port yang valid [1 .. 65535]."
+
+msgctxt "ServicePage"
+msgid "Target may only contain address:port, address, or port."
+msgstr "Target hanya dapat berisi alamat: port, alamat, atau port."
+
+msgctxt "ServicePage"
+msgid "Directory already in use by another service."
+msgstr "Direktori sudah digunakan oleh layanan lain."
+
+msgctxt "ServicePage"
+msgid "Form"
+msgstr "Form"
+
+msgctxt "ServicePage"
+msgid "Provided Hidden Services"
+msgstr "Diperoleh Layanan Tersembunyi "
+
+msgctxt "ServicePage"
+msgid "Onion Address"
+msgstr "Alamat Onion"
+
+msgctxt "ServicePage"
+msgid "Virtual Port"
+msgstr "Port Virtual "
+
+msgctxt "ServicePage"
+msgid "Target"
+msgstr "Sasaran"
+
+msgctxt "ServicePage"
+msgid "Directory Path"
+msgstr "Path Direktori"
+
+msgctxt "ServicePage"
+msgid "Enabled"
+msgstr "Diaktifkan"
+
+msgctxt "ServicePage"
+msgid "Add new service to list"
+msgstr "Tambahkan layanan baru ke daftar"
+
+msgctxt "ServicePage"
+msgid "Remove selected service from list"
+msgstr "Hapus layanan yang dipilih dari daftar"
+
+msgctxt "ServicePage"
+msgid "Copy onion address of selected service to clipboard"
+msgstr "Salin alamat onion layanan terpilih ke clipboard"
+
+msgctxt "ServicePage"
+msgid "Browse in local file system and choose directory for selected service"
+msgstr ""
+"Jelajahi dalam sistem file lokal dan direktori memilih untuk layanan yang "
+"dipilih"
+
+msgctxt "ServicePage"
+msgid "Created by Tor"
+msgstr "Dibuat oleh Tor"
+
+msgctxt "StatusEventWidget"
+msgid "Copy to Clipboard"
+msgstr "Salin ke Clipboard"
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is Running"
+msgstr "Perangkat Lunak Tor adalah Lari"
+
+msgctxt "StatusEventWidget"
+msgid "You are currently running version \"%1\" of the Tor software."
+msgstr "Anda sedang menjalankan versi \"%1\" dari perangkat lunak Tor."
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is not Running"
+msgstr "Perangkat Lunak Tor tidak berjalan"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Click \"Start Tor\" in the Vidalia Control Panel to restart the Tor "
+"software. If Tor exited unexpectedly, select the \"Advanced\" tab above for "
+"details about any errors encountered."
+msgstr ""
+"Klik \"Start Tor\" di Vidalia Control Panel untuk me-restart perangkat lunak"
+" Tor. Jika Tor keluar tak terduga, pilih \"Advanced\" tab di atas untuk "
+"rincian tentang kesalahan apapun yang dihadapi."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which is no "
+"longer recommended. Please upgrade to the most recent version of the "
+"software, which may contain important security, reliability and performance "
+"fixes."
+msgstr ""
+"Anda sedang menjalankan versi \"%1\" dari perangkat lunak Tor, yang tidak "
+"lagi dianjurkan. Silakan upgrade ke versi terbaru yang mungkin berisi "
+"keamanan, kehandalan dan perbaikan kinerja yang lebih baik."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which may no "
+"longer work with the current Tor network. Please upgrade to the most recent "
+"version of the software, which may contain important security, reliability "
+"and performance fixes."
+msgstr ""
+"Anda sedang menjalankan versi \"%1\" dari perangkat lunak Tor, yang mungkin "
+"tidak lagi bekerja dengan jaringan Tor saat ini. Silakan upgrade ke versi "
+"terbaru dari perangkat lunak, yang mungkin berisi keamanan , kehandalan dan "
+"perbaikan kinerja yang lebih baik."
+
+msgctxt "StatusEventWidget"
+msgid "Your Tor Software is Out-of-date"
+msgstr "Perangkat lunak Tor anda tidak up-to-date."
+
+msgctxt "StatusEventWidget"
+msgid "Connected to the Tor Network"
+msgstr "Terhubung ke Jaringan Tor"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"We were able to successfully establish a connection to the Tor network. You "
+"can now configure your applications to use the Internet anonymously."
+msgstr ""
+"Kami berhasil membuat sambungan ke jaringan Tor. Anda sekarang dapat "
+"mengkonfigurasi aplikasi Anda untuk menggunakan Internet secara anonim."
+
+msgctxt "StatusEventWidget"
+msgid "Tor Software Error"
+msgstr "Tor Software Error"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"The Tor software encountered an internal bug. Please report the following "
+"error message to the Tor developers at bugs.torproject.org: \"%1\""
+msgstr ""
+"Perangkat lunak Tor mengalami sebuah bug internal. Silahkan melaporkan pesan"
+" kesalahan berikut ini untuk para pengembang Tor di bugs.torproject.org: "
+"\"%1\"\n"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the past compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr ""
+"Tor telah menetapkan bahwa jam komputer Anda mungkin diatur ke %1 detik di "
+"masa lalu dibandingkan dengan sumber \"%2\". Jika jam Anda tidak benar, Tor "
+"tidak akan dapat berfungsi. Harap verifikasi komputer Anda menampilkan waktu"
+" yang tepat."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the future compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr ""
+"Tor telah menetapkan bahwa jam komputer Anda mungkin diatur ke %1 detik di "
+"masa depan dibandingkan dengan sumber \"%2\". Jika jam Anda tidak benar, Tor"
+" tidak akan dapat berfungsi. Harap verifikasi komputer Anda menampilkan "
+"waktu yang tepat."
+
+msgctxt "StatusEventWidget"
+msgid "Your Computer's Clock is Potentially Incorrect"
+msgstr "Jam Komputer Anda adalah Berpotensi Salah"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended. For your "
+"protection, Tor has automatically closed this connection."
+msgstr ""
+"Salah satu aplikasi pada komputer Anda mungkin telah berusaha untuk membuat "
+"koneksi tidak terenkripsi melalui port Tor ke %1. Mengirim informasi "
+"enkripsi melalui jaringan Tor yang berbahaya dan tidak dianjurkan. Untuk "
+"perlindungan anda, Tor secara otomatis menutup koneksi ini."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended."
+msgstr ""
+"Salah satu aplikasi pada komputer Anda mungkin telah berusaha untuk membuat "
+"koneksi tidak terenkripsi melalui port Tor ke %1. Mengirim informasi "
+"enkripsi melalui jaringan Tor yang berbahaya dan tidak dianjurkan."
+
+msgctxt "StatusEventWidget"
+msgid "Potentially Dangerous Connection!"
+msgstr "Berpotensi Koneksi Berbahaya !"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications established a connection through Tor to \"%1\" "
+"using a protocol that may leak information about your destination. Please "
+"ensure you configure your applications to use only SOCKS4a or SOCKS5 with "
+"remote hostname resolution."
+msgstr ""
+"Salah satu aplikasi Anda membentuk koneksi melalui Tor untuk \"%1\" "
+"menggunakan sebuah protokol yang dapat bocor informasi tentang tujuan Anda. "
+"Pastikan Anda mengkonfigurasi aplikasi Anda untuk menggunakan hanya SOCKS4a "
+"atau SOCKS5 dengan resolusi hostname remote."
+
+msgctxt "StatusEventWidget"
+msgid "Unknown SOCKS Protocol"
+msgstr "Unknown SOCKS Protokol"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor using a"
+" protocol that Tor does not understand. Please ensure you configure your "
+"applications to use only SOCKS4a or SOCKS5 with remote hostname resolution."
+msgstr ""
+"Salah satu aplikasi Anda mencoba untuk membuat sambungan melalui Tor "
+"menggunakan protokol yang Tor tidak mengerti. Pastikan Anda mengkonfigurasi "
+"aplikasi Anda untuk menggunakan hanya SOCKS4a atau SOCKS5 dengan resolusi "
+"hostname remote."
+
+msgctxt "StatusEventWidget"
+msgid "Invalid Destination Hostname"
+msgstr "Hostname Tujuan tidak valid "
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor to "
+"\"%1\", which Tor does not recognize as a valid hostname. Please check your "
+"application's configuration."
+msgstr ""
+"Salah satu aplikasi Anda mencoba untuk membuat koneksi melalui Tor untuk "
+"\"%1\", yang Tor tidak mengakui sebagai nama host yang valid. Silakan "
+"periksa konfigurasi aplikasi Anda."
+
+msgctxt "StatusEventWidget"
+msgid "External IP Address Changed"
+msgstr "Eksternal IP Address Berubah"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined your relay's public IP address is currently %1%2. If that"
+" is not correct, please consider setting the 'Address' option in your "
+"relay's configuration."
+msgstr ""
+"Tor telah menetapkan alamat publik IP relay anda saat ini %1%2. Jika itu "
+"tidak benar, silakan mempertimbangkan pengaturan opsi 'Alamat' pada "
+"konfigurasi relay Anda."
+
+msgctxt "StatusEventWidget"
+msgid "DNS Hijacking Detected"
+msgstr "Pembajakan DNS Terdeteksi"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for domains"
+" that do not exist. Some ISPs and other DNS providers, such as OpenDNS, are "
+"known to do this in order to display their own search or advertising pages."
+msgstr ""
+"Tor mendeteksi bahwa Anda penyedia DNS adalah memberikan tanggapan palsu "
+"untuk domain yang tidak ada. Beberapa ISP dan lainnya DNS penyedia, seperti "
+"OpenDNS, diketahui untuk melakukan ini dalam rangka untuk menampilkan "
+"pencarian mereka sendiri atau halaman iklan."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for well "
+"known domains. Since clients rely on Tor network relays to provide accurate "
+"DNS repsonses, your relay will not be configured as an exit relay."
+msgstr ""
+"Tor mendeteksi bahwa Anda penyedia DNS adalah memberikan tanggapan palsu "
+"untuk domain terkenal. Karena klien mengandalkan jaringan Tor relay untuk "
+"memberikan repsonses akurat DNS, relay Anda tidak akan dikonfigurasi sebagai"
+" relay keluar."
+
+msgctxt "StatusEventWidget"
+msgid "Checking Server Port Reachability"
+msgstr "Memeriksa jangkauan Port Server"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's server port is reachable from the"
+" Tor network by connecting to itself at %1:%2. This test could take several "
+"minutes."
+msgstr ""
+"Tor sedang mencoba untuk menentukan apakah port server relay anda dapat "
+"dicapai dari jaringan Tor dengan menghubungkan ke dirinya sendiri di %1:%2. "
+"Tes ini bisa memakan waktu beberapa menit."
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Successful!"
+msgstr "Port Server reachability Test Sukses!"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's server port is reachable from the Tor network!"
+msgstr "port server relay Anda adalah dicapai dari jaringan Tor!"
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Failed"
+msgstr "Port Server reachability Test Gagal"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's server port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and server port, "
+"please check your relay's configuration."
+msgstr ""
+"port server relay Anda adalah tidak dapat dicapai oleh klien Tor lainnya. "
+"Hal ini dapat terjadi jika Anda berada di belakang router atau firewall yang"
+" mengharuskan Anda untuk mengatur port forwarding. Jika %1:%2 tidak benar "
+"alamat IP dan port server, periksa konfigurasi relay Anda."
+
+msgctxt "StatusEventWidget"
+msgid "Checking Directory Port Reachability"
+msgstr "Memeriksa jangkauan Port Direktori"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's directory port is reachable from "
+"the Tor network by connecting to itself at %1:%2. This test could take "
+"several minutes."
+msgstr ""
+"Tor sedang mencoba untuk menentukan apakah port direktori relay Anda dapat "
+"dicapai dari jaringan Tor dengan menghubungkan ke dirinya sendiri di %1:%2. "
+"Tes ini bisa memakan waktu beberapa menit."
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Successful!"
+msgstr "Direktori Port reachability Test Sukses!"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's directory port is reachable from the Tor network!"
+msgstr "Port Direktori relay Anda dapat dicapai dari jaringan Tor!"
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Failed"
+msgstr "Test Jangkauan Port Direktori Gagal"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's directory port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and directory port,"
+" please check your relay's configuration."
+msgstr ""
+"Direktori port relay Anda adalah tidak dapat dicapai oleh klien Tor lainnya."
+" Hal ini dapat terjadi jika Anda berada di belakang router atau firewall "
+"yang mengharuskan Anda untuk mengatur port forwarding. Jika %1:%2 tidak "
+"benar alamat IP dan port direktori, periksa konfigurasi relay Anda."
+
+msgctxt "StatusEventWidget"
+msgid "Relay Descriptor Rejected"
+msgstr "Relay Descriptor Ditolak"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's descriptor, which enables clients to connect to your relay, was"
+" rejected by the directory server at %1:%2. The reason given was: %3"
+msgstr ""
+"deskripsi relay Anda, yang memungkinkan klien untuk terhubung ke relay Anda,"
+" ditolak oleh server direktori di %1:%2. Alasan yang diberikan adalah:%3"
+
+msgctxt "StatusEventWidget"
+msgid "Your Relay is Online"
+msgstr "Relay Anda Online"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay is now online and available for Tor clients to use. You should "
+"see an increase in network traffic shown by the Bandwidth Graph within a few"
+" hours as more clients learn about your relay. Thank you for contributing to"
+" the Tor network!"
+msgstr ""
+"relay Anda sekarang online dan tersedia untuk Tor klien untuk digunakan. "
+"Anda akan melihat peningkatan lalu lintas jaringan yang ditampilkan oleh "
+"Grafik Bandwidth dalam beberapa jam sebagai klien lebih belajar tentang "
+"relay Anda. Terima kasih atas kontribusi ke jaringan Tor!"
+
+msgctxt "Stream"
+msgid "New"
+msgstr "Baru"
+
+msgctxt "Stream"
+msgid "Resolving"
+msgstr "Menyelesaikan"
+
+msgctxt "Stream"
+msgid "Connecting"
+msgstr "Menghubungkan"
+
+msgctxt "Stream"
+msgid "Open"
+msgstr "Buka"
+
+msgctxt "Stream"
+msgid "Failed"
+msgstr "Gagal"
+
+msgctxt "Stream"
+msgid "Closed"
+msgstr "Tertutup"
+
+msgctxt "Stream"
+msgid "Retrying"
+msgstr "Mencoba lagi"
+
+msgctxt "Stream"
+msgid "Remapped"
+msgstr "Dipetakan Ulang"
+
+msgctxt "Stream"
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+msgctxt "TorProcess"
+msgid "Process %1 failed to stop. [%2]"
+msgstr "Proses %1 gagal menghentikan. [%2]"
+
+msgctxt "TorService"
+msgid "The Tor service is not installed."
+msgstr "Layanan Tor tidak terpasang."
+
+msgctxt "TorService"
+msgid "Unable to start the Tor service."
+msgstr "Tidak dapat memulai layanan Tor."
+
+msgctxt "TorSettings"
+msgid "Failed to hash the control password."
+msgstr "Gagal hash password kontrol."
+
+msgctxt "TorrcDialog"
+msgid "Editing torrc"
+msgstr "Mengedit torrc"
+
+msgctxt "TorrcDialog"
+msgid ""
+"Save settings. If unchecked it will only apply settings to the current Tor "
+"instance."
+msgstr ""
+"Simpan pengaturan. Jika dicentang itu hanya akan menerapkan setelan ke "
+"instance Tor saat ini."
+
+msgctxt "TorrcDialog"
+msgid "Cut"
+msgstr "Potong"
+
+msgctxt "TorrcDialog"
+msgid "Copy"
+msgstr "Salin"
+
+msgctxt "TorrcDialog"
+msgid "Paste"
+msgstr "Tempel"
+
+msgctxt "TorrcDialog"
+msgid "Undo"
+msgstr "Undo"
+
+msgctxt "TorrcDialog"
+msgid "Redo"
+msgstr "Redo"
+
+msgctxt "TorrcDialog"
+msgid "Select All"
+msgstr "Pilih Semua"
+
+msgctxt "TorrcDialog"
+msgid "Apply all"
+msgstr "Terapkan semua"
+
+msgctxt "TorrcDialog"
+msgid "Apply selection only"
+msgstr "Terapkan terpilih"
+
+msgctxt "TorrcDialog"
+msgid "Error connecting to Tor"
+msgstr "Kesalahan koneksi ke Tor"
+
+msgctxt "TorrcDialog"
+msgid "Selection is empty. Please select some text, or check \"Apply all\""
+msgstr ""
+"Seleksi kosong. Silakan pilih beberapa teks, atau periksa \"Terapkan semua\""
+
+msgctxt "TorrcDialog"
+msgid "Error at line %1: \"%2\""
+msgstr "Error pada baris %1: \"%2\""
+
+msgctxt "TorrcDialog"
+msgid "Error"
+msgstr "Kesalahan"
+
+msgctxt "TorrcDialog"
+msgid "An error ocurred while opening torrc file"
+msgstr "Kesalahan terjadi ketika membuka file torrc"
+
+msgctxt "UPNPControl"
+msgid "Success"
+msgstr "Sukses"
+
+msgctxt "UPNPControl"
+msgid "No UPnP-enabled devices found"
+msgstr "Tidak  ditemukan perangkat Aktif UPnP"
+
+msgctxt "UPNPControl"
+msgid "No valid UPnP-enabled Internet gateway devices found"
+msgstr "Tidak berlaku diaktifkan UPnP-perangkat Internet gateway ditemukan"
+
+msgctxt "UPNPControl"
+msgid "WSAStartup failed"
+msgstr "WSAStartup gagal"
+
+msgctxt "UPNPControl"
+msgid "Failed to add a port mapping"
+msgstr "Gagal menambahkan pemetaan port"
+
+msgctxt "UPNPControl"
+msgid "Failed to retrieve a port mapping"
+msgstr "Gagal mengambil pemetaan port"
+
+msgctxt "UPNPControl"
+msgid "Failed to remove a port mapping"
+msgstr "Gagal menghapus pemetaan port"
+
+msgctxt "UPNPControl"
+msgid "Unknown error"
+msgstr "Error tidak diketahui"
+
+msgctxt "UPNPTestDialog"
+msgid "Discovering UPnP-enabled devices"
+msgstr "Menemukan perangkat aktif UPnP-"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating directory port mapping"
+msgstr "Memperbarui pemetaan direktori port"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating relay port mapping"
+msgstr "Memperbarui pemetaan relay port"
+
+msgctxt "UPNPTestDialog"
+msgid "Test completed successfully!"
+msgstr "Test selesai dengan sukses!"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing UPnP Support"
+msgstr "Pengujian Dukungan UPnP"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing Universal Plug & Play Support"
+msgstr "Pengujian Dukungan Universal Plug and Play "
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because it could "
+"not find '%1'."
+msgstr ""
+"Vidalia tidak dapat memeriksa pembaruan perangkat lunak yang tersedia karena"
+" tidak bisa menemukan '%1'."
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because Tor's "
+"update process exited unexpectedly."
+msgstr ""
+"Vidalia tidak mampu untuk memeriksa pembaruan perangkat lunak yang tersedia "
+"karena proses update Tor tertutup secara tak terduga."
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for available updates..."
+msgstr "Memeriksa pembaruan yang tersedia ..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Hide"
+msgstr "Sembunyikan"
+
+msgctxt "UpdateProgressDialog"
+msgid "Downloading updates..."
+msgstr "Men-download pembaruan ..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Installing updated software..."
+msgstr "Menginstal update software ..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Done! Your software is now up to date."
+msgstr "Selesai! Perangkat lunak Anda sekarang up to date."
+
+msgctxt "UpdateProgressDialog"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "UpdateProgressDialog"
+msgid "Software Updates"
+msgstr "Software Updates"
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for updates..."
+msgstr "Memeriksa update ..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Cancel"
+msgstr "Membatalkan"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Software Updates Available"
+msgstr "Software Updates Tersedia"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Remind Me Later"
+msgstr "Ingatkan Saya Nanti"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Install"
+msgstr "Menginstal"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "The following updated software packages are ready for installation:"
+msgstr "Paket perangkat lunak berikut diperbarui siap untuk instalasi:"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Package"
+msgstr "Paket"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Version"
+msgstr "Versi"
+
+msgctxt "VMessageBox"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "VMessageBox"
+msgid "Cancel"
+msgstr "Batal"
+
+msgctxt "VMessageBox"
+msgid "Yes"
+msgstr "Ya"
+
+msgctxt "VMessageBox"
+msgid "No"
+msgstr "Tidak ada"
+
+msgctxt "VMessageBox"
+msgid "Help"
+msgstr "Bantuan"
+
+msgctxt "VMessageBox"
+msgid "Retry"
+msgstr "Coba Lagi"
+
+msgctxt "VMessageBox"
+msgid "Show Log"
+msgstr "Tampilkan Log"
+
+msgctxt "VMessageBox"
+msgid "Show Settings"
+msgstr "Tampilkan Setting"
+
+msgctxt "VMessageBox"
+msgid "Continue"
+msgstr "Lanjutkan"
+
+msgctxt "VMessageBox"
+msgid "Quit"
+msgstr "Berhenti"
+
+msgctxt "VMessageBox"
+msgid "Browse"
+msgstr "Jelajahi"
+
+msgctxt "Vidalia"
+msgid "Invalid Argument"
+msgstr "Argumen tidak valid"
+
+msgctxt "Vidalia"
+msgid "Vidalia is already running"
+msgstr "Vidalia sudah berjalan"
+
+msgctxt "Vidalia"
+msgid "Displays this usage message and exits."
+msgstr "Menampilkan pesan penggunaan ini dan keluar."
+
+msgctxt "Vidalia"
+msgid "Resets ALL stored Vidalia settings."
+msgstr "Mereset SEMUA pengaturan Vidalia yang tersimpan ."
+
+msgctxt "Vidalia"
+msgid "Sets the directory Vidalia uses for data files."
+msgstr "Mengatur direktori Vidalia menggunakan untuk file data."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's pidfile."
+msgstr "Mengatur nama dan lokasi pidfile Vidalia's."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's logfile."
+msgstr "Mengatur nama dan lokasi Vidalia's logfile."
+
+msgctxt "Vidalia"
+msgid "Sets the verbosity of Vidalia's logging."
+msgstr "Mengatur verbositas log Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's interface style."
+msgstr "Atur gaya antarmuka Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's language."
+msgstr "Atur bahasa Vidalia."
+
+msgctxt "Vidalia"
+msgid "Vidalia Usage Information"
+msgstr "Informasi Penggunaan Vidalia "
+
+msgctxt "Vidalia"
+msgid "Unable to open log file '%1': %2"
+msgstr "Tidak dapat membuka '%1' log file: %2"
+
+msgctxt "Vidalia"
+msgid "Value required for parameter :"
+msgstr ""
+
+msgctxt "Vidalia"
+msgid "Invalid language code specified:"
+msgstr "Kode Bahasa yang ditentukan tidak valid:"
+
+msgctxt "Vidalia"
+msgid "Invalid GUI style specified:"
+msgstr "Gaya GUI yang ditentukan tidak valid:"
+
+msgctxt "Vidalia"
+msgid "Invalid log level specified:"
+msgstr "Tinglkat Log yang ditentukan tidak valid:"
+
+msgctxt "Vidalia"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
+"\n"
+"Would you like to continue starting Vidalia?"
+msgstr ""
+"Proses lain Vidalia ini mungkin sudah berjalan. Jika tidak benar ada proses "
+"lain Vidalia berjalan, Anda dapat memilih untuk melanjutkan pula. Apakah "
+"Anda ingin melanjutkan mulai Vidalia?"
+
+msgctxt "stringutil.h"
+msgid "%1 secs"
+msgstr "%1 detik"
+
+msgctxt "stringutil.h"
+msgid "%1 B/s"
+msgstr "%1 B / s"
+
+msgctxt "stringutil.h"
+msgid "%1 KB/s"
+msgstr "%1 KB / s"
+
+msgctxt "stringutil.h"
+msgid "%1 MB/s"
+msgstr "%1 MB / s"
+
+msgctxt "stringutil.h"
+msgid "%1 GB/s"
+msgstr "%1 GB / "
+
+msgctxt "stringutil.h"
+msgid "%1 days"
+msgstr "%1 hari"
+
+msgctxt "stringutil.h"
+msgid "%1 hours"
+msgstr "%1 jam"
+
+msgctxt "stringutil.h"
+msgid "%1 mins"
+msgstr "%1 menit"
+
+
