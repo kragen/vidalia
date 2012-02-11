@@ -1,4 +1,8 @@
-0.2.16  ??-Feb-2012
+0.2.17  11-Feb-2012
+  o Improve the translation policy: do not remove translations that
+    are not under 75% done. This re enables Polish and Catalan.
+
+0.2.16  11-Feb-2012
   o Make the default data directory in windows be located in the Local
     AppData instead of the Roaming one. Fixes bug 2319.
   o Do not launch Firefox with every CIRCUIT_ESTABLISHED signal, do it
@@ -40,7 +44,12 @@
     (9050). Fixes bug 4598.
   o Sets __ReloadTorrcOnSIGHUP to 0 if SAVECONF failed, which means
     the user can't write the torrc file. Fixes bug 4833.
-  o Enable new translations that are 100% done. Resolves ticket 5051.
+  o Enable new translations that are >90% done. The new languages are:
+    Bulgarian, Czech, Hebrew, Greek, Indonesian, Korean,
+    Dutch. Resolves ticket 5051.
+  o Remove translations that aren't ready enough: Japanese, Thai,
+    Albanian, Vietnamese, Chinese (Taiwan), Polish, Catalan and
+    Burmese.
 
 0.2.15  07-Oct-2011
   o Draw the bandwidth graph curves based on the local maximum, not
